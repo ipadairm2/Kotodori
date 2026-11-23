@@ -350,7 +350,9 @@
       "typefaceToggle": "Mincho for Japanese",
       "typefaceDescription": "Japanese is set in a clean Gothic face by default. Turn this on for a brush-like Mincho serif instead.",
       "monoTitle": "Mono face",
-      "monoDescription": "The typewriter voice used for labels, numbers, romaji, and anything you type. Geist is crisp and modern; Plex has a classic typewriter feel."
+      "monoDescription": "The instrument & code voice used for labels, numbers, Nerd Font icons, romaji, and inputs. JetBrainsMono NF is crisp with ligatures and slashed zeros; Geist and Plex remain options.",
+      "monoUiToggle": "JetBrains Mono across UI",
+      "monoUiDescription": "Sets headings and Latin text in your chosen mono face for a cohesive workbench look. Japanese text stays in its dedicated JP face."
     }
   }
 }

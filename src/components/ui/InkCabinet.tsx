@@ -1,5 +1,6 @@
 import { useSettingsStore, type Paper, type Density, type MonoFace } from "@/store/settings-store"
 import { useTranslation } from "@/lib/useTranslation"
+import { NerdIcon } from "./NerdIcon"
 
 // Ids are the persisted keys from the old paper themes; only the look changed.
 const THEMES: { id: Paper; ja: string; en: string; swatch: [string, string, string] }[] = [
@@ -14,9 +15,22 @@ const DENSITIES: { id: Density; ja: string; en: string }[] = [
   { id: "sparse", ja: "疎", en: "Sparse" },
 ]
 
-const MONO_FACES: { id: MonoFace; name: string; stack: string }[] = [
-  { id: "geist", name: "Geist Mono", stack: "'Geist Mono', monospace" },
-  { id: "plex", name: "IBM Plex Mono", stack: "'IBM Plex Mono', monospace" },
+const MONO_FACES: {
+  id: MonoFace
+  name: string
+  stack: string
+  specimen: string
+  icons?: boolean
+}[] = [
+  {
+    id: "jetbrains",
+    name: "JetBrainsMono NF",
+    stack: "'JetBrainsMono Nerd Font', 'JetBrainsMono NF', 'JetBrains Mono', 'NerdFontsSymbolsFallback', monospace",
+    specimen: "Aa 01 ->",
+    icons: true,
+  },
+  { id: "geist", name: "Geist Mono", stack: "'Geist Mono', 'NerdFontsSymbolsFallback', monospace", specimen: "Aa 0123" },
+  { id: "plex", name: "IBM Plex Mono", stack: "'IBM Plex Mono', 'NerdFontsSymbolsFallback', monospace", specimen: "Aa 0123" },
 ]
 
 /** iOS-style segmented control: gray track, raised pill on the selection. */
@@ -74,6 +88,8 @@ export function InkCabinet({ compact = false }: { compact?: boolean }) {
   const setTypeSerif = useSettingsStore((s) => s.setTypeSerif)
   const mono = useSettingsStore((s) => s.mono)
   const setMono = useSettingsStore((s) => s.setMono)
+  const monoUi = useSettingsStore((s) => s.monoUi)
+  const setMonoUi = useSettingsStore((s) => s.setMonoUi)
 
   if (compact) {
     return (
@@ -191,7 +207,7 @@ export function InkCabinet({ compact = false }: { compact?: boolean }) {
 
         <p className="text-[15px] font-medium mt-6 mb-1">{t('settings.inkCabinet.monoTitle')}</p>
         <p className="text-[13px] text-muted mb-3">{t('settings.inkCabinet.monoDescription')}</p>
-        <div className="grid grid-cols-2 gap-3 max-w-md">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl">
           {MONO_FACES.map((f) => {
             const active = mono === f.id
             return (
@@ -208,13 +224,53 @@ export function InkCabinet({ compact = false }: { compact?: boolean }) {
                 ].join(" ")}
               >
                 {/* Specimen set in the face itself, so the choice is visual. */}
-                <span className="block text-[22px] leading-none tracking-[-0.02em]" style={{ fontFamily: f.stack }}>Aa 0123</span>
-                <span className="block text-[11px] text-muted mt-2 uppercase" style={{ fontFamily: f.stack }}>tiếng việt · ひらがな</span>
+                <span
+                  className="block text-[20px] leading-none tracking-[-0.02em]"
+                  style={{ fontFamily: f.stack, fontFeatureSettings: '"liga" 1, "calt" 1, "zero" 1' }}
+                >
+                  {f.specimen}
+                </span>
+                <span className="block text-[11px] text-muted mt-2 uppercase" style={{ fontFamily: f.stack }}>
+                  tiếng việt · ひらがな
+                </span>
+                {f.icons && (
+                  <span className="flex items-center gap-2 text-xs text-accent mt-2" aria-hidden="true">
+                    <NerdIcon name="terminal" />
+                    <NerdIcon name="exam" />
+                    <NerdIcon name="check" />
+                    <NerdIcon name="sparkle" />
+                  </span>
+                )}
                 <span className={`block text-[13px] mt-2 ${active ? "font-semibold" : "text-muted"}`}>{f.name}</span>
               </button>
             )
           })}
         </div>
+
+        <button
+          type="button"
+          role="switch"
+          aria-checked={monoUi}
+          onClick={() => setMonoUi(!monoUi)}
+          className="flex items-center gap-4 rounded-[var(--radius-sm)] bg-surface/60 hover:bg-surface px-4 py-3.5 w-full text-left cursor-pointer transition-colors mt-4"
+        >
+          <span className="min-w-0 flex-1">
+            <span className="block text-[15px] font-medium">{t('settings.inkCabinet.monoUiToggle')}</span>
+            <span className="block text-[13px] text-muted mt-0.5">
+              {t('settings.inkCabinet.monoUiDescription')}
+            </span>
+          </span>
+          <span
+            className={`relative w-[51px] h-[31px] rounded-full shrink-0 transition-colors duration-200 ${
+              monoUi ? "bg-green" : "bg-[var(--tori-border)]"
+            }`}
+          >
+            <span
+              className="absolute top-[2px] left-[2px] size-[27px] rounded-full bg-white shadow-[0_3px_8px_rgb(0_0_0/0.15),0_1px_1px_rgb(0_0_0/0.16)] transition-transform duration-300 ease-[var(--ease-sheet)]"
+              style={{ transform: monoUi ? "translateX(20px)" : "none" }}
+            />
+          </span>
+        </button>
       </div>
     </div>
   )

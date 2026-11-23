@@ -350,7 +350,9 @@
       "typefaceToggle": "Dùng font Mincho cho chữ Nhật",
       "typefaceDescription": "Chữ Nhật mặc định dùng font Gothic gọn gàng. Bật tùy chọn này để dùng font Mincho (có chân, nét bút lông).",
       "monoTitle": "Font đơn cách (mono)",
-      "monoDescription": "Kiểu chữ máy đánh chữ dùng cho nhãn, con số, romaji và mọi thứ bạn gõ. Geist gọn gàng, hiện đại; Plex mang cảm giác máy đánh chữ cổ điển."
+      "monoDescription": "Font đơn cách dùng cho nhãn, con số, biểu tượng Nerd Font, romaji và ô nhập. JetBrainsMono NF sắc nét với ký tự nối (ligatures) và số 0 gạch chéo; vẫn có thể chọn Geist hoặc Plex.",
+      "monoUiToggle": "Dùng font mono cho toàn giao diện",
+      "monoUiDescription": "Áp dụng font đơn cách cho cả tiêu đề và văn bản tiếng Việt/Anh tạo cảm giác đồng nhất kiểu workbench. Chữ Nhật vẫn giữ font tiếng Nhật riêng."
     }
   }
 }

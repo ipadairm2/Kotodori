@@ -5,7 +5,7 @@ import type { Locale } from "@/lib/i18n"
 export type Level = 'N5' | 'N4' | 'all'
 export type Paper = 'washi' | 'sumi' | 'gold'
 export type Density = 'compact' | 'normal' | 'sparse'
-export type MonoFace = 'geist' | 'plex'
+export type MonoFace = 'jetbrains' | 'geist' | 'plex'
 
 interface SettingsStore {
   lang: Locale
@@ -21,6 +21,8 @@ interface SettingsStore {
   setTypeSerif: (typeSerif: boolean) => void
   mono: MonoFace
   setMono: (mono: MonoFace) => void
+  monoUi: boolean
+  setMonoUi: (monoUi: boolean) => void
 }
 
 const PAPER_CLASS: Record<Paper, string> = {
@@ -50,8 +52,16 @@ function applyTypeSerif(typeSerif: boolean) {
   document.documentElement.classList.toggle('type-serif', typeSerif)
 }
 
+const VALID_MONOS = new Set<MonoFace>(['jetbrains', 'geist', 'plex'])
+
 function applyMono(mono: MonoFace) {
-  document.documentElement.classList.toggle('mono-plex', mono === 'plex')
+  const h = document.documentElement
+  h.classList.toggle('mono-geist', mono === 'geist')
+  h.classList.toggle('mono-plex', mono === 'plex')
+}
+
+function applyMonoUi(monoUi: boolean) {
+  document.documentElement.classList.toggle('mono-ui', monoUi)
 }
 
 export const useSettingsStore = create<SettingsStore>()(
@@ -80,21 +90,39 @@ export const useSettingsStore = create<SettingsStore>()(
         applyTypeSerif(typeSerif)
         set({ typeSerif })
       },
-      mono: 'geist',
+      mono: 'jetbrains',
       setMono: (mono) => {
         applyMono(mono)
         set({ mono })
       },
+      monoUi: false,
+      setMonoUi: (monoUi) => {
+        applyMonoUi(monoUi)
+        set({ monoUi })
+      },
     }),
     {
       name: 'tori-settings',
+      version: 2,
+      migrate: (persisted, version) => {
+        const saved = (persisted ?? {}) as Record<string, unknown>
+        if (version < 2) {
+          // Pre-v2 default was 'geist'; upgrade existing users to 'jetbrains'
+          // while preserving explicit 'plex' selections.
+          const mono: MonoFace = saved.mono === 'plex' ? 'plex' : 'jetbrains'
+          return { ...saved, mono, monoUi: Boolean(saved.monoUi) } as SettingsStore
+        }
+        return saved as unknown as SettingsStore
+      },
       // Themes were trimmed to three; anyone who had picked a removed one
       // (matcha, sakura, dusk...) falls back to Washi instead of keeping a
       // paper id that no longer maps to any CSS.
       merge: (persisted, current) => {
         const saved = (persisted ?? {}) as Partial<SettingsStore>
         const paper = saved.paper && saved.paper in PAPER_CLASS ? saved.paper : 'washi'
-        return { ...current, ...saved, paper }
+        const mono = saved.mono && VALID_MONOS.has(saved.mono) ? saved.mono : 'jetbrains'
+        const monoUi = typeof saved.monoUi === 'boolean' ? saved.monoUi : current.monoUi
+        return { ...current, ...saved, paper, mono, monoUi }
       },
       onRehydrateStorage: () => (state) => {
         if (!state) return
@@ -102,6 +130,7 @@ export const useSettingsStore = create<SettingsStore>()(
         applyDensity(state.density)
         applyTypeSerif(state.typeSerif)
         applyMono(state.mono)
+        applyMonoUi(state.monoUi)
       },
     }
   )

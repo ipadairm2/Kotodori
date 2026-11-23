@@ -10,8 +10,17 @@ import { InkCabinet } from "@/components/ui/InkCabinet"
 import { useTranslation } from "@/lib/useTranslation"
 import { useVocab } from "@/data/vocab"
 import { prefetchRoute } from "@/lib/routes"
+import { NerdIcon, type NerdIconName } from "@/components/ui/NerdIcon"
 
 interface NavItem { to: string; label: string; kana: string; key: string; badge?: string }
+
+const GROUP_ICONS: Record<string, NerdIconName> = {
+  learn: "book",
+  exam: "exam",
+  grammar: "grammar",
+  kanji: "kanji",
+  more: "layers",
+}
 
 // Grouped so the destinations read as distinct areas instead of one long list.
 // Home stands alone above the groups.
@@ -123,7 +132,8 @@ export function Sidebar({ open, onClose }: SidebarProps) {
               <span className="text-[17px] font-semibold tracking-[-0.02em] text-ink group-hover:text-accent transition-colors whitespace-nowrap">
                 Tori
               </span>
-              <span className="font-mono text-[11px] text-muted whitespace-nowrap">
+              <span className="font-mono text-[11px] text-muted whitespace-nowrap inline-flex items-center gap-1.5">
+                <NerdIcon name="terminal" className="text-[10px] text-accent/80" />
                 JLPT N5 / N4
               </span>
             </div>
@@ -165,8 +175,11 @@ export function Sidebar({ open, onClose }: SidebarProps) {
         {[{ id: "", items: [HOME] }, ...navGroups].map(group => (
           <div key={group.id || "home"} className={group.id ? "mt-3" : ""}>
             {group.id && (
-              <div className="px-3 pb-1 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-muted">
-                {t(`nav.groups.${group.id}`)}
+              <div className="px-3 pb-1 flex items-center gap-1.5 font-mono text-[10.5px] font-medium uppercase tracking-[0.08em] text-muted">
+                {GROUP_ICONS[group.id] && (
+                  <NerdIcon name={GROUP_ICONS[group.id]} className="text-[11px] text-accent/80" />
+                )}
+                <span>{t(`nav.groups.${group.id}`)}</span>
               </div>
             )}
             {group.items.map(({ to, label, kana, key, badge }) => (
@@ -219,9 +232,9 @@ export function Sidebar({ open, onClose }: SidebarProps) {
           { label: t('common.stats.review'), val: stats?.review ?? '–' },
           { label: t('common.stats.new'), val: stats?.new ?? '–' },
         ].map(({ label, val }) => (
-          <div key={label} className="bg-card/70 rounded-[var(--radius-sm)] px-3 py-2 shadow-[var(--shadow-brutal)]">
+          <div key={label} className="bg-card/70 border border-[var(--tori-hairline)] rounded-[var(--radius-sm)] px-3 py-2 shadow-[var(--shadow-brutal)]">
             <div className="font-mono text-[17px] font-semibold leading-tight tracking-[-0.02em]">{val}</div>
-            <div className="text-[11px] text-muted">{label}</div>
+            <div className="font-mono text-[10.5px] uppercase text-muted mt-0.5">{label}</div>
           </div>
         ))}
       </div>

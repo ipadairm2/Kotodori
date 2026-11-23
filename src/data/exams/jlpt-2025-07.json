@@ -4380,6 +4380,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "diagramId": "jlpt-2025-07-m1-q01",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated pill combinations of larger tablets and smaller round pills",
+                "vi": "Bốn hình tổ hợp viên thuốc lớn và viên thuốc nhỏ"
+              }
             }
           },
           {
@@ -4675,6 +4683,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "diagramId": "jlpt-2025-07-m1-q03",
+              "layout": "scene",
+              "alt": {
+                "en": "Classroom desk with three labeled card sets (A hiragana, I kanji, U pictures) and a storage box",
+                "vi": "Bàn học với ba bộ thẻ đánh dấu A (hiragana), I (kanji), U (tranh) và một chiếc hộp"
+              }
             }
           },
           {
@@ -4821,6 +4837,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "diagramId": "jlpt-2025-07-m1-q04",
+              "layout": "quad",
+              "alt": {
+                "en": "Four jackets differing in white or black fabric and collar size tags 0 or 1",
+                "vi": "Bốn chiếc áo khoác khác nhau về màu trắng hoặc đen và nhãn cổ áo số 0 hoặc 1"
+              }
             }
           },
           {
@@ -4960,6 +4984,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m1-05.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated factory tour steps: putting on name tags, lining up by a canned food poster for a photo, checking bags, and watching a video",
+                "vi": "Bốn tranh các bước tham quan nhà máy: đeo thẻ tên, xếp hàng chụp ảnh trước áp phích đồ hộp, gửi túi và xem video"
+              }
             }
           },
           {
@@ -5095,6 +5127,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "diagramId": "jlpt-2025-07-m1-q06",
+              "layout": "scene",
+              "alt": {
+                "en": "Parking lot map beside the apartment building showing four numbered spaces 1 to 4",
+                "vi": "Sơ đồ bãi đỗ xe cạnh khu chung cư gồm bốn vị trí được đánh số 1 đến 4"
+              }
             }
           },
           {
@@ -5236,6 +5276,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m1-07.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated office tasks: guiding a visitor, copying documents, serving tea, and sorting folders",
+                "vi": "Bốn tranh công việc văn phòng: dẫn khách, photocopy tài liệu, bưng trà và sắp xếp hồ sơ"
+              }
             }
           },
           {
@@ -5389,6 +5437,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "diagramId": "jlpt-2025-07-m1-q08",
+              "layout": "scene",
+              "alt": {
+                "en": "Inside a refrigerator displaying four labeled sandwich ingredients: A ham, I lettuce, U eggs, E butter",
+                "vi": "Bên trong tủ lạnh với bốn nguyên liệu đánh dấu A (giăm bông), I (rau xà lách), U (trứng), E (bơ)"
+              }
             }
           }
         ]
@@ -6476,6 +6532,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m3-01.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "Inside a friend's room beside a broken coffee cup spill, the guest (marked by the arrow) speaks to the host",
+                "vi": "Trong phòng bạn bên cạnh cốc cà phê bị rơi vỡ, vị khách (được mũi tên chỉ) nói với chủ nhà"
+              }
             }
           },
           {
@@ -6575,6 +6639,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m3-02.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "Inside a cafe, one friend (marked by the arrow) points toward an empty two-chair table",
+                "vi": "Trong quán ăn, một người bạn (được mũi tên chỉ) chỉ vào chiếc bàn hai ghế còn trống"
+              }
             }
           },
           {
@@ -6665,6 +6737,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m3-03.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "On a street sidewalk, a traveler holding a map (marked by the arrow) thinks of Minami University while asking a passerby",
+                "vi": "Trên vỉa hè, người cầm bản đồ (được mũi tên chỉ) nghĩ tới trường Đại học Minami khi hỏi đường"
+              }
             }
           },
           {
@@ -6756,6 +6836,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m3-04.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "In a classroom, a seated student (marked by the arrow) cups their hand behind an ear while the teacher speaks softly",
+                "vi": "Trong lớp học, một học viên (được mũi tên chỉ) đưa tay lên tai nghe chăm chú khi giáo viên nói nhỏ"
+              }
             }
           },
           {
@@ -6855,6 +6943,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/202507-l-m3-05.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "Beside a sports field, an injured student with a bandaged leg on crutches (marked by the arrow) talks to the coach",
+                "vi": "Bên sân tập, học sinh bị băng chân chống nạng (được mũi tên chỉ) trao đổi với huấn luyện viên"
+              }
             }
           }
         ]

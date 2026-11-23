@@ -34,9 +34,12 @@ export function ScreenHeader({ eyebrowJa, eyebrowEn, title, description, waterma
       <div className="relative flex items-start justify-between gap-6">
         <div className="max-w-xl">
           <Reveal index={0}>
-            <p className="flex items-baseline gap-2 text-accent">
+            <p className="flex flex-wrap items-center gap-2 text-accent">
+              <span aria-hidden="true" className="font-mono text-xs opacity-45">//</span>
               {eyebrowJa && <span className="jp text-sm font-semibold">{eyebrowJa}</span>}
-              <span className="font-mono text-[11px] font-medium uppercase tracking-[0.08em] opacity-80">{eyebrowEn}</span>
+              <span className="font-mono text-[10.5px] font-medium uppercase tracking-[0.06em] px-2 py-0.5 rounded-md bg-accent/10 border border-accent/20 text-accent">
+                {eyebrowEn}
+              </span>
             </p>
           </Reveal>
           <Reveal index={1}>

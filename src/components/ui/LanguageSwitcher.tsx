@@ -17,7 +17,7 @@ export function LanguageSwitcher() {
           type="button"
           aria-pressed={lang === value}
           onClick={() => setLang(value)}
-          className={`px-2.5 py-1 rounded-[7px] text-xs cursor-pointer transition-[color,background-color,box-shadow,transform] duration-200 active:scale-95 ${lang === value ? 'bg-[var(--tori-seg-pill)] text-ink font-semibold shadow-[0_1px_3px_rgb(0_0_0/0.12)]' : 'font-medium text-muted hover:text-ink'}`}
+          className={`px-2.5 py-1 rounded-[7px] font-mono text-xs cursor-pointer transition-[color,background-color,box-shadow,transform] duration-200 active:scale-95 ${lang === value ? 'bg-[var(--tori-seg-pill)] text-ink font-semibold shadow-[0_1px_3px_rgb(0_0_0/0.12)]' : 'font-medium text-muted hover:text-ink'}`}
         >
           {label}
         </button>

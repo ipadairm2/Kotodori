@@ -4056,6 +4056,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "diagramId": "jlpt-2025-12-m1-q01",
+              "layout": "quad",
+              "alt": {
+                "en": "Four coats differing in fabric color and button color",
+                "vi": "Bốn chiếc áo khoác khác nhau về màu áo và màu cúc"
+              }
             }
           },
           {
@@ -4197,6 +4205,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m1-q02.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated actions: driving toward the station, boiling water on a stove, pouring tea, and sweeping the yard",
+                "vi": "Bốn tranh hành động: lái xe ra ga, đun nước sôi trên bếp, rót trà và quét sân"
+              }
             }
           },
           {
@@ -4461,6 +4477,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m1-q04.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrations of shoe handling when entering an old building",
+                "vi": "Bốn tranh minh họa cách xử lý giày khi bước vào tòa nhà cũ"
+              }
             }
           },
           {
@@ -4604,6 +4628,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m1-q05.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated class activities: playing piano, playing acoustic guitar, dancing, and singing",
+                "vi": "Bốn tranh hoạt động lớp học: chơi piano, đánh đàn guitar, nhảy múa và ca hát"
+              }
             }
           },
           {
@@ -4896,6 +4928,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m1-q07.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated cooking prep steps: slicing vegetables, chilling water with ice, stirring batter, and cracking one egg",
+                "vi": "Bốn tranh thao tác nấu ăn: thái rau củ, làm lạnh nước bằng đá, khuấy bột và đập một quả trứng"
+              }
             }
           },
           {
@@ -5039,6 +5079,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m1-q08.webp",
+              "layout": "quad",
+              "alt": {
+                "en": "Four illustrated office preparation tasks: copying documents, arranging bottled tea, carrying bento boxes, and setting up a laptop",
+                "vi": "Bốn tranh chuẩn bị phòng họp: photocopy tài liệu, xếp trà chai, mang hộp cơm và đặt máy tính"
+              }
             }
           }
         ]
@@ -6052,6 +6100,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m3-q01.webp",
+              "layout": "scene",
+              "alt": {
+                "en": "Inside a train car, a woman drops her ticket and a bystander (marked by the arrow) notices",
+                "vi": "Trên tàu điện, một phụ nữ làm rơi vé và người đứng cạnh (được mũi tên chỉ) nhìn thấy"
+              }
             }
           },
           {
@@ -6137,6 +6193,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m3-q02.webp",
+              "layout": "scene",
+              "alt": {
+                "en": "Inside a library under a wall clock showing 6:55, one seated friend (marked by the arrow) speaks to their companion",
+                "vi": "Trong thư viện dưới đồng hồ chỉ 6:55, một bạn sinh viên (được mũi tên chỉ) quay sang nói với bạn mình"
+              }
             }
           },
           {
@@ -6227,6 +6291,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m3-q03.webp",
+              "layout": "scene",
+              "alt": {
+                "en": "At the edge of a crowded street gathering, a passerby (marked by the arrow) speaks to someone nearby",
+                "vi": "Ở rìa đám đông trên phố, một người đi đường (được mũi tên chỉ) hỏi người đứng cạnh"
+              }
             }
           },
           {
@@ -6308,6 +6380,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m3-q04.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "Two friends talking outdoors as one (marked by the arrow) holds out two baseball game tickets",
+                "vi": "Hai người bạn nói chuyện ngoài trời khi một người (được mũi tên chỉ) cầm hai tấm vé bóng chày"
+              }
             }
           },
           {
@@ -6398,6 +6478,14 @@
                   }
                 }
               ]
+            },
+            "visual": {
+              "imageSrc": "/exams/listening/l-m3-q05.svg",
+              "layout": "scene",
+              "alt": {
+                "en": "Inside a cafe, a friend looking for seats (marked by the arrow) points toward two departing customers' table",
+                "vi": "Trong quán ăn, một người đang tìm chỗ ngồi (được mũi tên chỉ) chỉ về phía bàn có khách sắp đứng dậy rời đi"
+              }
             }
           }
         ]

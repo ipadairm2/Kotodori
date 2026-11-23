@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <rect width="640" height="480" fill="#ffffff" />
+  <rect x="28" y="34" width="230" height="236" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  <path d="M 143 34 L 143 270 M 28 112 L 258 112 M 28 192 L 258 192" stroke="#cbd5e1" stroke-width="1.6" />
+  <line x1="20" y1="320" x2="620" y2="320" stroke="#cbd5e1" stroke-width="2" />
+
+  <!-- Bold JLPT indicator arrow pointing at apologetic guest on left -->
+  <path d="M 46 154 L 98 154 L 98 140 L 130 162 L 98 184 L 98 170 L 46 170 Z" fill="#0f172a" />
+
+  <!-- Low Japanese Coffee Table in center -->
+  <g transform="translate(345, 326)">
+    <rect x="-86" y="-8" width="172" height="14" rx="4" fill="#e2e8f0" stroke="#111827" stroke-width="2.5" />
+    <rect x="-72" y="6" width="14" height="58" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" />
+    <rect x="58" y="6" width="14" height="58" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" />
+    <ellipse cx="32" cy="-9" rx="22" ry="5" fill="#ffffff" stroke="#111827" stroke-width="1.8" />
+    <rect x="20" y="-27" width="24" height="18" rx="4" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <path d="M 44 -23 Q 52 -18 44 -13" fill="none" stroke="#111827" stroke-width="2" />
+  </g>
+
+  <!-- Spilled coffee puddle & broken cup shards -->
+  <g transform="translate(278, 412)">
+    <path d="M -52 6 Q -42 -12 -10 -8 Q 22 -14 48 0 Q 62 12 36 22 Q 4 28 -30 22 Q -62 18 -52 6 Z" fill="#94a3b8" stroke="#111827" stroke-width="2" />
+    <polygon points="-24,-10 -2,-20 8,-2 -18,4" fill="#ffffff" stroke="#0f172a" stroke-width="2.2" stroke-linejoin="round" />
+    <polygon points="14,-14 34,-4 26,12 8,6" fill="#ffffff" stroke="#0f172a" stroke-width="2.2" stroke-linejoin="round" />
+    <path d="M 32 0 Q 46 -2 40 12" fill="none" stroke="#0f172a" stroke-width="2.4" stroke-linecap="round" />
+    <polygon points="-38,8 -28,2 -24,14" fill="#ffffff" stroke="#0f172a" stroke-width="2" />
+  </g>
+
+  <!-- Apologetic Guest (left, bowing slightly, arrow points here) -->
+  <g transform="translate(184, 268)">
+    <path d="M -24 58 L -28 134 L 22 134 L 28 58 Z" fill="#cbd5e1" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" />
+    <g transform="rotate(8)">
+      <path d="M -18 -50 L 18 -50 C 30 -44 34 -28 32 58 L -30 58 C -34 -28 -30 -44 -18 -50 Z" fill="#ffffff" stroke="#111827" stroke-width="2.6" stroke-linejoin="round" />
+      <path d="M 26 -30 L 58 -10 L 48 4 L 20 -10" fill="#ffffff" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" />
+      <circle cx="60" cy="-4" r="8.5" fill="#ffffff" stroke="#111827" stroke-width="2.2" />
+      <rect x="-8" y="-62" width="16" height="14" fill="#ffffff" stroke="#111827" stroke-width="2" />
+      <circle cx="2" cy="-88" r="28" fill="#ffffff" stroke="#111827" stroke-width="2.6" />
+      <!-- Short hair strictly above forehead -->
+      <path d="M -26 -94 C -25 -122 20 -124 29 -94 C 16 -102 -8 -102 -26 -94 Z" fill="#94a3b8" stroke="#111827" stroke-width="2.2" />
+      <!-- Worried brows & face clearly visible -->
+      <path d="M 2 -95 L 10 -98 M 16 -98 L 23 -94" stroke="#111827" stroke-width="1.9" stroke-linecap="round" />
+      <circle cx="7" cy="-87" r="2.4" fill="#111827" />
+      <circle cx="19" cy="-87" r="2.4" fill="#111827" />
+      <ellipse cx="13" cy="-73" rx="4.2" ry="5" fill="#ffffff" stroke="#111827" stroke-width="1.9" />
+      <path d="M -18 -98 Q -25 -88 -18 -84 Q -11 -88 -18 -98 Z" fill="#e2e8f0" stroke="#111827" stroke-width="1.6" />
+    </g>
+  </g>
+
+  <!-- Surprised Host (right) -->
+  <g transform="translate(495, 268)">
+    <path d="M -26 58 L -20 134 L 30 134 L 24 58 Z" fill="#e2e8f0" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M -18 -50 L 18 -50 C 30 -44 32 -28 30 60 L -30 60 C -32 -28 -30 -44 -18 -50 Z" fill="#f1f5f9" stroke="#111827" stroke-width="2.6" stroke-linejoin="round" />
+    <path d="M -28 -28 L -56 2 L -46 14 L -22 -6" fill="#f1f5f9" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" />
+    <rect x="-8" y="-62" width="16" height="14" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <circle cx="0" cy="-88" r="28" fill="#ffffff" stroke="#111827" stroke-width="2.6" />
+    <!-- Clean bob hair on top/right back -->
+    <path d="M -27 -94 C -24 -122 22 -124 28 -94 C 30 -76 26 -62 18 -56 L 16 -86 C 6 -98 -12 -100 -27 -94 Z" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" />
+    <circle cx="-14" cy="-86" r="2.4" fill="#111827" />
+    <circle cx="-2" cy="-86" r="2.4" fill="#111827" />
+    <circle cx="-9" cy="-73" r="3.4" fill="#ffffff" stroke="#111827" stroke-width="1.8" />
+    <path d="M -38 -116 L -48 -126 M -42 -102 L -56 -106" stroke="#0f172a" stroke-width="2.4" stroke-linecap="round" />
+  </g>
+</svg>

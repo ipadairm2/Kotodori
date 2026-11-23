@@ -1,6 +1,6 @@
 // Strict integrity validator for all JLPT N4 exam datasets under src/data/exams/
 // Usage: node scripts/validate-exams.mjs [--strict]
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readFileSync, statSync } from 'node:fs'
 import { resolve } from 'node:path'
 
 const strict = process.argv.includes('--strict')
@@ -22,6 +22,15 @@ const EXPECTED_COUNTS = {
   'vdj-2026-18': { vocab: 34, grammar: 25, total: 59 },
   'vdj-2026-16': { vocab: 34, grammar: 25, total: 59 },
 }
+
+const VALID_DIAGRAM_IDS = new Set([
+  'jlpt-2025-12-m1-q01',
+  'jlpt-2025-07-m1-q01',
+  'jlpt-2025-07-m1-q03',
+  'jlpt-2025-07-m1-q04',
+  'jlpt-2025-07-m1-q06',
+  'jlpt-2025-07-m1-q08',
+])
 
 const FORBIDDEN_SUBSTRINGS = [
   'TRUNG TÂM TIẾNG NHẬT',
@@ -177,6 +186,33 @@ for (const [paperId, expected] of Object.entries(EXPECTED_COUNTS)) {
             warn(`${qPath}: hadImageInOriginal=true but no sceneNote`)
           }
           if (q.sceneNote) checkBilingual(q.sceneNote, `${qPath}.sceneNote`)
+          if (q.hadImageInOriginal && !q.visual) {
+            err(`${qPath}: hadImageInOriginal=true but missing visual`)
+          }
+          if (q.visual) {
+            if (!['quad', 'scene'].includes(q.visual.layout)) {
+              err(`${qPath}.visual.layout invalid: ${q.visual.layout}`)
+            }
+            checkBilingual(q.visual.alt, `${qPath}.visual.alt`)
+            const hasDiagram = typeof q.visual.diagramId === 'string' && q.visual.diagramId.length > 0
+            const hasImage = typeof q.visual.imageSrc === 'string' && q.visual.imageSrc.length > 0
+            if (!hasDiagram && !hasImage) {
+              err(`${qPath}.visual: must set diagramId or imageSrc`)
+            }
+            if (hasDiagram && !VALID_DIAGRAM_IDS.has(q.visual.diagramId)) {
+              err(`${qPath}.visual.diagramId unknown: ${q.visual.diagramId}`)
+            }
+            if (hasImage) {
+              if (!q.visual.imageSrc.startsWith('/exams/listening/')) {
+                err(`${qPath}.visual.imageSrc must start with '/exams/listening/': ${q.visual.imageSrc}`)
+              } else {
+                const diskPath = resolve(root, 'public', q.visual.imageSrc.slice(1))
+                if (!existsSync(diskPath) || statSync(diskPath).size === 0) {
+                  err(`${qPath}.visual.imageSrc missing or empty on disk: ${diskPath}`)
+                }
+              }
+            }
+          }
         }
 
         const sol = q.solution

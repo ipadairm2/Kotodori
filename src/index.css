@@ -1,5 +1,23 @@
 @import "tailwindcss";
 
+/* Scoped fallback for Nerd Font Private Use Area glyphs when a visitor's
+   device does not have JetBrainsMono Nerd Font installed locally. */
+@font-face {
+  font-family: 'NerdFontsSymbolsFallback';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+E000-E0FF, U+E200-E2A9, U+E300-E3E3, U+E5FA-E6B5, U+E700-E7C5, U+EA60-EC1E, U+ED00-EFCE, U+F000-F2FF, U+F300-F375, U+F400-F533, U+F0001-F1AF0;
+  src:
+    local('JetBrainsMono Nerd Font'),
+    local('JetBrainsMono NF'),
+    local('JetBrainsMono Nerd Font Mono'),
+    local('JetBrainsMono NFM'),
+    local('Symbols Nerd Font'),
+    local('Symbols Nerd Font Mono'),
+    url('https://www.nerdfonts.com/assets/fonts/Symbols-2048-em%20Nerd%20Font%20Complete.woff2') format('woff2');
+}
+
 /* ============================================================
    Theme variables. Apple-inspired system palettes: grouped-gray
    canvas, white elevated cards, hairline separators, one tint.
@@ -90,13 +108,14 @@
        and negative tracking from the utilities, not a serif.
      - --font-jp = Hiragino Sans / Zen Kaku Gothic (Apple's Japanese UI
        face); the old Mincho is now the opt-in via the typeface toggle.
-     - --font-mono = Geist Mono, the "instrument" voice: eyebrows, section
-       labels, counts, IDs and romaji. Ships a Vietnamese subset, so the
-       translated labels (LỌC THEO…) never fall back glyph-by-glyph. */
+     - --font-mono = JetBrainsMono Nerd Font (local) with JetBrains Mono
+       (Google Fonts, Vietnamese subset) and NerdFontsSymbolsFallback for
+       Nerd Font PUA glyphs on remote devices. Geist Mono and IBM Plex Mono
+       remain available in Settings. */
   --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', 'Be Vietnam Pro', system-ui, sans-serif;
   --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI Variable Display', 'Segoe UI', 'Be Vietnam Pro', system-ui, sans-serif;
   --font-jp: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Zen Kaku Gothic New', 'Yu Gothic UI', sans-serif;
-  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', 'Cascadia Mono', monospace;
+  --font-mono: 'JetBrainsMono Nerd Font', 'JetBrainsMono NF', 'JetBrains Mono', 'NerdFontsSymbolsFallback', ui-monospace, monospace;
 
   /* Apple hierarchy is weight + size, never 900. Soften every font-black
      to bold, and pull the wide label tracking in to caption-size values. */
@@ -114,8 +133,8 @@
    ============================================================ */
 :root {
   --border-w: 1px;
-  --radius: 16px;
-  --radius-sm: 10px;
+  --radius: 14px;
+  --radius-sm: 9px;
   --tilt: 0deg;
   --shadow-brutal: 0 0 0 0.5px var(--tori-elev-ring), 0 1px 2px rgb(var(--tori-shadow-ink) / 0.04), 0 4px 14px rgb(var(--tori-shadow-ink) / 0.05);
   --shadow-brutal-hover: 0 0 0 0.5px var(--tori-elev-ring), 0 2px 4px rgb(var(--tori-shadow-ink) / 0.05), 0 12px 32px rgb(var(--tori-shadow-ink) / 0.09);
@@ -217,6 +236,14 @@ body::before {
   z-index: 0;
   pointer-events: none;
   background:
+    radial-gradient(circle, rgb(0 0 0 / 0.045) 1px, transparent 1px) 0 0 / 24px 24px,
+    radial-gradient(55% 60% at 85% 5%, color-mix(in srgb, var(--tori-accent) 16%, transparent), transparent 70%),
+    radial-gradient(45% 55% at 30% 55%, color-mix(in srgb, var(--tori-blue) 10%, transparent), transparent 70%),
+    radial-gradient(50% 60% at 5% 105%, color-mix(in srgb, var(--tori-accent) 12%, transparent), transparent 70%);
+}
+.theme-gold body::before {
+  background:
+    radial-gradient(circle, rgb(255 255 255 / 0.055) 1px, transparent 1px) 0 0 / 24px 24px,
     radial-gradient(55% 60% at 85% 5%, color-mix(in srgb, var(--tori-accent) 16%, transparent), transparent 70%),
     radial-gradient(45% 55% at 30% 55%, color-mix(in srgb, var(--tori-blue) 10%, transparent), transparent 70%),
     radial-gradient(50% 60% at 5% 105%, color-mix(in srgb, var(--tori-accent) 12%, transparent), transparent 70%);
@@ -231,16 +258,27 @@ body::before {
 @layer base {
   .font-display { font-weight: 650; letter-spacing: -0.022em; }
   h1, h2, h3 { letter-spacing: -0.015em; }
+  .font-mono, code, kbd, pre {
+    font-feature-settings: "liga" 1, "calt" 1, "zero" 1;
+    font-variant-ligatures: contextual common-ligatures;
+    font-variant-numeric: tabular-nums slashed-zero;
+  }
   /* Every small uppercase label speaks in the mono "instrument" voice
      (section labels, counters, column heads). Base layer, so an explicit
      font-sans / .jp on the element still wins. */
-  .uppercase { font-family: var(--font-mono); font-weight: 500; letter-spacing: 0.06em; }
+  .uppercase {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    letter-spacing: 0.045em;
+    font-feature-settings: "liga" 1, "calt" 1, "zero" 1;
+  }
 
   /* Typing is a typewriter: every text field sets in the mono face with
      an accent caret. Japanese IME text still falls through to the JP face. */
   input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select {
     font-family: var(--font-mono), var(--font-jp);
     letter-spacing: -0.01em;
+    font-feature-settings: "liga" 1, "calt" 1, "zero" 1;
     caret-color: var(--tori-accent);
   }
   input::placeholder, textarea::placeholder { color: var(--tori-dim); opacity: 1; }
@@ -286,6 +324,7 @@ body::before {
 .glass-lift:hover, .glass:hover {
   transform: translateY(-2px);
   background-color: color-mix(in srgb, var(--tori-bg-card) 88%, transparent);
+  border-color: color-mix(in srgb, var(--tori-accent) 28%, rgb(255 255 255 / 0.8));
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.8), 0 0 0 0.5px var(--tori-elev-ring), 0 2px 4px rgb(0 0 0 / 0.05), 0 18px 40px rgb(0 0 0 / 0.09);
 }
 .glass-lift:active, .glass:active { transform: scale(0.98); transition-duration: 0.1s; }
@@ -307,7 +346,10 @@ body::before {
   border-color: rgb(255 255 255 / 0.09);
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.1), 0 8px 24px rgb(0 0 0 / 0.4);
 }
-.theme-gold .glass-lift:hover, .theme-gold .glass:hover { background-color: rgb(255 255 255 / 0.08); }
+.theme-gold .glass-lift:hover, .theme-gold .glass:hover {
+  background-color: rgb(255 255 255 / 0.08);
+  border-color: color-mix(in srgb, var(--tori-accent) 40%, rgb(255 255 255 / 0.1));
+}
 .theme-gold .glass-sheet { background-color: rgb(28 28 30 / 0.92); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.1), 0 24px 60px rgb(0 0 0 / 0.6); }
 .theme-gold .glass-card.is-active { background-color: var(--tori-accent); border-color: transparent; }
 
@@ -328,12 +370,36 @@ body::before {
 ruby { font-family: var(--font-jp); ruby-align: center; ruby-overhang: none; }
 rt { font-size: 0.45em; font-weight: 400; letter-spacing: 0.02em; color: var(--color-muted); }
 
+.nf-glyph {
+  font-family: 'JetBrainsMono Nerd Font', 'JetBrainsMono NF', 'NerdFontsSymbolsFallback', monospace;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  min-width: 1.25em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-shrink: 0;
+}
+.nf-statusline {
+  font-family: var(--font-mono);
+  font-feature-settings: "liga" 1, "calt" 1, "zero" 1;
+  font-variant-numeric: tabular-nums slashed-zero;
+}
+
 /* ---------- Density & type preferences ---------- */
 .density-compact { --dens: 0.78; --gap: 0.625rem; --p-card: 0.875rem; --text-base: 0.9375rem; }
 .density-sparse  { --dens: 1.3;  --gap: 1.5rem;   --p-card: 1.75rem;  --text-base: 1.0625rem; }
+.mono-geist { --font-mono: 'Geist Mono', 'NerdFontsSymbolsFallback', ui-monospace, monospace; }
 /* Typewriter option: IBM Plex Mono (also ships a Vietnamese subset). */
-.mono-plex { --font-mono: 'IBM Plex Mono', 'Geist Mono', ui-monospace, monospace; }
+.mono-plex { --font-mono: 'IBM Plex Mono', 'NerdFontsSymbolsFallback', ui-monospace, monospace; }
 .type-serif { --font-jp: 'Hiragino Mincho ProN', 'Zen Old Mincho', 'Yu Mincho', serif; }
+/* Optional full-mono workbench UI mode; Japanese text keeps --font-jp. */
+.mono-ui {
+  --font-sans: var(--font-mono), 'Be Vietnam Pro', system-ui, sans-serif;
+  --font-display: var(--font-mono), 'Be Vietnam Pro', system-ui, sans-serif;
+}
 
 /* Scoped to the surfaces that carry the theme instead of `*`: a universal
    selector invalidated style on every node (thousands, on the list pages)

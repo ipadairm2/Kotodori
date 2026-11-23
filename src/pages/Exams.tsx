@@ -20,6 +20,7 @@ import { SECTION_LABELS } from '@/lib/exam-scoring'
 import { attemptKey, useExamStore } from '@/store/exam-store'
 import { ScreenHeader } from '@/components/ui/ScreenHeader'
 import { ToriLoader } from '@/components/ui/ToriLoader'
+import { NerdIcon, type NerdIconName } from '@/components/ui/NerdIcon'
 import { KanjiDrawer } from '@/components/kanji/KanjiDrawer'
 import { StudyRoadmapView } from '@/components/exams/StudyRoadmapView'
 import { ExamRunner } from '@/components/exams/ExamRunner'
@@ -156,13 +157,15 @@ export function Exams() {
       >
         {(
           [
-            { id: 'plan', vi: 'Lộ trình & Chẩn đoán', en: 'Sprint Plan & Radar' },
-            { id: 'papers', vi: 'Kho đề thi & Lời giải', en: 'Exam Papers & Solutions' },
-            { id: 'audit', vi: 'Rà soát đề 07/2026', en: '07/2026 Audit' },
+            { id: 'plan', icon: 'calendar' as NerdIconName, vi: 'Lộ trình & Chẩn đoán', en: 'Sprint Plan & Radar' },
+            { id: 'papers', icon: 'exam' as NerdIconName, vi: 'Kho đề thi & Lời giải', en: 'Exam Papers & Solutions' },
+            { id: 'audit', icon: 'alert' as NerdIconName, vi: 'Rà soát đề 07/2026', en: '07/2026 Audit' },
             {
               id: 'mistakes',
-              vi: `Sổ lỗi sai (${mistakeCount})`,
-              en: `Mistakes (${mistakeCount})`,
+              icon: 'notebook' as NerdIconName,
+              vi: 'Sổ lỗi sai',
+              en: 'Mistakes',
+              count: mistakeCount,
             },
           ] as const
         ).map(t => (
@@ -172,13 +175,23 @@ export function Exams() {
             role="tab"
             aria-selected={tab === t.id}
             onClick={() => setTab(t.id)}
-            className={`min-h-11 px-4 rounded-xl border text-xs sm:text-sm font-semibold cursor-pointer transition-colors ${
+            className={`min-h-11 px-4 rounded-xl border text-xs sm:text-sm font-semibold cursor-pointer transition-colors inline-flex items-center gap-2 ${
               tab === t.id
                 ? 'bg-accent text-accent-fg border-accent'
                 : 'border-structural bg-card hover:bg-surface'
             }`}
           >
-            {localize({ en: t.en, vi: t.vi })}
+            <NerdIcon name={t.icon} className="text-sm opacity-90" />
+            <span>{localize({ en: t.en, vi: t.vi })}</span>
+            {'count' in t && (
+              <span
+                className={`font-mono text-[11px] px-1.5 py-0.5 rounded-md tabular-nums ${
+                  tab === t.id ? 'bg-white/20 text-accent-fg' : 'bg-surface text-muted'
+                }`}
+              >
+                {t.count}
+              </span>
+            )}
           </button>
         ))}
       </nav>
@@ -265,9 +278,9 @@ export function Exams() {
                           }`}
                         >
                           {localize(SECTION_LABELS[sec])}
-                          {att?.submitted && att.lastScore
-                            ? ` ${att.lastScore.correct}/${att.lastScore.total}`
-                            : ''}
+                          {att?.submitted && att.lastScore && (
+                            <span className="font-mono ml-1">{att.lastScore.correct}/{att.lastScore.total}</span>
+                          )}
                         </button>
                       )
                     })}
@@ -281,9 +294,10 @@ export function Exams() {
                   <button
                     type="button"
                     onClick={() => openPaper(item.id, item.sections[0] ?? 'vocab')}
-                    className="min-h-11 px-4 rounded-xl bg-accent text-accent-fg text-xs sm:text-sm font-bold cursor-pointer hover:opacity-90"
+                    className="min-h-11 px-4 rounded-xl bg-accent text-accent-fg text-xs sm:text-sm font-bold cursor-pointer hover:opacity-90 inline-flex items-center gap-1.5"
                   >
-                    {l('Open Exam', 'Vào làm / Xem giải')} →
+                    <span>{l('Open Exam', 'Vào làm / Xem giải')}</span>
+                    <span aria-hidden="true" className="font-mono">{'->'}</span>
                   </button>
                 </div>
               </article>

@@ -3,22 +3,28 @@ import { useEffect, useMemo, useState } from "react"
 import { AnimatedKanjiSvg } from "@/components/kanji/AnimatedKanjiSvg"
 import { Reveal } from "@/components/ui/Reveal"
 import { Furigana } from "@/components/ui/Furigana"
-import { useSettingsStore } from "@/store/settings-store"
+import { NerdIcon, type NerdIconName } from "@/components/ui/NerdIcon"
+import { useSettingsStore, type MonoFace } from "@/store/settings-store"
 import { useTranslation } from "@/lib/useTranslation"
 import { TORI_STROKES, TORI_VIEW_BOX } from "@/components/ui/tori-glyph"
 
 const WEEKDAY_KANJI = ['日', '月', '火', '水', '木', '金', '土']
 const LEVEL_LABEL: Record<string, string> = { N5: 'N5', N4: 'N4', all: 'N5+N4' }
+const MONO_LABEL: Record<MonoFace, string> = {
+  jetbrains: 'JetBrainsMono NF',
+  geist: 'Geist Mono',
+  plex: 'IBM Plex Mono',
+}
 
-const FEATURES: { glyph: string; ja: string; key: string; href: string}[] = [
-  { glyph: "語", ja: "たんご", key: "vocabulary", href: "/vocab" },
-  { glyph: "文", ja: "ぶんぽう", key: "grammar", href: "/grammar" },
-  { glyph: "字", ja: "かんじ", key: "kanji", href: "/kanji" },
-  { glyph: "試", ja: "しけん", key: "exams", href: "/exams" },
-  { glyph: "動", ja: "どうし", key: "verbForms", href: "/verb-forms" },
-  { glyph: "対", ja: "じたどうし", key: "transitivity", href: "/transitivity" },
-  { glyph: "別", ja: "つかいかた", key: "usage", href: "/usage" },
-  { glyph: "数", ja: "かぞえかた", key: "counters", href: "/counters" },
+const FEATURES: { glyph: string; ja: string; key: string; href: string; icon: NerdIconName }[] = [
+  { glyph: "語", ja: "たんご", key: "vocabulary", href: "/vocab", icon: "book" },
+  { glyph: "文", ja: "ぶんぽう", key: "grammar", href: "/grammar", icon: "grammar" },
+  { glyph: "字", ja: "かんじ", key: "kanji", href: "/kanji", icon: "kanji" },
+  { glyph: "試", ja: "しけん", key: "exams", href: "/exams", icon: "exam" },
+  { glyph: "動", ja: "どうし", key: "verbForms", href: "/verb-forms", icon: "sparkle" },
+  { glyph: "対", ja: "じたどうし", key: "transitivity", href: "/transitivity", icon: "layers" },
+  { glyph: "別", ja: "つかいかた", key: "usage", href: "/usage", icon: "target" },
+  { glyph: "数", ja: "かぞえかた", key: "counters", href: "/counters", icon: "clock" },
 ]
 
 function greetingFor(hour: number) {
@@ -34,6 +40,7 @@ function greetingFor(hour: number) {
 export function Landing() {
   const replayKey = useMemo(() => Date.now(), [])
   const level = useSettingsStore(s => s.level)
+  const mono = useSettingsStore(s => s.mono)
   const { t } = useTranslation()
 
   const [now, setNow] = useState(() => new Date())
@@ -79,29 +86,39 @@ export function Landing() {
             <Link
               key={f.href}
               to={f.href}
-              className="glass group relative flex flex-col justify-between gap-6 p-4 sm:p-5 min-h-32 rounded-[22px]"
+              className="glass group relative flex flex-col justify-between gap-6 p-4 sm:p-5 min-h-32 rounded-[18px]"
             >
               <span className="flex items-start justify-between">
                 <span className="jp text-[34px] font-medium leading-none transition-colors duration-200 group-hover:text-accent">
                   {f.glyph}
                 </span>
-                <span className="font-mono text-[11px] text-dim tabular-nums">{String(i + 1).padStart(2, "0")}</span>
+                <span className="inline-flex items-center gap-1.5 font-mono text-[11px] text-dim tabular-nums">
+                  <NerdIcon name={f.icon} className="text-xs text-muted group-hover:text-accent transition-colors" />
+                  {String(i + 1).padStart(2, "0")}
+                </span>
               </span>
               <span className="flex items-end justify-between gap-2">
                 <span className="min-w-0">
                   <span className="block text-[15px] font-semibold tracking-[-0.01em] leading-tight">{t(`nav.${f.key}`)}</span>
                   <span className="jp block text-xs text-muted mt-1">{f.ja}</span>
                 </span>
-                <span aria-hidden className="go font-mono text-sm text-accent">→</span>
+                <span aria-hidden className="go font-mono text-sm text-accent">{'->'}</span>
               </span>
             </Link>
           ))}
         </nav>
       </Reveal>
 
-      <footer className="mt-16 flex items-center justify-between font-mono text-[11px] uppercase text-dim">
-        <span>TORI · <Furigana kanji="鳥" kana="とり" /></span>
-        <span>minh khang</span>
+      <footer className="mt-14 flex flex-wrap items-center justify-between gap-2 nf-statusline rounded-xl border border-[var(--tori-hairline)] bg-card/55 px-3.5 py-2 text-[11px] uppercase text-dim">
+        <span className="inline-flex items-center gap-2">
+          <NerdIcon name="terminal" className="text-accent text-xs" />
+          <span>TORI · <Furigana kanji="鳥" kana="とり" /></span>
+        </span>
+        <span className="inline-flex items-center gap-2">
+          <span className="text-muted normal-case tracking-normal">{MONO_LABEL[mono]}</span>
+          <span className="opacity-35" aria-hidden="true">|</span>
+          <span>minh khang</span>
+        </span>
       </footer>
     </div>
   )

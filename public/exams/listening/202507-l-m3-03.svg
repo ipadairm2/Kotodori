@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <rect width="640" height="480" fill="#ffffff" />
+  <rect x="28" y="42" width="132" height="284" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  <rect x="488" y="64" width="124" height="262" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+  <line x1="16" y1="326" x2="624" y2="326" stroke="#cbd5e1" stroke-width="2" />
+  <line x1="16" y1="406" x2="624" y2="406" stroke="#cbd5e1" stroke-width="1.8" stroke-dasharray="10 8" />
+
+  <!-- Thought cloud showing university gate labeled 南大学 above left visitor -->
+  <g transform="translate(270, 82)">
+    <path d="M -98 14 C -114 14 -120 -16 -98 -26 C -98 -54 -56 -66 -28 -50 C -8 -70 42 -66 58 -42 C 88 -50 116 -28 106 -2 C 122 10 110 38 84 34 L -80 34 C -96 34 -104 22 -98 14 Z" fill="#ffffff" stroke="#111827" stroke-width="2.2" />
+    <!-- Gate & Building cleanly centered inside cloud -->
+    <rect x="-68" y="-26" width="11" height="36" fill="#cbd5e1" stroke="#111827" stroke-width="1.8" />
+    <rect x="-18" y="-26" width="11" height="36" fill="#cbd5e1" stroke="#111827" stroke-width="1.8" />
+    <rect x="6" y="-20" width="68" height="30" fill="#f1f5f9" stroke="#111827" stroke-width="1.8" />
+    <polygon points="2,-20 40,-42 78,-20" fill="#cbd5e1" stroke="#111827" stroke-width="1.8" stroke-linejoin="round" />
+    <text x="40" y="0" text-anchor="middle" font-family="'Yu Gothic UI', 'Hiragino Sans', sans-serif" font-size="14" font-weight="800" fill="#0f172a">南大学</text>
+    <circle cx="-68" cy="48" r="5.5" fill="#ffffff" stroke="#111827" stroke-width="1.8" />
+    <circle cx="-78" cy="64" r="3.8" fill="#ffffff" stroke="#111827" stroke-width="1.6" />
+  </g>
+
+  <!-- Bold JLPT indicator arrow pointing at left visitor holding map -->
+  <path d="M 48 198 L 100 198 L 100 184 L 132 206 L 100 228 L 100 214 L 48 214 Z" fill="#0f172a" />
+
+  <!-- Left Visitor (arrow points here) -->
+  <g transform="translate(198, 266)">
+    <path d="M -20 58 L -24 154 L -6 154 L 0 92 L 6 154 L 24 154 L 20 58 Z" fill="#cbd5e1" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" />
+    <ellipse cx="-16" cy="158" rx="17" ry="7" fill="#e2e8f0" stroke="#111827" stroke-width="2.2" />
+    <ellipse cx="18" cy="158" rx="17" ry="7" fill="#e2e8f0" stroke="#111827" stroke-width="2.2" />
+    <path d="M -18 -50 L 18 -50 C 30 -44 34 -26 32 58 L -32 58 C -34 -26 -30 -44 -18 -50 Z" fill="#ffffff" stroke="#111827" stroke-width="2.6" stroke-linejoin="round" />
+    <path d="M 28 -28 L 66 -2 L 58 10 L 22 -6" fill="#ffffff" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" />
+    <polygon points="48,-22 72,-10 72,26 48,14" fill="#f8fafc" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" />
+    <polygon points="72,-10 96,-22 96,14 72,26" fill="#ffffff" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" />
+    <path d="M 54 -4 L 68 2 M 78 4 L 90 -4" stroke="#64748b" stroke-width="1.6" />
+    <rect x="-8" y="-62" width="16" height="14" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <circle cx="0" cy="-86" r="28" fill="#ffffff" stroke="#111827" stroke-width="2.6" />
+    <path d="M -26 -92 C -24 -118 18 -120 27 -92 C 16 -98 -8 -98 -26 -92 Z" fill="#94a3b8" stroke="#111827" stroke-width="2.2" />
+    <circle cx="6" cy="-85" r="2.4" fill="#111827" />
+    <circle cx="18" cy="-85" r="2.4" fill="#111827" />
+    <ellipse cx="12" cy="-71" rx="3.8" ry="3" fill="#ffffff" stroke="#111827" stroke-width="1.8" />
+    <text x="-48" y="-108" font-size="22" font-weight="800" fill="#0f172a">?</text>
+  </g>
+
+  <!-- Right Local Passerby -->
+  <g transform="translate(454, 268)">
+    <path d="M -20 56 L -22 152 L -4 152 L 2 90 L 8 152 L 26 152 L 20 56 Z" fill="#e2e8f0" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" />
+    <ellipse cx="-14" cy="156" rx="17" ry="7" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" />
+    <ellipse cx="16" cy="156" rx="17" ry="7" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" />
+    <path d="M -18 -50 L 18 -50 C 30 -44 32 -26 30 58 L -30 58 C -32 -26 -30 -44 -18 -50 Z" fill="#f1f5f9" stroke="#111827" stroke-width="2.6" stroke-linejoin="round" />
+    <path d="M -28 -26 L -56 -4 L -46 8 L -22 -6" fill="#f1f5f9" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" />
+    <rect x="-8" y="-62" width="16" height="14" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <circle cx="-2" cy="-86" r="28" fill="#ffffff" stroke="#111827" stroke-width="2.6" />
+    <path d="M -28 -92 C -24 -120 20 -120 26 -92 C 28 -72 24 -56 16 -52 C 16 -76 2 -92 -28 -92 Z" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" />
+    <circle cx="-16" cy="-85" r="2.4" fill="#111827" />
+    <circle cx="-4" cy="-85" r="2.4" fill="#111827" />
+    <path d="M -14 -72 Q -8 -68 -2 -72" fill="none" stroke="#111827" stroke-width="1.9" stroke-linecap="round" />
+  </g>
+</svg>

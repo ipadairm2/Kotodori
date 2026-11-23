@@ -1,5 +1,11 @@
-import { useId, useState, useSyncExternalStore } from 'react'
-import type { BilingualText, ExamFuriganaMap, ListeningTurn } from '@/types/exams'
+import { useId, useMemo, useState, useSyncExternalStore } from 'react'
+import type {
+  BilingualText,
+  ExamFuriganaMap,
+  ExamQuestionVisual,
+  ListeningTurn,
+  MondaiFormat,
+} from '@/types/exams'
 import { useTranslation } from '@/lib/useTranslation'
 import {
   cancelSpeech,
@@ -10,10 +16,17 @@ import {
   subscribeSpeech,
 } from '@/lib/speech'
 import { ExamText } from './ExamText'
+import { ListeningVisual } from './ListeningVisual'
 
 interface ListeningPlayerProps {
   turns: ListeningTurn[]
+  visual?: ExamQuestionVisual
   sceneNote?: BilingualText
+  mondaiFormat?: MondaiFormat
+  selectedIndex?: number
+  answerIndex?: number
+  revealed?: boolean
+  onSelectChoice?: (index: number) => void
   furiganaMap?: ExamFuriganaMap | null
   showFurigana: boolean
   canRevealTranscript: boolean
@@ -23,7 +36,13 @@ const RATES = [0.8, 0.9, 1.0] as const
 
 export function ListeningPlayer({
   turns,
+  visual,
   sceneNote,
+  mondaiFormat,
+  selectedIndex,
+  answerIndex,
+  revealed,
+  onSelectChoice,
   furiganaMap,
   showFurigana,
   canRevealTranscript,
@@ -38,6 +57,7 @@ export function ListeningPlayer({
   const [showScript, setShowScript] = useState(false)
 
   const supported = isSpeechSupported()
+  const speakers = useMemo(() => Array.from(new Set(turns.map(t => t.speaker))), [turns])
 
   const handlePlayAll = (startIdx = 0) => {
     if (!supported || turns.length === 0) return
@@ -66,12 +86,47 @@ export function ListeningPlayer({
 
   return (
     <div className="rounded-xl border border-structural bg-surface/70 p-4 mb-4 space-y-3">
-      {sceneNote && (
+      {visual && (
+        <ListeningVisual
+          visual={visual}
+          selectedIndex={selectedIndex}
+          answerIndex={answerIndex}
+          revealed={revealed}
+          onSelectChoice={onSelectChoice}
+        />
+      )}
+
+      {visual && sceneNote ? (
+        <details className="rounded-lg border border-structural bg-card/70 px-3 py-2 text-xs text-muted">
+          <summary className="cursor-pointer font-mono uppercase tracking-[0.06em] text-accent font-semibold select-none">
+            {l('Text description (hint)', 'Mô tả tranh bằng chữ (gợi ý)')}
+          </summary>
+          <p className="mt-1.5 leading-relaxed">{localize(sceneNote)}</p>
+        </details>
+      ) : sceneNote ? (
         <div className="rounded-lg border border-structural bg-card/80 px-3 py-2 text-xs text-muted leading-relaxed">
           <span className="font-mono uppercase tracking-[0.06em] text-accent font-semibold mr-2">
             {l('Scene context', 'Bối cảnh tranh')}
           </span>
           {localize(sceneNote)}
+        </div>
+      ) : (
+        <div className="rounded-lg border border-structural bg-card/75 px-3 py-2 flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div className="flex flex-wrap items-center gap-1.5">
+            {speakers.map(sp => (
+              <span
+                key={sp}
+                className="font-mono text-[11px] px-2 py-0.5 rounded-md bg-surface border border-structural text-ink"
+              >
+                {sp}
+              </span>
+            ))}
+          </div>
+          <span className="font-mono text-[11px] text-muted">
+            {mondaiFormat === 'quick_response'
+              ? l('Audio-only · Listen for 3 spoken replies (1 / 2 / 3)', 'Chỉ nghe · Chọn 1 trong 3 câu đáp (1 / 2 / 3)')
+              : l('Printed text choices · Listen to dialogue', 'Trắc nghiệm chữ · Nghe hội thoại')}
+          </span>
         </div>
       )}
 

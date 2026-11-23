@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+  <rect width="640" height="480" fill="#ffffff" />
+  <line x1="18" y1="205" x2="622" y2="205" stroke="#cbd5e1" stroke-width="2" />
+  <!-- Background occupied table -->
+  <g transform="translate(152, 132)" opacity="0.72">
+    <rect x="-52" y="16" width="104" height="10" rx="3" fill="#e2e8f0" stroke="#64748b" stroke-width="1.8" />
+    <line x1="0" y1="26" x2="0" y2="72" stroke="#64748b" stroke-width="2.2" />
+    <circle cx="-38" cy="-16" r="16" fill="#f1f5f9" stroke="#64748b" stroke-width="1.8" />
+    <path d="M -56 16 Q -38 -2 -20 16 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="1.8" />
+    <circle cx="38" cy="-16" r="16" fill="#f1f5f9" stroke="#64748b" stroke-width="1.8" />
+    <path d="M 20 16 Q 38 -2 56 16 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="1.8" />
+  </g>
+
+  <!-- Clear EMPTY 2-chair foreground table -->
+  <g transform="translate(495, 315)">
+    <rect x="-56" y="-8" width="112" height="12" rx="4" fill="#ffffff" stroke="#111827" stroke-width="2.6" />
+    <line x1="0" y1="4" x2="0" y2="96" stroke="#111827" stroke-width="3.5" />
+    <ellipse cx="0" cy="98" rx="36" ry="8" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" />
+    <path d="M -94 -40 L -94 42 L -56 42 L -56 90 M -94 42 L -94 90" fill="none" stroke="#111827" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 94 -40 L 94 42 L 56 42 L 56 90 M 94 42 L 94 90" fill="none" stroke="#111827" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 0 -46 L 0 -30 M -8 -38 L 8 -38" stroke="#64748b" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Bold JLPT indicator arrow pointing at pointing friend (x=248) -->
+  <path d="M 239 62 L 257 62 L 257 112 L 271 112 L 248 144 L 225 112 L 239 112 Z" fill="#0f172a" />
+
+  <!-- Companion on left -->
+  <g transform="translate(116, 286)">
+    <path d="M -18 52 L -20 134 L -4 134 L 2 84 L 8 134 L 24 134 L 20 52 Z" fill="#cbd5e1" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" />
+    <path d="M -16 -38 L 16 -38 C 26 -34 28 -20 26 52 L -24 52 C -26 -20 -24 -34 -16 -38 Z" fill="#f1f5f9" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" />
+    <rect x="-7" y="-50" width="14" height="12" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <circle cx="0" cy="-74" r="26" fill="#ffffff" stroke="#111827" stroke-width="2.5" />
+    <path d="M -24 -80 C -22 -106 18 -108 26 -80 C 26 -62 20 -44 12 -40 C 12 -62 2 -76 -24 -80 Z" fill="#94a3b8" stroke="#111827" stroke-width="2.1" />
+    <circle cx="5" cy="-73" r="2.3" fill="#111827" />
+    <circle cx="15" cy="-73" r="2.3" fill="#111827" />
+    <path d="M 6 -62 Q 11 -59 16 -62" fill="none" stroke="#111827" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+
+  <!-- Pointing friend (x=248, arrow points here) -->
+  <g transform="translate(248, 282)">
+    <path d="M -20 54 L -24 138 L -6 138 L 0 86 L 6 138 L 24 138 L 20 54 Z" fill="#e2e8f0" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M -18 -40 L 18 -40 C 28 -36 30 -20 28 54 L -26 54 C -28 -20 -26 -36 -18 -40 Z" fill="#ffffff" stroke="#111827" stroke-width="2.6" stroke-linejoin="round" />
+    <path d="M 28 -24 L 102 -12 L 98 0 L 26 -6" fill="#ffffff" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" />
+    <path d="M 100 -12 L 118 -12 L 98 0 Z" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <rect x="-7" y="-52" width="14" height="12" fill="#ffffff" stroke="#111827" stroke-width="2" />
+    <circle cx="0" cy="-74" r="26" fill="#ffffff" stroke="#111827" stroke-width="2.6" />
+    <path d="M -24 -80 C -22 -106 18 -108 26 -82 C 16 -88 -6 -88 -24 -80 Z" fill="#cbd5e1" stroke="#111827" stroke-width="2.2" />
+    <circle cx="-11" cy="-73" r="2.4" fill="#111827" />
+    <circle cx="-1" cy="-73" r="2.4" fill="#111827" />
+    <path d="M -12 -60 Q -5 -55 2 -60" fill="none" stroke="#111827" stroke-width="2" stroke-linecap="round" />
+  </g>
+</svg>

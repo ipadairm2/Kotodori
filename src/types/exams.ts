@@ -71,6 +71,21 @@ export interface ExamQuestionSolution {
   trap?: BilingualText
 }
 
+export type ListeningDiagramId =
+  | 'jlpt-2025-12-m1-q01'
+  | 'jlpt-2025-07-m1-q01'
+  | 'jlpt-2025-07-m1-q03'
+  | 'jlpt-2025-07-m1-q04'
+  | 'jlpt-2025-07-m1-q06'
+  | 'jlpt-2025-07-m1-q08'
+
+export interface ExamQuestionVisual {
+  imageSrc?: string
+  diagramId?: ListeningDiagramId
+  layout: 'quad' | 'scene'
+  alt: BilingualText
+}
+
 export interface ExamQuestion {
   id: string
   number: number
@@ -81,6 +96,7 @@ export interface ExamQuestion {
   passageId?: string
   /** True when the original listening question used a visual illustration (rendered as sceneNote). */
   hadImageInOriginal?: boolean
+  visual?: ExamQuestionVisual
   sceneNote?: BilingualText
   dialogue?: ListeningTurn[]
   solution: ExamQuestionSolution

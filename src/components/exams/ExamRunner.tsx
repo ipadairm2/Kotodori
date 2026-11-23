@@ -15,6 +15,7 @@ import { SpeakButton } from '@/components/ui/SpeakButton'
 import { ExamText } from './ExamText'
 import { PassageCard } from './PassageCard'
 import { ListeningPlayer } from './ListeningPlayer'
+import { MondaiVisualBanner } from './MondaiVisualBanner'
 import { QuestionBreakdown } from './QuestionBreakdown'
 
 interface ExamRunnerProps {
@@ -493,6 +494,9 @@ export function ExamRunner({
                 <p lang="ja" className="jp text-sm sm:text-base mt-2 leading-relaxed">
                   <ExamText text={m.instructionJa} furiganaMap={furiganaMap} showFurigana={showFurigana} />
                 </p>
+                {section === 'listening' && (
+                  <MondaiVisualBanner format={m.format} mondaiNumber={m.mondaiNumber} />
+                )}
                 <details className="mt-3 text-xs sm:text-sm">
                   <summary className="cursor-pointer font-semibold text-accent min-h-9 inline-flex items-center">
                     {l('Exam strategy & trap tip', 'Chiến thuật làm bài & tránh bẫy')}
@@ -586,7 +590,13 @@ export function ExamRunner({
                       {q.dialogue && q.dialogue.length > 0 && (
                         <ListeningPlayer
                           turns={q.dialogue}
+                          visual={q.visual}
                           sceneNote={q.sceneNote}
+                          mondaiFormat={m.format}
+                          selectedIndex={chosen}
+                          answerIndex={q.answerIndex}
+                          revealed={revealed}
+                          onSelectChoice={ci => handleChoose(q, ci)}
                           furiganaMap={furiganaMap}
                           showFurigana={showFurigana}
                           canRevealTranscript={revealed}
