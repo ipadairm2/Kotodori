@@ -1,0 +1,1502 @@
+{
+  "examDate": "2026-12-06",
+  "scoringGuide": {
+    "totalMax": 180,
+    "passTotal": 90,
+    "knowledgeReadingMax": 120,
+    "passKnowledgeReading": 38,
+    "listeningMax": 60,
+    "passListening": 19,
+    "sections": [
+      {
+        "code": "vocab",
+        "title": {
+          "vi": "Từ vựng & Hán tự (文字・語彙)",
+          "en": "Vocabulary & Kanji (文字・語彙)"
+        },
+        "officialMinutes": 25,
+        "questionCount": 28,
+        "pacingAdvice": {
+          "vi": "Ca thi riêng 25 phút. Giữ nhịp ~40 giây/câu cho Mondai 1 đến 3 (khoảng 13 phút), dành 8 đến 9 phút cho Mondai 4 (Đồng nghĩa) và Mondai 5 (Cách dùng từ), còn 3 phút kiểm tra phiếu tô OMR trước khi thu bài.",
+          "en": "Standalone 25-minute section. Aim for ~40s per item across Mondai 1 to 3 (~13m), reserve 8 to 9m for Mondai 4 (Paraphrase) and Mondai 5 (Usage), and keep 3m to verify your OMR bubbles."
+        }
+      },
+      {
+        "code": "grammar",
+        "title": {
+          "vi": "Ngữ pháp (文法 · Chung ca 55 phút với Đọc hiểu)",
+          "en": "Grammar (文法 · Shares 55m booklet with Reading)"
+        },
+        "officialMinutes": 30,
+        "questionCount": 21,
+        "pacingAdvice": {
+          "vi": "Chú ý: Ngữ pháp và Đọc hiểu thi chung một ca 55 phút. Khuyến nghị phân bổ tối đa 30 phút cho Ngữ pháp (Mondai 1: 12 phút, Mondai 2 ★: 8 phút, Mondai 3 Điền đoạn văn: 8 phút, dự phòng 2 phút). Không sa lầy quá lâu ở câu ★ kẻo mất giờ Đọc hiểu.",
+          "en": "Official rule: Grammar and Reading share one 55-minute booklet. Cap Grammar at 30 minutes max (Mondai 1: 12m, Mondai 2 ★: 8m, Mondai 3 Cloze: 8m, buffer: 2m) so Reading is never squeezed."
+        }
+      },
+      {
+        "code": "reading",
+        "title": {
+          "vi": "Đọc hiểu (読解 · Chung ca 55 phút với Ngữ pháp)",
+          "en": "Reading Comprehension (読解 · Shares 55m booklet with Grammar)"
+        },
+        "officialMinutes": 25,
+        "questionCount": 8,
+        "pacingAdvice": {
+          "vi": "Dành trọn 25 phút còn lại trong ca 55 phút. Mẹo chiến thuật: làm Mondai 6 (Tìm thông tin Q28, Q29) trước trong 5 đến 6 phút để lấy chắc điểm, rồi quay lại Mondai 4 (Đoạn ngắn Q22 đến Q24, ~8 phút) và Mondai 5 (Đoạn vừa Q25 đến Q27, ~10 phút).",
+          "en": "Allocate 25 minutes from the shared 55-minute booklet. Tactical order: tackle Mondai 6 Info Retrieval (Q28, Q29) first in 5 to 6m for reliable points, then Mondai 4 Short (Q22 to Q24, ~8m), then Mondai 5 Medium (Q25 to Q27, ~10m)."
+        }
+      },
+      {
+        "code": "listening",
+        "title": {
+          "vi": "Nghe hiểu (聴解)",
+          "en": "Listening Comprehension (聴解)"
+        },
+        "officialMinutes": 35,
+        "questionCount": 28,
+        "pacingAdvice": {
+          "vi": "Audio chỉ phát một lần duy nhất. Tận dụng nhạc dạo và ví dụ mẫu để đọc lướt đáp án Mondai 1 và 2; gạch chéo loại trừ ngay khi nghe thấy thông tin bị bác bỏ và chốt ô đáp án trước khi tiếng chuông chuyển câu vang lên.",
+          "en": "Audio plays once only. Pre-read M1 and M2 printed options during intro/example tracks, cross out rejected details live as you listen, and lock in your bubble before the chime moves to the next question."
+        }
+      }
+    ]
+  },
+  "scientificPrinciples": [
+    {
+      "id": "pretest-effect",
+      "title": {
+        "vi": "Hiệu ứng tiền kiểm tra chẩn đoán (Diagnostic Pre-test Effect)",
+        "en": "Diagnostic Pre-test Effect"
+      },
+      "summary": {
+        "vi": "Làm ngay một đề thật bấm giờ chuẩn trước khi ôn lý thuyết giúp bộ não nhận diện chính xác lỗ hổng theo từng Mondai và ghi nhớ sâu gấp đôi khi xem lời giải (Richland, Kornell & Kao).",
+        "en": "Sitting a timed real past paper before reviewing theory exposes exact Mondai weak spots immediately and primes memory pathways for deeper encoding when reviewing solutions (Richland, Kornell & Kao)."
+      }
+    },
+    {
+      "id": "active-recall-error-log",
+      "title": {
+        "vi": "Truy xuất chủ động & Sổ tay lỗi sai (Active Recall & Error Notebook)",
+        "en": "Active Recall & Error Notebook"
+      },
+      "summary": {
+        "vi": "Thay vì đọc lướt bảng ngữ pháp thụ động, hãy tự gợi nhớ quy tắc qua câu hỏi kiểm tra (Recall Prompt) và lưu mọi câu sai vào Sổ tay lỗi sai để ép não truy xuất lại từ gốc.",
+        "en": "Forcing retrieval from memory via recall prompts and logging every miss by root cause beats passive rereading by 2x to 3x retention (Roediger & Karpicke)."
+      }
+    },
+    {
+      "id": "spaced-retesting",
+      "title": {
+        "vi": "Lặp lại ngắt quãng chu kỳ +1 / +3 / +7 ngày",
+        "en": "Spaced Re-testing (+1 / +3 / +7 Days)"
+      },
+      "summary": {
+        "vi": "Mỗi lỗi sai được kiểm tra lại theo mốc +1 ngày, +3 ngày và +7 ngày cho đến khi đạt chuỗi 2 lần đúng liên tiếp, chặn đứng đường cong quên lãng trước ngày thi 06/12.",
+        "en": "Re-testing flagged mistakes at expanding intervals (Day +1, +3, +7) until hitting a 2-correct streak flattens the forgetting curve right into Dec 6 exam morning."
+      }
+    },
+    {
+      "id": "interleaved-drilling",
+      "title": {
+        "vi": "Luyện tập đan xen đa dạng bài (Interleaved Mondai Drilling)",
+        "en": "Interleaved Mondai Drilling"
+      },
+      "summary": {
+        "vi": "Trộn lẫn ghép câu ★, tự-tha động từ, bẫy nghe đổi ngôi và phân biệt chữ Hán trong cùng một buổi luyện giúp tăng phản xạ phân biệt mẫu câu khi chuyển Mondai liên tục trong phòng thi.",
+        "en": "Mixing star-order syntax, transitivity pairs, listening perspective traps, and kanji discrimination inside one session sharpens rule selection under exam switching load (Rohrer & Taylor)."
+      }
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-11-23",
+      "phase": {
+        "vi": "Giai đoạn 1 · Chẩn đoán & Rà soát 07/2026",
+        "en": "Phase 1 · Diagnostic & 07/2026 Audit"
+      },
+      "title": {
+        "vi": "Đo năng lực nền: Từ vựng & Ngữ pháp đề 12/2025",
+        "en": "Baseline Diagnosis: 12/2025 Vocab & Grammar"
+      },
+      "focusTags": [
+        "Diagnostic",
+        "12/2025",
+        "Vocab",
+        "Grammar"
+      ],
+      "tasks": [
+        {
+          "id": "day01-t1",
+          "title": {
+            "vi": "Thi thử bấm giờ Từ vựng đề JLPT 12/2025 (25 phút)",
+            "en": "Timed 12/2025 Vocabulary Section (25m)"
+          },
+          "detail": {
+            "vi": "Làm trọn vẹn 28 câu không tra từ điển để lấy chuẩn thời gian thật 25 phút.",
+            "en": "Complete all 28 items closed-book under strict 25-minute exam timing."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-12&section=vocab",
+          "hrefLabel": {
+            "vi": "Làm Từ vựng 12/2025",
+            "en": "Open 12/2025 Vocab"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day01-t2",
+          "title": {
+            "vi": "Thi thử bấm giờ Ngữ pháp đề JLPT 12/2025 (30 phút)",
+            "en": "Timed 12/2025 Grammar Section (30m)"
+          },
+          "detail": {
+            "vi": "Giữ trần 30 phút cho 21 câu (M1 đến M3), đánh dấu cờ những câu ★ phân vân.",
+            "en": "Cap at 30 minutes across 21 items (M1 to M3); flag uncertain ★ items."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-12&section=grammar",
+          "hrefLabel": {
+            "vi": "Làm Ngữ pháp 12/2025",
+            "en": "Open 12/2025 Grammar"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day01-t3",
+          "title": {
+            "vi": "Mổ xẻ toàn bộ câu sai vào Sổ tay lỗi sai",
+            "en": "Audit Misses in Error Notebook"
+          },
+          "detail": {
+            "vi": "Đọc giải thích chi tiết từng câu sai và ghi chú lý do chọn nhầm (sai trợ từ, sai thì, bẫy nghĩa).",
+            "en": "Inspect solution notes for every miss and classify root cause (particle, tense, meaning trap)."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Mở Sổ tay lỗi sai",
+            "en": "Open Mistakes"
+          },
+          "minutes": 20
+        },
+        {
+          "id": "day01-t4",
+          "title": {
+            "vi": "Quét nhanh 28 mục Từ vựng kỳ gần nhất 07/2026",
+            "en": "Scan Latest 07/2026 Vocab Audit (28 items)"
+          },
+          "detail": {
+            "vi": "Đánh dấu 'Đã nắm' hoặc 'Cần ôn' cho 28 từ vựng và Hán tự vừa thi tháng 07/2026.",
+            "en": "Tag Known vs Review across the 28 reconstructed 07/2026 vocabulary items."
+          },
+          "href": "/exams?tab=audit",
+          "hrefLabel": {
+            "vi": "Rà soát 07/2026",
+            "en": "Open 07/2026 Audit"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-11-24",
+      "phase": {
+        "vi": "Giai đoạn 1 · Chẩn đoán & Rà soát 07/2026",
+        "en": "Phase 1 · Diagnostic & 07/2026 Audit"
+      },
+      "title": {
+        "vi": "Hoàn tất chẩn đoán Đọc & Nghe 12/2025 + Ôn lỗi ngày +1",
+        "en": "Finish 12/2025 Reading & Listening + Day+1 Retest"
+      },
+      "focusTags": [
+        "Diagnostic",
+        "Reading",
+        "Listening",
+        "Day+1"
+      ],
+      "tasks": [
+        {
+          "id": "day02-t1",
+          "title": {
+            "vi": "Thi thử bấm giờ Đọc hiểu đề JLPT 12/2025 (25 phút)",
+            "en": "Timed 12/2025 Reading Section (25m)"
+          },
+          "detail": {
+            "vi": "Thử chiến thuật làm Mondai 6 (Q28, Q29) trước trong 6 phút rồi mới quay về M4, M5.",
+            "en": "Practice doing Info Retrieval (Q28, Q29) first in 6m before M4 Short and M5 Medium."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-12&section=reading",
+          "hrefLabel": {
+            "vi": "Làm Đọc hiểu 12/2025",
+            "en": "Open 12/2025 Reading"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day02-t2",
+          "title": {
+            "vi": "Thi thử Nghe hiểu đề JLPT 12/2025 (35 phút)",
+            "en": "Full 12/2025 Listening Section (35m)"
+          },
+          "detail": {
+            "vi": "Nghe 1 lượt duy nhất toàn bộ 28 câu (M1 đến M4); sau khi nộp mới mở script hội thoại đối chiếu.",
+            "en": "Play each track once across all 28 items; inspect transcripts only after submitting."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-12&section=listening",
+          "hrefLabel": {
+            "vi": "Làm Nghe hiểu 12/2025",
+            "en": "Open 12/2025 Listening"
+          },
+          "minutes": 35
+        },
+        {
+          "id": "day02-t3",
+          "title": {
+            "vi": "Kiểm tra lại lỗi sai ngày +1 (từ bài Ngày 1)",
+            "en": "Day +1 Retest on Yesterday's Mistakes"
+          },
+          "detail": {
+            "vi": "Giải lại các câu sai Từ vựng/Ngữ pháp Ngày 1 mà không nhìn gợi ý.",
+            "en": "Re-attempt Day 1 vocab/grammar misses cold without reading hints first."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Ôn lại lỗi sai",
+            "en": "Retest Mistakes"
+          },
+          "minutes": 25
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-11-25",
+      "phase": {
+        "vi": "Giai đoạn 1 · Chẩn đoán & Rà soát 07/2026",
+        "en": "Phase 1 · Diagnostic & 07/2026 Audit"
+      },
+      "title": {
+        "vi": "Truy xuất sâu Ngữ pháp 07/2026 & Cặp Tự-Tha động từ",
+        "en": "07/2026 Grammar Recall & Transitivity / Verb Forms"
+      },
+      "focusTags": [
+        "07/2026 Audit",
+        "Grammar",
+        "Transitivity",
+        "Verb Forms"
+      ],
+      "tasks": [
+        {
+          "id": "day03-t1",
+          "title": {
+            "vi": "Truy xuất chủ động 21 mục Ngữ pháp kỳ 07/2026",
+            "en": "Active Recall on 21 Grammar Items (07/2026)"
+          },
+          "detail": {
+            "vi": "Tự trả lời từng Recall Prompt trước khi mở đáp án (trọng tâm: 間 vs 間に, ところ, しか, Bị động gián tiếp).",
+            "en": "Answer each Recall Prompt before revealing keys (間 vs 間に, ところ, しか, adversative passive)."
+          },
+          "href": "/exams?tab=audit",
+          "hrefLabel": {
+            "vi": "Rà soát Ngữ pháp 07/2026",
+            "en": "Open 07/2026 Audit"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day03-t2",
+          "title": {
+            "vi": "Luyện cặp Tự động từ · Tha động từ",
+            "en": "Drill Transitivity Pairs"
+          },
+          "detail": {
+            "vi": "Ôn chắc cặp hay bẫy như 始める/始まる, 止める/止まる, 決める/決まる, 閉める/閉まる.",
+            "en": "Sharpen tricky pairs (始める/始まる, 止める/止まる, 決める/決まる) tested across Vocab M2 & Listening."
+          },
+          "href": "/transitivity",
+          "hrefLabel": {
+            "vi": "Mở Tự-Tha động từ",
+            "en": "Open Transitivity"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day03-t3",
+          "title": {
+            "vi": "Kiểm tra chia thể Bị động · Sai khiến · Khả năng",
+            "en": "Drill Passive, Causative & Potential Conjugation"
+          },
+          "detail": {
+            "vi": "Bảo đảm phản xạ chia đúng động từ nhóm 1/2/3 sang thể bị động (飲まれる), khả năng (行ける) và ý chí (しよう).",
+            "en": "Verify instant conjugation across Group 1/2/3 verbs for passive, potential, and volitional."
+          },
+          "href": "/verb-forms",
+          "hrefLabel": {
+            "vi": "Luyện chia thể",
+            "en": "Open Verb Forms"
+          },
+          "minutes": 25
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-11-26",
+      "phase": {
+        "vi": "Giai đoạn 2 · Củng cố mẫu câu & Chu kỳ +3 ngày",
+        "en": "Phase 2 · Pattern Consolidation & Day+3 Retest"
+      },
+      "title": {
+        "vi": "Cày đề VDJ #18 (Từ vựng · Ngữ pháp) + Ôn lỗi ngày +3",
+        "en": "VDJ Mock #18 (Vocab & Grammar) + Day+3 Retest"
+      },
+      "focusTags": [
+        "VDJ #18",
+        "Day+3",
+        "Kanji"
+      ],
+      "tasks": [
+        {
+          "id": "day04-t1",
+          "title": {
+            "vi": "Làm Từ vựng VDJ #18 (34 câu, tối đa 25 phút)",
+            "en": "Timed VDJ #18 Vocabulary (34 items, 25m)"
+          },
+          "detail": {
+            "vi": "Tập trung Mondai 4 (Đồng nghĩa) và Mondai 5 (Cách dùng từ けいかく, こまかい).",
+            "en": "Focus on M4 Paraphrase and M5 Word Usage accuracy under time pressure."
+          },
+          "href": "/exams?tab=papers&exam=vdj-2026-18&section=vocab",
+          "hrefLabel": {
+            "vi": "Làm Từ vựng VDJ #18",
+            "en": "Open VDJ #18 Vocab"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day04-t2",
+          "title": {
+            "vi": "Làm Ngữ pháp VDJ #18 (25 câu, tối đa 30 phút)",
+            "en": "Timed VDJ #18 Grammar (25 items, 30m)"
+          },
+          "detail": {
+            "vi": "Chú ý câu kính ngữ Q15 (いたします), câu ★ ghép từ Q16 đến Q20, và bẫy おもしろそうだ vs おもしろいそうだ.",
+            "en": "Watch keigo Q15 (いたします), star order Q16 to Q20, and the おもしろそうだ stem trap."
+          },
+          "href": "/exams?tab=papers&exam=vdj-2026-18&section=grammar",
+          "hrefLabel": {
+            "vi": "Làm Ngữ pháp VDJ #18",
+            "en": "Open VDJ #18 Grammar"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day04-t3",
+          "title": {
+            "vi": "Kiểm tra lại lỗi sai chu kỳ +3 ngày (từ Ngày 1)",
+            "en": "Day +3 Spaced Retest (Day 1 Misses)"
+          },
+          "detail": {
+            "vi": "Đạt chuỗi 2 lần đúng liên tiếp để xóa các mục cũ khỏi danh sách cần ôn.",
+            "en": "Clear Day 1 mistakes by hitting a 2-correct streak without peeking at explanations."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Ôn lỗi +3 ngày",
+            "en": "Retest Day+3"
+          },
+          "minutes": 20
+        },
+        {
+          "id": "day04-t4",
+          "title": {
+            "vi": "Phân biệt chữ Hán gần nét qua Hán tự N4",
+            "en": "Discriminate Look-alike N4 Kanji"
+          },
+          "detail": {
+            "vi": "Rà lại các cặp dễ nhầm: 洗/払, 始/初, 薬/楽/葉, 交/校, 帰/戻.",
+            "en": "Review visual confusers surfaced in recent exams: 洗/払, 始/初, 薬/楽/葉, 交/校."
+          },
+          "href": "/kanji",
+          "hrefLabel": {
+            "vi": "Mở Kanji",
+            "en": "Open Kanji"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-11-27",
+      "phase": {
+        "vi": "Giai đoạn 2 · Củng cố mẫu câu & Chu kỳ +3 ngày",
+        "en": "Phase 2 · Pattern Consolidation & Day+3 Retest"
+      },
+      "title": {
+        "vi": "Tín hiệu Đọc & Nghe 07/2026 + Luyện tốc độ Đọc hiểu",
+        "en": "07/2026 Reading & Listening Cues + Reading Speed"
+      },
+      "focusTags": [
+        "07/2026 Audit",
+        "Reading",
+        "Listening",
+        "SRS"
+      ],
+      "tasks": [
+        {
+          "id": "day05-t1",
+          "title": {
+            "vi": "Ôn 8 mục Đọc hiểu & 28 tín hiệu Nghe hiểu 07/2026",
+            "en": "Audit 8 Reading & 28 Listening Cues (07/2026)"
+          },
+          "detail": {
+            "vi": "Ghi nhớ các bẫy kinh điển: さけ = 酒 (rượu nấu ăn, không phải cá hồi), 無料 vs 別料金, 夕方, 変更.",
+            "en": "Lock in critical traps: さけ = cooking sake (酒, not salmon), 無料 vs 別料金, 変更 direction."
+          },
+          "href": "/exams?tab=audit",
+          "hrefLabel": {
+            "vi": "Mở Rà soát 07/2026",
+            "en": "Open 07/2026 Audit"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day05-t2",
+          "title": {
+            "vi": "Luyện phân tích câu dài & Đọc hiểu trong TORI",
+            "en": "Practice Passage Breakdown & Reading Speed"
+          },
+          "detail": {
+            "vi": "Đọc 2 bài ngắn/trung bình tập xác định chủ ngữ ẩn trong câu phức có mệnh đề bổ nghĩa.",
+            "en": "Read 2 passages focusing on tracking omitted subjects and relative clauses."
+          },
+          "href": "/reading",
+          "hrefLabel": {
+            "vi": "Mở Đọc hiểu",
+            "en": "Open Reading"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day05-t3",
+          "title": {
+            "vi": "Xử lý thẻ SRS đến hạn + Lỗi Ngày 2 (+3 ngày)",
+            "en": "Clear Due SRS Cards + Day 2 (+3d) Mistakes"
+          },
+          "detail": {
+            "vi": "Giải quyết hết thẻ từ vựng N4 đến hạn và rà lại lỗi Nghe/Đọc của Ngày 2.",
+            "en": "Finish due vocab SRS cards and retest Day 2 reading/listening misses."
+          },
+          "href": "/review",
+          "hrefLabel": {
+            "vi": "Mở Ôn tập SRS",
+            "en": "Open Review"
+          },
+          "minutes": 25
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-11-28",
+      "phase": {
+        "vi": "Giai đoạn 2 · Củng cố mẫu câu & Chu kỳ +3 ngày",
+        "en": "Phase 2 · Pattern Consolidation & Day+3 Retest"
+      },
+      "title": {
+        "vi": "Mô phỏng trọn vẹn phần Viết đề JLPT 07/2025 (80 phút)",
+        "en": "Full Written Simulation: JLPT 07/2025 (80m)"
+      },
+      "focusTags": [
+        "07/2025",
+        "Simulation",
+        "Written"
+      ],
+      "tasks": [
+        {
+          "id": "day06-t1",
+          "title": {
+            "vi": "Từ vựng đề JLPT 07/2025 (25 phút)",
+            "en": "Timed 07/2025 Vocabulary Section (25m)"
+          },
+          "detail": {
+            "vi": "Bấm giờ chuẩn 25 phút; chú ý câu M5 近所 (cũng xuất hiện lại ở 07/2026) và ていねい.",
+            "en": "Run strict 25m timer; note 近所 and ていねい which recurred in 07/2026."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-07&section=vocab",
+          "hrefLabel": {
+            "vi": "Làm Từ vựng 07/2025",
+            "en": "Open 07/2025 Vocab"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day06-t2",
+          "title": {
+            "vi": "Ngữ pháp đề JLPT 07/2025 (30 phút)",
+            "en": "Timed 07/2025 Grammar Section (30m)"
+          },
+          "detail": {
+            "vi": "Rèn cặp bẫy kinh điển 07/2025: ために vs ように, ている vs るところ, しか vs だけ, もらう vs くれる.",
+            "en": "Drill 07/2025 grammar staples: ために vs ように, るところ, しか vs だけ, もらう vs くれる."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-07&section=grammar",
+          "hrefLabel": {
+            "vi": "Làm Ngữ pháp 07/2025",
+            "en": "Open 07/2025 Grammar"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day06-t3",
+          "title": {
+            "vi": "Đọc hiểu đề JLPT 07/2025 (25 phút liền mạch)",
+            "en": "Timed 07/2025 Reading Section (25m)"
+          },
+          "detail": {
+            "vi": "Làm nối tiếp ngay sau Ngữ pháp để luyện sức bền cho ca thi chung 55 phút.",
+            "en": "Run straight after Grammar to simulate the uninterrupted 55-minute combined sitting."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-07&section=reading",
+          "hrefLabel": {
+            "vi": "Làm Đọc hiểu 07/2025",
+            "en": "Open 07/2025 Reading"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day06-t4",
+          "title": {
+            "vi": "Chấm điểm & Gắn thẻ lỗi sai đề 07/2025",
+            "en": "Review & Tag 07/2025 Written Misses"
+          },
+          "detail": {
+            "vi": "So sánh tỷ lệ đúng của 07/2025 với 12/2025 để xem tiến bộ ở Mondai yếu nhất.",
+            "en": "Compare accuracy by Mondai format against Day 1 baseline."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Xem Sổ tay lỗi sai",
+            "en": "Check Mistakes"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-11-29",
+      "phase": {
+        "vi": "Giai đoạn 2 · Củng cố mẫu câu & Chu kỳ +3 ngày",
+        "en": "Phase 2 · Pattern Consolidation & Day+3 Retest"
+      },
+      "title": {
+        "vi": "Nghe hiểu JLPT 07/2025 + Ôn +1/+3 & Cách dùng từ / Cho-Nhận",
+        "en": "07/2025 Listening + Spaced Retest & Usage / Giving-Receiving"
+      },
+      "focusTags": [
+        "07/2025",
+        "Listening",
+        "Day+1",
+        "Usage"
+      ],
+      "tasks": [
+        {
+          "id": "day07-t1",
+          "title": {
+            "vi": "Nghe hiểu đề JLPT 07/2025 (35 phút)",
+            "en": "Full 07/2025 Listening Section (35m)"
+          },
+          "detail": {
+            "vi": "Luyện bắt số lượng/điều kiện ở M1 (thuốc sáng-tối, thiệp, cỡ áo 0=M/1=L) và phép lịch sự M3.",
+            "en": "Train live filtering in M1 (dosage, card sorting, size codes) and polite requests in M3."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-07&section=listening",
+          "hrefLabel": {
+            "vi": "Làm Nghe hiểu 07/2025",
+            "en": "Open 07/2025 Listening"
+          },
+          "minutes": 35
+        },
+        {
+          "id": "day07-t2",
+          "title": {
+            "vi": "Kiểm tra lại lỗi Ngày 6 (+1) và Ngày 4 (+3)",
+            "en": "Spaced Retest: Day 6 (+1d) & Day 4 (+3d) Misses"
+          },
+          "detail": {
+            "vi": "Ôn tập trung toàn bộ câu sai VDJ #18 và 07/2025 cho tới khi giải thích được tại sao 3 đáp án kia sai.",
+            "en": "Retest VDJ #18 and 07/2025 misses until you can state why each distractor is wrong."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Ôn Sổ tay lỗi sai",
+            "en": "Open Mistakes"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day07-t3",
+          "title": {
+            "vi": "Luyện Cách dùng từ (Mondai 5) & Động từ Cho-Nhận / Kính ngữ",
+            "en": "Drill Word Usage & Giving-Receiving / Keigo"
+          },
+          "detail": {
+            "vi": "Dùng mục Cách dùng từ trong TORI và ôn cụm てくれる / てもらう / てあげる / いただく.",
+            "en": "Review nuanced word usage pairs plus directional verbs (くれる/もらう/あげる/いただく)."
+          },
+          "href": "/usage",
+          "hrefLabel": {
+            "vi": "Mở Cách dùng từ",
+            "en": "Open Usage"
+          },
+          "minutes": 30
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-11-30",
+      "phase": {
+        "vi": "Giai đoạn 3 · Đóng lỗ hổng đan xen & Chu kỳ +7 ngày",
+        "en": "Phase 3 · Interleaved Weak-Point Closing & Day+7"
+      },
+      "title": {
+        "vi": "Cày đề VDJ #16 + Kiểm tra lại chu kỳ +7 ngày (tuần 1)",
+        "en": "VDJ Mock #16 + Day+7 Retest Sweep"
+      },
+      "focusTags": [
+        "VDJ #16",
+        "Day+7",
+        "Star Order"
+      ],
+      "tasks": [
+        {
+          "id": "day08-t1",
+          "title": {
+            "vi": "Làm Từ vựng VDJ #16 (34 câu, tối đa 25 phút)",
+            "en": "Timed VDJ #16 Vocabulary (34 items, 25m)"
+          },
+          "detail": {
+            "vi": "Chú ý Mondai 4 Đồng nghĩa (しっぱい, りゆう, おたく, かたづけ) và Mondai 5 (おみまい, こしょう).",
+            "en": "Pay close attention to M4 paraphrases and M5 usage traps (おみまい, あさい, こしょう)."
+          },
+          "href": "/exams?tab=papers&exam=vdj-2026-16&section=vocab",
+          "hrefLabel": {
+            "vi": "Làm Từ vựng VDJ #16",
+            "en": "Open VDJ #16 Vocab"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day08-t2",
+          "title": {
+            "vi": "Làm Ngữ pháp VDJ #16 (25 câu, tối đa 30 phút)",
+            "en": "Timed VDJ #16 Grammar (25 items, 30m)"
+          },
+          "detail": {
+            "vi": "Rà lại các điểm trùng cao với 07/2026: 五つも, すっかり, 〜ところだから, のを聞いた, 借りたので.",
+            "en": "Note strong overlaps with 07/2026: 五つも, すっかり, ところだから, のを聞いた, 借りたので."
+          },
+          "href": "/exams?tab=papers&exam=vdj-2026-16&section=grammar",
+          "hrefLabel": {
+            "vi": "Làm Ngữ pháp VDJ #16",
+            "en": "Open VDJ #16 Grammar"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day08-t3",
+          "title": {
+            "vi": "Tổng kiểm tra chu kỳ +7 ngày (lỗi từ Ngày 1 & 2)",
+            "en": "Day +7 Mastery Check (Week 1 Mistakes)"
+          },
+          "detail": {
+            "vi": "Quét toàn bộ lỗi của tuần đầu xem còn mục nào bị tái phạm không.",
+            "en": "Verify zero regression on Week 1 mistakes across all four sections."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Kiểm tra +7 ngày",
+            "en": "Run Day+7 Check"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day08-t4",
+          "title": {
+            "vi": "Ôn cụm Suy đoán · Truyền đạt · Phỏng đoán trong Ngữ pháp",
+            "en": "Contrast Conjecture, Hearsay & Appearance"
+          },
+          "detail": {
+            "vi": "Phân biệt dứt điểm そうだ (nghe nói) vs そうだ (trông có vẻ) vs ようだ vs らしい vs はずだ.",
+            "en": "Separate そうだ (hearsay vs appearance), ようだ, らしい, and はずだ side by side."
+          },
+          "href": "/grammar",
+          "hrefLabel": {
+            "vi": "Mở Ngữ pháp",
+            "en": "Open Grammar"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-12-01",
+      "phase": {
+        "vi": "Giai đoạn 3 · Đóng lỗ hổng đan xen & Chu kỳ +7 ngày",
+        "en": "Phase 3 · Interleaved Weak-Point Closing & Day+7"
+      },
+      "title": {
+        "vi": "Luyện đan xen: Đồng âm · Ghép Hán tự · Phản xạ Nghe M3/M4",
+        "en": "Interleaved Circuit: Homophones, Kanji & M3/M4 Audio"
+      },
+      "focusTags": [
+        "Interleaved",
+        "Homophones",
+        "Listening M3/M4"
+      ],
+      "tasks": [
+        {
+          "id": "day09-t1",
+          "title": {
+            "vi": "Khóa chặt bẫy Đồng âm & Trường âm (酒 vs 鮭, 危険 vs 経験)",
+            "en": "Lock Down Homophones & Vowel-Length Traps"
+          },
+          "detail": {
+            "vi": "Ôn nhóm từ đồng âm/dễ nhầm trong bài nghe và M1 Từ vựng.",
+            "en": "Drill homophones and short/long vowel confusers that hit Listening and Vocab M1."
+          },
+          "href": "/homophones",
+          "hrefLabel": {
+            "vi": "Mở Từ đồng âm",
+            "en": "Open Homophones"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day09-t2",
+          "title": {
+            "vi": "Luyện nhanh ghép câu ★ & Quy tắc biến âm Kanji",
+            "en": "Interleaved Kanji Writing & Star-Order Logic"
+          },
+          "detail": {
+            "vi": "Ôn quy tắc biến âm ghép chữ Hán (như 近所 きんじょ, 景色 けしき) và rèn ghép câu ★ theo cụm chủ-vị.",
+            "en": "Review rendaku rules (近所, 景色) plus chunking strategy for Mondai 2 ★ items."
+          },
+          "href": "/kanji",
+          "hrefLabel": {
+            "vi": "Ôn Kanji",
+            "en": "Open Kanji"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day09-t3",
+          "title": {
+            "vi": "Phản xạ 13 mẫu hội thoại Nghe M3/M4 trong bản 07/2026",
+            "en": "Rapid Drill: 13 M3/M4 Utterance & Quick-Response Cues"
+          },
+          "detail": {
+            "vi": "Đọc Prompt tiếng Việt/Anh và bật ra ngay câu tiếng Nhật chuẩn (おじゃまします, 売っていますか, 消すのを忘れていました).",
+            "en": "Trigger instant spoken responses from the 07/2026 M3/M4 recall prompts."
+          },
+          "href": "/exams?tab=audit",
+          "hrefLabel": {
+            "vi": "Luyện Nghe 07/2026",
+            "en": "Open 07/2026 Audit"
+          },
+          "minutes": 35
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-12-02",
+      "phase": {
+        "vi": "Giai đoạn 3 · Đóng lỗ hổng đan xen & Chu kỳ +7 ngày",
+        "en": "Phase 3 · Interleaved Weak-Point Closing & Day+7"
+      },
+      "title": {
+        "vi": "Luyện sức bền ca chung 55 phút & Bẫy Bị động / Sai khiến",
+        "en": "55m Combined Stamina Drill & Passive/Causative Traps"
+      },
+      "focusTags": [
+        "Stamina 55m",
+        "Passive",
+        "SRS"
+      ],
+      "tasks": [
+        {
+          "id": "day10-t1",
+          "title": {
+            "vi": "Luyện lại phần Ngữ pháp + Đọc hiểu đề 12/2025 liền mạch 55 phút",
+            "en": "55-Minute Unbroken Grammar + Reading Re-run (12/2025)"
+          },
+          "detail": {
+            "vi": "Thử thách hoàn tất cả 29 câu trong 50 phút (dư 5 phút soát lại toàn bộ phiếu câu hỏi).",
+            "en": "Push to finish all 29 combined items in 50m, leaving 5m to verify tough items."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-12&section=grammar",
+          "hrefLabel": {
+            "vi": "Làm lại ca 55 phút",
+            "en": "Open 12/2025 Grammar"
+          },
+          "minutes": 50
+        },
+        {
+          "id": "day10-t2",
+          "title": {
+            "vi": "Kiểm tra phân biệt Bị động trực tiếp · Gián tiếp · Vật vô tri",
+            "en": "Contrast Direct, Adversative & Inanimate Passives"
+          },
+          "detail": {
+            "vi": "Rà lại 3 dạng bị động hay ra nhất: 弟に飲まれた (07/2026), 先生に言われた (07/2025), 牛乳から作られる (12/2025).",
+            "en": "Drill all 3 N4 passive types: adversative (07/2026), direct (07/2025), and inanimate (12/2025)."
+          },
+          "href": "/verb-forms",
+          "hrefLabel": {
+            "vi": "Ôn Chia thể",
+            "en": "Open Verb Forms"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day10-t3",
+          "title": {
+            "vi": "Quét thẻ SRS đến hạn trong ngày",
+            "en": "Clear Daily Due SRS Vocabulary"
+          },
+          "detail": {
+            "vi": "Giữ hàng đợi SRS về 0 để nhẹ đầu trước giai đoạn nước rút.",
+            "en": "Keep SRS queue at zero before the final 4-day taper."
+          },
+          "href": "/review",
+          "hrefLabel": {
+            "vi": "Mở SRS Review",
+            "en": "Open Review"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-12-03",
+      "phase": {
+        "vi": "Giai đoạn 3 · Đóng lỗ hổng đan xen & Chu kỳ +7 ngày",
+        "en": "Phase 3 · Interleaved Weak-Point Closing & Day+7"
+      },
+      "title": {
+        "vi": "Xóa trắng Sổ tay lỗi sai + Rà soát 25 mẫu Ngữ pháp cốt lõi",
+        "en": "Zero Out Mistakes + 25 High-Frequency Pattern Sprint"
+      },
+      "focusTags": [
+        "Zero Mistakes",
+        "25 Patterns",
+        "Counters"
+      ],
+      "tasks": [
+        {
+          "id": "day11-t1",
+          "title": {
+            "vi": "Giải quyết toàn bộ câu còn tồn trong Sổ tay lỗi sai",
+            "en": "Zero-Out Sprint on All Remaining Mistakes"
+          },
+          "detail": {
+            "vi": "Bao gồm mốc +7 ngày cho lỗi 07/2025 và mốc +3 ngày cho VDJ #16.",
+            "en": "Covers Day+7 for 07/2025 misses and Day+3 for VDJ #16 misses."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Xóa sạch lỗi sai",
+            "en": "Zero Out Mistakes"
+          },
+          "minutes": 35
+        },
+        {
+          "id": "day11-t2",
+          "title": {
+            "vi": "Truy xuất nhanh 25 mẫu Ngữ pháp tần suất cao",
+            "en": "Rapid Recall Across All 25 High-Frequency Patterns"
+          },
+          "detail": {
+            "vi": "Đọc tên mẫu, tự đặt 1 câu ví dụ và đọc phần Bẫy hay gặp ở mỗi mẫu.",
+            "en": "Produce 1 example sentence per pattern and check each exam tip."
+          },
+          "href": "/exams?tab=plan",
+          "hrefLabel": {
+            "vi": "Xem 25 mẫu cốt lõi",
+            "en": "Open 25 Patterns"
+          },
+          "minutes": 30
+        },
+        {
+          "id": "day11-t3",
+          "title": {
+            "vi": "Ôn Loại từ đếm & Giờ giấc cho Nghe hiểu M1 / Đọc M6",
+            "en": "Drill Counters & Time Expressions for Listening M1 & Reading M6"
+          },
+          "detail": {
+            "vi": "Ôn 枚, 個, 本, 冊, 匹, 台 và các mốc ngày tháng (〜日前, 〜までに) hay ra ở bảng biểu.",
+            "en": "Review counters (枚/個/本/冊) and deadline cues (までに/日前) common in M1 & M6."
+          },
+          "href": "/counters",
+          "hrefLabel": {
+            "vi": "Mở Loại từ đếm",
+            "en": "Open Counters"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-12-04",
+      "phase": {
+        "vi": "Giai đoạn 4 · Tổng duyệt & Giảm tải trước ngày thi",
+        "en": "Phase 4 · Dress Rehearsal & Taper"
+      },
+      "title": {
+        "vi": "Tổng duyệt Nghe 07/2025 & Từ vựng 12/2025 + Soát lỗi cuối",
+        "en": "Final Dress Rehearsal: 07/2025 Listening & 12/2025 Vocab"
+      },
+      "focusTags": [
+        "Dress Rehearsal",
+        "Listening",
+        "Vocab"
+      ],
+      "tasks": [
+        {
+          "id": "day12-t1",
+          "title": {
+            "vi": "Tổng duyệt tốc độ Từ vựng 12/2025 (mục tiêu ≤ 20 phút)",
+            "en": "Speed Check: 12/2025 Vocabulary (target ≤ 20m)"
+          },
+          "detail": {
+            "vi": "Giữ nhịp dứt khoát, không sửa đáp án theo cảm tính nếu không có căn cứ rõ ràng.",
+            "en": "Test smooth, decisive pacing with zero second-guessing unless clearly warranted."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-12&section=vocab",
+          "hrefLabel": {
+            "vi": "Chạy thử Từ vựng",
+            "en": "Run Vocab Check"
+          },
+          "minutes": 20
+        },
+        {
+          "id": "day12-t2",
+          "title": {
+            "vi": "Tổng duyệt Nghe hiểu 07/2025 ở tốc độ thật (35 phút)",
+            "en": "Full 07/2025 Listening Dress Rehearsal (35m)"
+          },
+          "detail": {
+            "vi": "Luyện giữ tập trung liên tục suốt 35 phút không tua lại, mô phỏng đúng loa phòng thi.",
+            "en": "Maintain unbroken 35m focus with zero replays to mimic exam-hall speakers."
+          },
+          "href": "/exams?tab=papers&exam=jlpt-2025-07&section=listening",
+          "hrefLabel": {
+            "vi": "Tổng duyệt Nghe",
+            "en": "Run Listening"
+          },
+          "minutes": 35
+        },
+        {
+          "id": "day12-t3",
+          "title": {
+            "vi": "Chốt sổ các câu đã đánh dấu sao (Bookmarked)",
+            "en": "Final Check on Bookmarked Mistakes"
+          },
+          "detail": {
+            "vi": "Xem lại tối đa 10 câu khó nhất bạn từng ghim dấu sao để khóa chắc trước khi giảm tải.",
+            "en": "Review your top ~10 starred traps before entering light taper tomorrow."
+          },
+          "href": "/exams?tab=mistakes",
+          "hrefLabel": {
+            "vi": "Mở câu ghim sao",
+            "en": "Check Bookmarks"
+          },
+          "minutes": 25
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-12-05",
+      "phase": {
+        "vi": "Giai đoạn 4 · Tổng duyệt & Giảm tải trước ngày thi",
+        "en": "Phase 4 · Dress Rehearsal & Taper"
+      },
+      "title": {
+        "vi": "Giảm tải nhẹ trước ngày thi · Chốt bẫy trọng điểm 07/2026",
+        "en": "Pre-Exam Taper · High-Yield 07/2026 Trap Review"
+      },
+      "focusTags": [
+        "Taper",
+        "07/2026 Traps",
+        "Sleep Early"
+      ],
+      "tasks": [
+        {
+          "id": "day13-t1",
+          "title": {
+            "vi": "Chỉ rà các mục còn gắn thẻ 'Cần ôn' trong Audit 07/2026",
+            "en": "Review Only 'Needs Review' Items in 07/2026 Audit"
+          },
+          "detail": {
+            "vi": "Không nhồi nhét kiến thức mới; chỉ lướt nhanh những mục bạn tự đánh dấu còn lấn cấn.",
+            "en": "No new cramming; sweep only items still flagged for review."
+          },
+          "href": "/exams?tab=audit",
+          "hrefLabel": {
+            "vi": "Lướt mục Cần ôn",
+            "en": "Review Flagged Audit"
+          },
+          "minutes": 25
+        },
+        {
+          "id": "day13-t2",
+          "title": {
+            "vi": "Ôn nhẹ thẻ SRS đến hạn & Cách dùng từ hay nhầm",
+            "en": "Light SRS & High-Trap Usage Refresh"
+          },
+          "detail": {
+            "vi": "Giữ nhịp đọc thanh thoát 20 phút để não không bị quá tải trước giờ ngủ.",
+            "en": "Keep a light 20m refresh so your working memory stays fresh for tomorrow."
+          },
+          "href": "/review",
+          "hrefLabel": {
+            "vi": "Ôn nhẹ SRS",
+            "en": "Light SRS Review"
+          },
+          "minutes": 20
+        },
+        {
+          "id": "day13-t3",
+          "title": {
+            "vi": "Chuẩn bị túi đồ đi thi & Ngủ sớm đủ 7 đến 8 tiếng",
+            "en": "Pack Exam Kit & Sleep 7 to 8 Hours"
+          },
+          "detail": {
+            "vi": "Kiểm tra Phiếu dự thi (受験票), CCCD/Hộ chiếu, 2 bút chì 2B gọt sẵn, tẩy mềm, đồng hồ kim (không thông minh), tắt báo thức phụ.",
+            "en": "Pack Test Voucher, ID, two sharpened 2B/HB pencils, clean eraser, analog watch (no smartwatches), and set an early bedtime."
+          },
+          "href": "/exams?tab=plan",
+          "hrefLabel": {
+            "vi": "Xem hướng dẫn điểm",
+            "en": "Check Scoring Guide"
+          },
+          "minutes": 20
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "date": "2026-12-06",
+      "phase": {
+        "vi": "Ngày thi chính thức · 06/12/2026",
+        "en": "Official Exam Day · Dec 6, 2026"
+      },
+      "title": {
+        "vi": "Checklist buổi sáng trước giờ vào phòng thi",
+        "en": "Exam-Day Morning Checklist & Ear Warm-up"
+      },
+      "focusTags": [
+        "Exam Day",
+        "2026-12-06",
+        "Warm-up"
+      ],
+      "tasks": [
+        {
+          "id": "day14-t1",
+          "title": {
+            "vi": "Làm ấm tai 10 phút với các câu Nghe M3/M4 mẫu 07/2026",
+            "en": "10m Gentle Japanese Ear Warm-up (07/2026 M3/M4)"
+          },
+          "detail": {
+            "vi": "Nghe lại vài mẫu ngắn quen thuộc để chuyển não sang kênh tiếng Nhật, tuyệt đối không học từ mới.",
+            "en": "Listen to a few familiar short utterances to prime Japanese audio processing without cramming."
+          },
+          "href": "/exams?tab=audit",
+          "hrefLabel": {
+            "vi": "Làm ấm tai",
+            "en": "Warm-up Audio"
+          },
+          "minutes": 10
+        },
+        {
+          "id": "day14-t2",
+          "title": {
+            "vi": "Nhớ mốc chia giờ vàng trong phòng thi",
+            "en": "Final Pacing & OMR Mental Checklist"
+          },
+          "detail": {
+            "vi": "Ca 1 Từ vựng: 25p | Ca 2 Ngữ pháp (≤30p) + Đọc hiểu (25p, làm M6 Q28-29 trước) | Ca 3 Nghe: 35p (không bỏ trống ô nào!).",
+            "en": "Sec 1 Vocab: 25m | Sec 2 Grammar (≤30m) + Reading (25m, M6 first) | Sec 3 Listening: 35m (leave zero blanks)."
+          },
+          "href": "/exams?tab=plan",
+          "hrefLabel": {
+            "vi": "Xem chiến thuật giờ",
+            "en": "Review Pacing"
+          },
+          "minutes": 10
+        },
+        {
+          "id": "day14-t3",
+          "title": {
+            "vi": "Rà soát giấy tờ & đến điểm thi sớm 30 phút",
+            "en": "Verify Documents & Arrive 30m Early"
+          },
+          "detail": {
+            "vi": "Kiểm tra lại Phiếu dự thi, giấy tờ tùy thân, bút chì 2B, tẩy, nước uống và hít thở sâu tự tin bước vào phòng thi.",
+            "en": "Double-check Test Voucher, ID, pencils, eraser, and arrive 30 minutes early calm and rested."
+          },
+          "minutes": 5
+        }
+      ]
+    }
+  ],
+  "highFrequencyPatterns": [
+    {
+      "grammarId": "g_222",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Xuất hiện ở cả 5 đề! Luôn nhận biết sắc thái hối tiếc hoặc hoàn tất ngoài ý muốn (遅れてしまいました, 飲まれてしまった); cẩn thận dạng rút gọn văn nói 「〜ちゃう / 〜じゃう」 trong bài nghe.",
+        "en": "Appears in all 5 papers! Signals regret or unintended completion (e.g., 飲まれてしまった); watch the spoken contraction 「〜ちゃう / 〜じゃう」 in Listening."
+      }
+    },
+    {
+      "grammarId": "g_253",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Nối nguyên nhân-kết quả khách quan phổ biến nhất ở Ngữ pháp lẫn Nghe M1/M2. Nhớ quy tắc chia trước ので: tính từ な và danh từ bắt buộc thêm な (静かなので, 病気なので).",
+        "en": "Top objective cause linker in Grammar and Listening M1/M2. Always insert な after na-adjectives and nouns before ので (静かなので, 雨なので)."
+      }
+    },
+    {
+      "grammarId": "g_103",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Khi người khác làm ơn cho TÔI (hoặc gia đình tôi), chủ ngữ là người đó (〜が/は) và động từ kết bằng 「〜てくれる」 (như 07/2026 Q10: 駅員が教えてくれた). Đừng nhầm chiều với 「〜てもらう」.",
+        "en": "Use 「〜てくれる」 when another person is the subject doing a favor FOR the speaker (07/2026 Q10: 駅員が教えてくれた); never flip subject roles with 「〜てもらう」."
+      }
+    },
+    {
+      "grammarId": "g_160",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Biến đổi trạng thái tự nhiên: tính từ い bỏ い + くなる (痛くなった), tính từ な/danh từ + になる (元気になりました, 中止になっている). Phân biệt dứt khoát với tác động chủ quan 「〜にする」.",
+        "en": "Natural state change: i-adj drops い + くなる; na-adj/noun + になる. Contrast strictly with deliberate choice 「〜にする」."
+      }
+    },
+    {
+      "grammarId": "g_149",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Đuôi 「〜んです」 đi kèm cặp 「どうして〜んですか」(07/2026 Q13, VDJ #16 Q7) và lời giải thích hoàn cảnh; tính từ な và danh từ phải thêm な trước んです (大変なんです).",
+        "en": "Pairs constantly with 「どうして〜んですか」 (07/2026 Q13, VDJ #16 Q7) and explanatory answers; remember to add な after nouns/na-adjectives before んです."
+      }
+    },
+    {
+      "grammarId": "g_204",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Mẫu chốt chọn lựa cực hay gặp trong gọi món và hẹn lịch (07/2026 Q2: カレーにする, 12/2025 Listening: 赤にしよう). Luôn dùng trợ từ に trước する (tuyệt đối không dùng をする).",
+        "en": "Staple choice pattern in ordering food and picking options (07/2026 Q2: カレーにする, 12/2025: 赤にしよう). Always takes に before する, never を."
+      }
+    },
+    {
+      "grammarId": "g_252",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Cực hay đứng ở ô cuối Mondai 3 bài văn (07/2026 Q21: のぼってみたいです, 12/2025 Q21: 作ってみませんか, 07/2025 Q20: 使ってみました). Nhớ bỏ い trước たい khi chia phủ định.",
+        "en": "Frequently closes Mondai 3 cloze essays (07/2026 Q21: のぼってみたいです, 12/2025 Q21: 作ってみませんか, 07/2025 Q20: 使ってみました)."
+      }
+    },
+    {
+      "grammarId": "g_264",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Chỉ mục đích: Vる (thể từ điển ý chí) / Nの + ために (07/2026 Q8: 医者になるために, 07/2025 Q8: 出るために). Phải phân biệt với 「ように」 đi cùng động từ khả năng hoặc phủ định không ý chí.",
+        "en": "Marks deliberate purpose with V-dict / Nの + ために (07/2026 Q8: 医者になるために, 07/2025 Q8). Contrasted in exams against ように (potential/non-volitional verbs)."
+      }
+    },
+    {
+      "grammarId": "g_219",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Bẫy chia thì quanh ところだ: 帰ってきたところです = vừa mới về (07/2026 Q9); ているところ = đang đúng lúc làm; chú ý trạng từ đi kèm như 「ちょうど今 / さっき」 vs 「これから」.",
+        "en": "Tense-sensitive aspect marker: V-た ところ = just finished (07/2026 Q9), V-ている ところ = right in the middle. Use adverbs like さっき vs これから to lock the tense."
+      }
+    },
+    {
+      "grammarId": "g_112",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "「N + なら」 nhận lại từ/chủ đề đối phương vừa nêu để gợi ý hoặc đối chiếu (07/2026 Q15: 自転車なら, 07/2025 Q3: バス停なら). Danh từ và tính từ な ghép thẳng なら không cần だ.",
+        "en": "「N + なら」 picks up a topic or condition to give advice or contrast (07/2026 Q15: 自転車なら, 07/2025 Q3: バス停なら). Attaches directly to nouns without だ."
+      }
+    },
+    {
+      "grammarId": "g_107",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025"
+      ],
+      "priority": "critical",
+      "examTip": {
+        "vi": "Quy tắc bất di bất dịch: 「しか」 bắt buộc kéo theo động từ PHỦ ĐỊNH ở cuối câu (07/2026 Q11: バナナしか食べません, 07/2025 Q19: 丸いお皿しか持っていませんでした). Câu khẳng định phải chọn 「だけ」.",
+        "en": "Ironclad rule: 「しか」 ALWAYS requires a negative verb at the clause end (07/2026 Q11, 07/2025 Q19). Affirmative sentences must use 「だけ」."
+      }
+    },
+    {
+      "grammarId": "g_255",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "「Vても / Aくても / Nでも」 = dù ~ đi nữa (thường đi cặp với どんなに như VDJ #16 Q19 hoặc cụm từ nghi vấn 何でも như VDJ #18 Q4). Đừng quên đổi い → くても với tính từ い.",
+        "en": "Concessive 'even if' (often paired with どんなに as in VDJ #16 Q19, or wh-words as 何でも in VDJ #18 Q4). Watch i-adj stem change い -> くても."
+      }
+    },
+    {
+      "grammarId": "g_254",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "Luôn đối đầu trực tiếp với 「ので」 trong Mondai 1 (12/2025 Q9: 作ったのに忘れた, VDJ #16 Q13). Dùng のに khi kết quả trái ngược kỳ vọng hoặc mang ý trách móc/tiếc nuối.",
+        "en": "Regularly pitted against 「ので」 in Mondai 1 (12/2025 Q9, VDJ #16 Q13). Use のに when the outcome defies expectation; nouns/na-adj take な before のに."
+      }
+    },
+    {
+      "grammarId": "g_188",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "「Aは Bに/から Vてもらう」 (12/2025 Q19: 教えてもらいました, 07/2025 Q10: つれていってもらいました) — chủ ngữ là NGƯỜI NHẬN ơn, đối tác giúp đỡ đứng trước に hoặc から.",
+        "en": "Subject is the BENEFICIARY receiving a favor from someone marked with に/から (12/2025 Q19, 07/2025 Q10). Potential 「〜てもらえない」 asks politely or expresses inability (VDJ #16 Q24)."
+      }
+    },
+    {
+      "grammarId": "g_146",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "Liệt kê nhiều tính chất/lý do cùng chiều: bắt buộc dùng THỂ THƯỜNG trước し (12/2025 Q6: じょうぶだし、軽いから; VDJ #16 Q9: せまいし). Bẫy rất hay lừa chọn だ bị thiếu hoặc chia sang で/な.",
+        "en": "Takes PLAIN FORM before し: nouns and na-adj must keep だ (12/2025 Q6: じょうぶだし, not じょうぶな/で)."
+      }
+    },
+    {
+      "grammarId": "g_144",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "「Thể thường + そうだ」 = Nghe nói là (12/2025 Q18: 飲んでいるそうです, VDJ #16 Q12: しているそうですよ). Phân biệt kỹ hình thức ghép: truyền đạt giữ nguyên đuôi い/だ (おいしそうだ ≠ おいしいそうだ).",
+        "en": "Hearsay attaches to the FULL plain form (12/2025 Q18: 飲んでいるそうです), keeping い and だ intact — unlike visual appearance そうだ which drops い/だ."
+      }
+    },
+    {
+      "grammarId": "g_194",
+      "appearedIn": [
+        "JLPT 07/2025",
+        "VDJ #18",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "Bị động trực tiếp: 「Bは Aに Vられる」 (VDJ #18 Q7: おこられた, Q13: たのまれた; VDJ #16 Q3: しかられた). Kiểm tra nhanh: người thực hiện hành động đi với に (hoặc から khi truyền đạt lời nói).",
+        "en": "Direct passive marks the agent with に or から (VDJ #18: おこられた/たのまれた, VDJ #16: しかられた). Also appears frequently inside Reading passages."
+      }
+    },
+    {
+      "grammarId": "g_224",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "VDJ #18"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "「Vておく」 = làm sẵn chuẩn bị trước (07/2026 Q17: いれておいたジュース, 12/2025 Listening: 沸かしておいてね / 置いておきました). Trong bài nghe rất hay biến âm nói thành 「〜とく」.",
+        "en": "Means doing something in advance for later use (07/2026 Q17: いれておいた, 12/2025 Listening: 置いておきました). Spoken contracts to 「〜とく」."
+      }
+    },
+    {
+      "grammarId": "g_247",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "Cặp bẫy thời gian kinh điển: 「間に」(một khoảnh khắc xảy ra bên trong quãng thời gian, 07/2026 Q7: 住んでいる間に) vs 「間」(suốt cả quãng) vs 「中」(đang trong lúc làm việc gì đó, 12/2025 Q8: さんぽ中).",
+        "en": "Classic time-span trap: 「間に」 (event happens at some point during the state, 07/2026 Q7) vs 「間」 (whole span) vs 「〜中」 (12/2025 Q8, 07/2025 Q6)."
+      }
+    },
+    {
+      "grammarId": "g_200",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "JLPT 07/2025"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "「V1ます (bỏ ます) + ながら V2」 = vừa làm V1 vừa làm V2 cùng một chủ thể (07/2026 Q26: 山村さんと話しながら食べる). Lưu ý trọng tâm hành động nằm ở vế V2 phía sau.",
+        "en": "Simultaneous actions by the SAME subject (07/2026 Q26: 話しながら食べる, 07/2025 R1: 食べながら決めませんか); the main action is always V2."
+      }
+    },
+    {
+      "grammarId": "g_177",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 12/2025",
+        "VDJ #16"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "「Vる/Vている + のを見る・聞く」 (VDJ #16 Q18: 言っているのを聞きました) dùng のを; nhưng nếu đổi thành tự động từ tri giác 「見える・聞こえる」 thì bắt buộc dùng のが (07/2026 Q4: 歌っているのが聞こえる).",
+        "en": "「見る / 聞く」 take のを (VDJ #16 Q18: 言っているのを聞きました), whereas natural-perception verbs 「見える / 聞こえる」 require のが (07/2026 Q4: 歌っているのが聞こえる)."
+      }
+    },
+    {
+      "grammarId": "g_195",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "JLPT 07/2025"
+      ],
+      "priority": "high",
+      "examTip": {
+        "vi": "Bị động gián tiếp/gây phiền phức cực trọng tâm (07/2026 Q17: ジュースを弟に飲まれてしまった; 07/2025 Q23: 泣いている自分を見られる). Người gây phiền đứng trước に, vật bị tác động vẫn giữ nguyên を.",
+        "en": "Adversative passive expresses being negatively affected (07/2026 Q17: ジュースを弟に飲まれてしまった; 07/2025 Q23). The agent takes に while the object retains を."
+      }
+    },
+    {
+      "grammarId": "g_154",
+      "appearedIn": [
+        "JLPT 07/2026",
+        "VDJ #16"
+      ],
+      "priority": "medium",
+      "examTip": {
+        "vi": "「Số lượng + も」 nhấn mạnh số lượng lớn gây ngạc nhiên (07/2026 Q3: 十回も見た, VDJ #16 Q4: 五つも食べてしまった). Hay được ghép chung với 「〜てしまった」.",
+        "en": "「Quantity + も」 stresses a surprisingly high amount (07/2026 Q3: 十回も見た, VDJ #16 Q4: 五つも食べてしまった), frequently paired with 〜てしまう."
+      }
+    },
+    {
+      "grammarId": "g_156",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025",
+        "VDJ #16"
+      ],
+      "priority": "medium",
+      "examTip": {
+        "vi": "「Vます (bỏ ます) + そう」 = trông có vẻ sắp xảy ra (VDJ #16 Q15: なきそうな顔, 07/2025 L3: 空きそう). Luôn dùng dạng đứng trước danh từ là 「〜そうな N」.",
+        "en": "「V-stem + そう」 indicates something is about to happen based on visual cues (VDJ #16 Q15: なきそうな顔); takes な before nouns."
+      }
+    },
+    {
+      "grammarId": "g_206",
+      "appearedIn": [
+        "JLPT 12/2025",
+        "JLPT 07/2025"
+      ],
+      "priority": "medium",
+      "examTip": {
+        "vi": "「Vる/Vない + ことになる」 = có quyết định/quy định khách quan từ công ty hay hoàn cảnh (12/2025 Q13: 東京にひっこすことになりました, 07/2025 L4: 入院することになった). Tránh nhầm với 「ことにする」 (tự mình quyết).",
+        "en": "Signals an external/organizational decision (12/2025 Q13: ひっこすことになりました, 07/2025 L4: 入院することになった), unlike self-decided 「ことにする」."
+      }
+    }
+  ]
+}

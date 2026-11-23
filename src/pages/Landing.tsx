@@ -14,6 +14,7 @@ const FEATURES: { glyph: string; ja: string; key: string; href: string}[] = [
   { glyph: "語", ja: "たんご", key: "vocabulary", href: "/vocab" },
   { glyph: "文", ja: "ぶんぽう", key: "grammar", href: "/grammar" },
   { glyph: "字", ja: "かんじ", key: "kanji", href: "/kanji" },
+  { glyph: "試", ja: "しけん", key: "exams", href: "/exams" },
   { glyph: "動", ja: "どうし", key: "verbForms", href: "/verb-forms" },
   { glyph: "対", ja: "じたどうし", key: "transitivity", href: "/transitivity" },
   { glyph: "別", ja: "つかいかた", key: "usage", href: "/usage" },

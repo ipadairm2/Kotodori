@@ -40,6 +40,7 @@
     "vocabulary": "Vocabulary",
     "review": "Review",
     "reading": "Reading",
+    "exams": "N4 Exams",
     "grammar": "Grammar",
     "verbForms": "Verb Forms",
     "transitivity": "Transitivity",
@@ -51,6 +52,7 @@
     "settings": "Settings",
     "groups": {
       "learn": "Study",
+      "exam": "JLPT Prep",
       "grammar": "Grammar",
       "kanji": "Kanji",
       "more": "More"

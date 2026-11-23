@@ -1,0 +1,2481 @@
+{
+  "id": "jlpt-2026-07-audit",
+  "examDate": "2026-07-05",
+  "title": {
+    "vi": "Tổng rà soát đề JLPT N4 · 07/2026 (Kỳ gần nhất)",
+    "en": "JLPT N4 · 07/2026 Knowledge Audit (Latest Sitting)"
+  },
+  "disclaimer": {
+    "vi": "Lưu ý: JEES và Japan Foundation không bao giờ công bố đề thi hay đáp án chính thức. Toàn bộ 85 mục kiến thức này được tổng hợp từ các bản phục dựng cộng đồng công khai (unojapano.com, gogakueducation.com, passjapanese.com, learnjp.net) thuần túy để rà soát từ vựng, chữ Hán, ngữ pháp, đọc hiểu và tín hiệu nghe hiểu mới nhất cho kỳ thi ngày 06/12/2026. Riêng Nghe hiểu Mondai 1 câu 5 là câu hỏi sơ đồ hình ảnh chưa có bản chép thoại xác thực trong nguồn công khai.",
+    "en": "Disclaimer: JEES and the Japan Foundation never publish official exam papers or answer keys. These 85 items are compiled from public community reconstructions (unojapano.com, gogakueducation.com, passjapanese.com, learnjp.net) purely to audit the newest tested vocabulary, kanji, grammar, reading, and listening cues ahead of the Dec 6, 2026 sitting. Note that Listening Mondai 1 Q5 was a visual diagram question whose audio prompt remains unverified in public logs."
+  },
+  "sources": [
+    "unojapano.com",
+    "gogakueducation.com",
+    "passjapanese.com",
+    "learnjp.net"
+  ],
+  "totalItems": 85,
+  "sections": [
+    {
+      "code": "vocab",
+      "title": {
+        "vi": "Từ vựng & Hán tự",
+        "en": "Vocabulary & Kanji"
+      },
+      "items": [
+        {
+          "id": "audit-0726-v-01",
+          "number": 1,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "洗って",
+          "kana": "あらって",
+          "hanviet": "Tẩy",
+          "meaning": {
+            "vi": "Rửa, giặt",
+            "en": "To wash"
+          },
+          "answerPattern": "手を洗って（てをあらって）",
+          "usageExample": "食事の前に、石けんで手を洗ってください。",
+          "recallPrompt": {
+            "vi": "Chữ 「洗」 (Tẩy) trong 「洗って」 đọc là gì và nghĩa là gì?",
+            "en": "How do you read 「洗って」 (洗 = Tẩy) and what does it mean?"
+          },
+          "takeaway": {
+            "vi": "「洗う」 đọc kun là あらう; khi ghép âm Hán đọc là せん như trong 洗濯（せんたく - giặt giũ）.",
+            "en": "「洗う」 reads あらう (kun'yomi), while its on'yomi is せん as in 洗濯 (せんたく, laundry)."
+          },
+          "trap": {
+            "vi": "Dễ nhầm chữ 「洗」 (Tẩy - rửa) với 「払」 (Phất - trả tiền, はらう) do nét gần giống nhau.",
+            "en": "Often confused visually with 「払う」 (はらう, to pay) or 「浴びる」 (あびる, to shower)."
+          }
+        },
+        {
+          "id": "audit-0726-v-02",
+          "number": 2,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "予定",
+          "kana": "よてい",
+          "hanviet": "Dự Định",
+          "meaning": {
+            "vi": "Dự định, lịch trình",
+            "en": "Schedule, plan"
+          },
+          "answerPattern": "来週の予定（よてい）",
+          "usageExample": "あした、高校のせんぱいに会う予定です。",
+          "recallPrompt": {
+            "vi": "「予定」 (Dự Định) đọc là gì? Trường âm có xuất hiện ở chữ nào không?",
+            "en": "What is the reading of 「予定」? Are there any long vowels?"
+          },
+          "takeaway": {
+            "vi": "Cả hai âm đều ngắn: よ + てい (không phải ようてい). Rất hay đi với mẫu Vる + 予定だ.",
+            "en": "Reads よてい with no long vowel in よ (not ようてい). Frequently pairs with V-dict + 予定だ."
+          },
+          "trap": {
+            "vi": "Tránh nhầm âm đọc dài ようてい hoặc nhầm nghĩa với 予約（よやく - đặt chỗ）.",
+            "en": "Watch out for the false long vowel ようてい or confusing it with 予約 (よやく, reservation)."
+          },
+          "grammarIds": [
+            "g_211"
+          ]
+        },
+        {
+          "id": "audit-0726-v-03",
+          "number": 3,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "弱く",
+          "kana": "よわく",
+          "hanviet": "Nhược",
+          "meaning": {
+            "vi": "Yếu, nhẹ (âm lượng/sức lực)",
+            "en": "Weakly, faintly"
+          },
+          "answerPattern": "火を弱くする（よわくする）",
+          "usageExample": "風がだんだん弱くなってきました。",
+          "recallPrompt": {
+            "vi": "Từ trái nghĩa với 「強い」 là 「弱く」 — đọc thế nào khi chia sang phó từ?",
+            "en": "What is the reading of 「弱く」 (the adverbial form of the opposite of 強い)?"
+          },
+          "takeaway": {
+            "vi": "Tính từ đuôi い「弱い」 (よわい) chia phó từ thành 「弱く」 (よわく) khi đi cùng なる / する.",
+            "en": "「弱い」 (よわい, weak) takes adverbial く (よわく) before なる or する."
+          },
+          "trap": {
+            "vi": "Không đọc nhầm sang âm On じゃく hay nhầm với 「強い」（つよい）.",
+            "en": "Do not confuse with its on'yomi じゃく or the opposite kanji 強 (つよい)."
+          },
+          "grammarIds": [
+            "g_158",
+            "g_159",
+            "g_160"
+          ]
+        },
+        {
+          "id": "audit-0726-v-04",
+          "number": 4,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "押して",
+          "kana": "おして",
+          "hanviet": "Áp",
+          "meaning": {
+            "vi": "Ấn, đẩy",
+            "en": "To push, to press"
+          },
+          "answerPattern": "ボタンを押して（おして）",
+          "usageExample": "ドアを強く押して開けてください。",
+          "recallPrompt": {
+            "vi": "Chữ 「押」 (Áp) trong 「押して」 đọc là gì?",
+            "en": "What is the reading of 「押して」 (to push/press)?"
+          },
+          "takeaway": {
+            "vi": "「押す」 (おす) là ngoại động từ nhóm 1; chia thể て thành おして (không biến âm xúc âm).",
+            "en": "「押す」 (おす) is a Group 1 verb; its て-form is おして."
+          },
+          "trap": {
+            "vi": "Nhớ cặp biển báo cửa: 「押す」（おす · Đẩy） đối lập với 「引く」（ひく · Kéo）.",
+            "en": "Keep the door-sign pair clear: 押す (おす, push) vs 引く (ひく, pull)."
+          }
+        },
+        {
+          "id": "audit-0726-v-05",
+          "number": 5,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "頭",
+          "kana": "あたま",
+          "hanviet": "Đầu",
+          "meaning": {
+            "vi": "Đầu, trí óc",
+            "en": "Head, mind"
+          },
+          "answerPattern": "頭が痛い（あたまがいたい）",
+          "usageExample": "さっきから頭が痛くて、薬を飲みました。",
+          "recallPrompt": {
+            "vi": "「頭」 đọc thuần Nhật là gì? Khi ghép với 「いい」 nghĩa là gì?",
+            "en": "What is the native reading of 「頭」, and what does 「頭がいい」 mean?"
+          },
+          "takeaway": {
+            "vi": "Đọc あたま; 「頭がいい」 mang nghĩa thông minh, nhanh trí.",
+            "en": "Reads あたま; the idiom 「頭がいい」 means smart/clever."
+          },
+          "trap": {
+            "vi": "Phân biệt với 「顔」（かお - khuôn mặt） và 「首」（くび - cổ）.",
+            "en": "Distinguish from 顔 (かお, face) and 首 (くび, neck)."
+          }
+        },
+        {
+          "id": "audit-0726-v-06",
+          "number": 6,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "近所",
+          "kana": "きんじょ",
+          "hanviet": "Cận Sở",
+          "meaning": {
+            "vi": "Hàng xóm, khu vực lân cận",
+            "en": "Neighborhood"
+          },
+          "answerPattern": "近所の人（きんじょのひと）",
+          "usageExample": "うちの近所には大きなスーパーがありません。",
+          "recallPrompt": {
+            "vi": "「近所」 đọc là きんしょ hay きんじょ?",
+            "en": "Is 「近所」 read きんしょ or きんじょ?"
+          },
+          "takeaway": {
+            "vi": "Bắt buộc biến âm đục (rendaku) thành きんじょ; đã từng xuất hiện ở JLPT 07/2025 Mondai 5.",
+            "en": "Takes rendaku voicing: きんじょ (also tested in JLPT 07/2025 Vocab Q27)."
+          },
+          "trap": {
+            "vi": "Bẫy kinh điển của JLPT: lựa chọn nhiễu luôn có きんしょ và ちかじょ.",
+            "en": "Classic JLPT distractor pair: きんしょ (unvoiced) and ちかじょ (mixed kun/on)."
+          }
+        },
+        {
+          "id": "audit-0726-v-07",
+          "number": 7,
+          "mondaiNumber": 1,
+          "format": "kanji_reading",
+          "targetJa": "雪",
+          "kana": "ゆき",
+          "hanviet": "Tuyết",
+          "meaning": {
+            "vi": "Tuyết",
+            "en": "Snow"
+          },
+          "answerPattern": "雪が降る（ゆきがふる）",
+          "usageExample": "きのうの夜から雪がたくさん降っています。",
+          "recallPrompt": {
+            "vi": "Chữ 「雪」 (Tuyết) đọc là gì và đi với động từ nào để chỉ tuyết rơi?",
+            "en": "How do you read 「雪」, and which verb pairs with it for 'to snow'?"
+          },
+          "takeaway": {
+            "vi": "Đọc ゆき, dùng với 降る（ふる） giống 雨（あめ）.",
+            "en": "Reads ゆき and pairs with 降る (ふる) just like 雨 (あめ)."
+          },
+          "trap": {
+            "vi": "Dễ nhìn nhầm bộ Vũ (雨) thành 「雲」（くも - mây） hoặc 「電」（でん - điện）.",
+            "en": "Don't mix up the rain-radical kanji 「雪」 (ゆき) with 「雲」 (くも, cloud)."
+          }
+        },
+        {
+          "id": "audit-0726-v-08",
+          "number": 8,
+          "mondaiNumber": 2,
+          "format": "kanji_writing",
+          "targetJa": "始めます",
+          "kana": "はじめます",
+          "hanviet": "Thủy",
+          "meaning": {
+            "vi": "Bắt đầu (ngoại động từ)",
+            "en": "To begin, to start (transitive)"
+          },
+          "answerPattern": "授業を始めます",
+          "usageExample": "では、これから会議を始めます。",
+          "recallPrompt": {
+            "vi": "Viết chữ Hán đúng cho 「はじめます」 khi có tân ngữ đi kèm 「〜を」.",
+            "en": "Choose the right kanji for 「はじめます」 (to start something)."
+          },
+          "takeaway": {
+            "vi": "「始めます」 (nhóm 2, ngoại động từ) mang nghĩa chủ động bắt đầu việc gì; tự động từ là 「始まります」.",
+            "en": "「始めます」 is transitive (〜を始める); the intransitive counterpart is 「始まります」 (〜が始まる)."
+          },
+          "trap": {
+            "vi": "Không nhầm chữ 「始」 (Thủy - bắt đầu) với 「初」 (Sơ - lần đầu, 初めて).",
+            "en": "Do not confuse 「始」 (begin) with 「初」 (first time, 初めて)."
+          },
+          "grammarIds": [
+            "g_161",
+            "g_162"
+          ]
+        },
+        {
+          "id": "audit-0726-v-09",
+          "number": 9,
+          "mondaiNumber": 2,
+          "format": "kanji_writing",
+          "targetJa": "野菜",
+          "kana": "やさい",
+          "hanviet": "Dã Thái",
+          "meaning": {
+            "vi": "Rau củ",
+            "en": "Vegetables"
+          },
+          "answerPattern": "新鮮な野菜（やさい）",
+          "usageExample": "健康のために、毎日野菜を食べるようにしています。",
+          "recallPrompt": {
+            "vi": "Viết cặp chữ Hán của từ 「やさい」 (rau củ).",
+            "en": "Write the two kanji for 「やさい」 (vegetables)."
+          },
+          "takeaway": {
+            "vi": "Ghép từ 野 (Dã - đồng ruộng) và 菜 (Thái - rau). Phân biệt bộ thảo đầu 艹 ở chữ 菜.",
+            "en": "Written 野菜 (野 field + 菜 greens). Notice the grass radical 艹 on 菜."
+          },
+          "trap": {
+            "vi": "Các đáp án nhiễu thường thay 「菜」 bằng 「薬」 (thuốc) hoặc 「果」 (quả).",
+            "en": "Distractors often swap 「菜」 for 「薬」 (medicine) or 「果」 (fruit)."
+          }
+        },
+        {
+          "id": "audit-0726-v-10",
+          "number": 10,
+          "mondaiNumber": 2,
+          "format": "kanji_writing",
+          "targetJa": "薬",
+          "kana": "くすり",
+          "hanviet": "Dược",
+          "meaning": {
+            "vi": "Thuốc",
+            "en": "Medicine"
+          },
+          "answerPattern": "薬を飲む（くすりをのむ）",
+          "usageExample": "ご飯を食べた後で、この薬を飲んでください。",
+          "recallPrompt": {
+            "vi": "Chọn đúng chữ Hán cho 「くすり」 (thuốc) và nhớ động từ đi kèm trong tiếng Nhật.",
+            "en": "Identify the kanji for 「くすり」 (medicine) and its collocating verb."
+          },
+          "takeaway": {
+            "vi": "Tiếng Nhật nói 「薬を飲む」 (uống thuốc) kể cả với thuốc viên hay thuốc bột.",
+            "en": "Japanese uses 「薬を飲む」 ('drink' medicine) for pills as well as liquids."
+          },
+          "trap": {
+            "vi": "Phân biệt 「薬」（くすり - có bộ 艹 phía trên） với 「楽」（たのしい - vui vẻ） và 「葉」（は - lá cây）.",
+            "en": "Watch the top 艹 radical: 「薬」 (medicine) vs 「楽」 (fun, no 艹) vs 「葉」 (leaf)."
+          }
+        },
+        {
+          "id": "audit-0726-v-11",
+          "number": 11,
+          "mondaiNumber": 2,
+          "format": "kanji_writing",
+          "targetJa": "交通",
+          "kana": "こうつう",
+          "hanviet": "Giao Thông",
+          "meaning": {
+            "vi": "Giao thông",
+            "en": "Traffic, transportation"
+          },
+          "answerPattern": "交通が便利だ（こうつうがべんりだ）",
+          "usageExample": "駅の近くなので、交通がとても便利です。",
+          "recallPrompt": {
+            "vi": "Chữ Hán nào ghép đúng cho từ 「こうつう」 (giao thông)?",
+            "en": "Which kanji compound spells 「こうつう」 (traffic/transportation)?"
+          },
+          "takeaway": {
+            "vi": "交 (Giao) + 通 (Thông); rất hay gặp trong cụm 「交通が便利/不便だ」.",
+            "en": "Spelled 交通 (Giao + Thông); commonly appears in 「交通が便利・不便」."
+          },
+          "trap": {
+            "vi": "Dễ nhầm 「交」 với 「校」 (trường học) hoặc 「通」 với 「道」 (con đường).",
+            "en": "Don't mix 「交」 with 「校」 (school) or 「通」 with 「道」 (road)."
+          }
+        },
+        {
+          "id": "audit-0726-v-12",
+          "number": 12,
+          "mondaiNumber": 2,
+          "format": "kanji_writing",
+          "targetJa": "足りません",
+          "kana": "たりません",
+          "hanviet": "Túc",
+          "meaning": {
+            "vi": "Không đủ, bị thiếu",
+            "en": "Not enough, insufficient"
+          },
+          "answerPattern": "時間が足りません（じかんがたりません）",
+          "usageExample": "あと千円足りないので、銀行でお金をおろします。",
+          "recallPrompt": {
+            "vi": "Viết chữ Hán cho 「たりません」 (không đủ) và nhớ động từ gốc thuộc nhóm mấy.",
+            "en": "Write the kanji for 「たりません」 (insufficient) and recall its verb group."
+          },
+          "takeaway": {
+            "vi": "Động từ nguyên mẫu là 「足りる」 (nhóm 2: たりる → たりません / たりない), chủ ngữ đi với trợ từ が.",
+            "en": "Dictionary form is Group 2 「足りる」 (たりる → たりません), taking が for the scarce thing."
+          },
+          "trap": {
+            "vi": "Không chia nhầm thành 「たりりません」 (nhóm 1) và không nhầm với 「足す」（たす - cộng thêm）.",
+            "en": "It is Group 2 (not たりりません); also distinguish from 「足す」 (たす, to add)."
+          }
+        },
+        {
+          "id": "audit-0726-v-13",
+          "number": 13,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "寂しい",
+          "kana": "さびしい",
+          "hanviet": "Tịch",
+          "meaning": {
+            "vi": "Buồn bã, cô đơn",
+            "en": "Lonely, lonesome"
+          },
+          "answerPattern": "一人暮らしでさびしい",
+          "usageExample": "友だちが国へ帰ってしまって、とてもさびしいです。",
+          "recallPrompt": {
+            "vi": "Khi bạn thân về nước hoặc ở một mình thấy trống vắng, dùng tính từ N4 nào?",
+            "en": "Which N4 i-adjective describes feeling lonely when friends leave?"
+          },
+          "takeaway": {
+            "vi": "「さびしい」 (寂しい) diễn tả cảm giác cô đơn, trống trải; phân biệt với 「かなしい」 (đau buồn).",
+            "en": "「さびしい」 expresses loneliness/emptiness, distinct from 「かなしい」 (sadness/grief)."
+          },
+          "trap": {
+            "vi": "Trong đề thi thật N4, từ này thường ra bằng hiragana さびしい trong ngữ cảnh chia tay hoặc sống một mình.",
+            "en": "Often tested in hiragana in N4; watch distractors like かなしい (sad) or うれしい (glad)."
+          }
+        },
+        {
+          "id": "audit-0726-v-14",
+          "number": 14,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "はさみ",
+          "kana": "はさみ",
+          "meaning": {
+            "vi": "Cái kéo",
+            "en": "Scissors"
+          },
+          "answerPattern": "はさみで紙を切る",
+          "usageExample": "そのはさみで紙を半分に切ってください。",
+          "recallPrompt": {
+            "vi": "Dụng cụ dùng để cắt giấy hoặc cắt vải trong câu là từ nào?",
+            "en": "What is the Japanese word for scissors (used with 紙を切る)?"
+          },
+          "takeaway": {
+            "vi": "Ở cấp độ N4, 「はさみ」 luôn viết bằng kana (hiragana/katakana) và đi kèm 「〜で切る」.",
+            "en": "In JLPT N4, はさみ is written in kana and collocates with 「〜で切る」."
+          },
+          "trap": {
+            "vi": "Thường nằm chung nhóm đáp án văn phòng phẩm với 「のり」（keo dán）, 「いと」（chỉ）, 「はり」（kim） như trong đề 07/2025.",
+            "en": "Often grouped with stationery distractors like のり (glue), いと (thread), and はり (needle) as in JLPT 07/2025."
+          }
+        },
+        {
+          "id": "audit-0726-v-15",
+          "number": 15,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "負けて",
+          "kana": "まけて",
+          "hanviet": "Phụ",
+          "meaning": {
+            "vi": "Thua (trận đấu) / giảm giá",
+            "en": "To lose (a match) / to give a discount"
+          },
+          "answerPattern": "試合に負けて（まけて）",
+          "usageExample": "きのうのサッカーの試合は、2対3で負けてしまいました。",
+          "recallPrompt": {
+            "vi": "Động từ 「まける」 (負ける) đi với trợ từ gì và có 2 nghĩa N4 nào?",
+            "en": "Which particle does 「まける」 take, and what are its two N4 meanings?"
+          },
+          "takeaway": {
+            "vi": "「〜に負ける」 = thua (trận/đối thủ, trái nghĩa 勝つ); 「値段をまける」 = bớt giá.",
+            "en": "Takes に for the opponent/match ('lose to'); with 値段を it means 'lower the price'."
+          },
+          "trap": {
+            "vi": "Chú ý thuộc nhóm 2 (まける → まけて), không phải nhóm 1 「まく」.",
+            "en": "Remember it is Group 2 (まける → まけて), and takes particle に for the rival."
+          }
+        },
+        {
+          "id": "audit-0726-v-16",
+          "number": 16,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "頼みました",
+          "kana": "たのみました",
+          "hanviet": "Lại",
+          "meaning": {
+            "vi": "Nhờ vả, yêu cầu / gọi món",
+            "en": "Requested, asked a favor / ordered"
+          },
+          "answerPattern": "友だちに仕事を頼みました",
+          "usageExample": "いそがしいので、同僚に会議のじゅんびを頼みました。",
+          "recallPrompt": {
+            "vi": "Khi muốn nói 「nhờ ai đó làm việc gì」 hoặc 「gọi món ở quán」, dùng động từ nào?",
+            "en": "Which verb means both 'to ask someone a favor' and 'to order food'?"
+          },
+          "takeaway": {
+            "vi": "Cấu trúc 「[người]に [việc/món]を頼む」; bị động là 「〜から頼まれた」.",
+            "en": "Pattern: 「[person]に [task/item]を頼む」; its passive 「頼まれる」 is also very common."
+          },
+          "trap": {
+            "vi": "Phân biệt với 「誘う」（さそう - rủ rê） và 「謝る」（あやまる - xin lỗi）.",
+            "en": "Distinguish from 誘う (さそう, invite) and 謝る (あやまる, apologize)."
+          }
+        },
+        {
+          "id": "audit-0726-v-17",
+          "number": 17,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "卒業",
+          "kana": "そつぎょう",
+          "hanviet": "Tốt Nghiệp",
+          "meaning": {
+            "vi": "Tốt nghiệp",
+            "en": "Graduation"
+          },
+          "answerPattern": "大学を卒業する",
+          "usageExample": "来年の春、大学を卒業して日本の会社で働きます。",
+          "recallPrompt": {
+            "vi": "Danh từ 「そつぎょう」 (Tốt Nghiệp) đi với trợ từ gì trước tên trường học?",
+            "en": "Which particle follows the school name before 「卒業する」?"
+          },
+          "takeaway": {
+            "vi": "Dùng 「[trường]を卒業する」 (dùng を chứ không dùng から như tiếng Việt/Anh).",
+            "en": "Uses を: 「大学を卒業する」 (not から as English 'graduate from' suggests)."
+          },
+          "trap": {
+            "vi": "Tránh nhầm với 「入学」（にゅうがく - nhập học, dùng trợ từ に）.",
+            "en": "Contrast particles: 「大学に入学する」 (enter) vs 「大学を卒業する」 (graduate)."
+          }
+        },
+        {
+          "id": "audit-0726-v-18",
+          "number": 18,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "アルバイト",
+          "kana": "アルバイト",
+          "meaning": {
+            "vi": "Việc làm thêm",
+            "en": "Part-time job (especially for students)"
+          },
+          "answerPattern": "アルバイトをする",
+          "usageExample": "授業が終わってから、コンビニでアルバイトをしています。",
+          "recallPrompt": {
+            "vi": "Từ Katakana chỉ việc làm thêm (thường của sinh viên) trong tiếng Nhật là gì?",
+            "en": "What is the katakana word for a part-time job?"
+          },
+          "takeaway": {
+            "vi": "Đi với する (`アルバイトをする / している`), thường nói tắt là バイト.",
+            "en": "Pairs with する (`アルバイトをする`), often shortened to バイト in speech."
+          },
+          "trap": {
+            "vi": "Trong đề hay nhiễu với các từ Katakana N4 khác như アパート, アンケート, アイロン.",
+            "en": "Watch katakana look-alikes in choices such as アパート or アンケート."
+          }
+        },
+        {
+          "id": "audit-0726-v-19",
+          "number": 19,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "賛成",
+          "kana": "さんせい",
+          "hanviet": "Tán Thành",
+          "meaning": {
+            "vi": "Tán thành, đồng ý",
+            "en": "Agreement, approval"
+          },
+          "answerPattern": "意見に賛成する",
+          "usageExample": "みなさんの意見に私も賛成です。",
+          "recallPrompt": {
+            "vi": "Từ trái nghĩa với 「反対」（はんたい - phản đối） là gì, đi với trợ từ nào?",
+            "en": "What is the antonym of 「反対」 (oppose), and which particle does it take?"
+          },
+          "takeaway": {
+            "vi": "Cả 「賛成する」 và 「反対する」 đều dùng trợ từ に trước ý kiến/kế hoạch.",
+            "en": "Both 「意見に賛成する」 and 「意見に反対する」 take particle に."
+          },
+          "trap": {
+            "vi": "Cẩn thận đọc nhầm thành さんせ (thiếu trường âm い) hoặc nhầm nghĩa với 「生産」（せいさん）.",
+            "en": "Don't swap syllable order with 「生産」 (せいさん, production)."
+          }
+        },
+        {
+          "id": "audit-0726-v-20",
+          "number": 20,
+          "mondaiNumber": 3,
+          "format": "context",
+          "targetJa": "景色",
+          "kana": "けしき",
+          "hanviet": "Cảnh Sắc",
+          "meaning": {
+            "vi": "Phong cảnh, cảnh sắc",
+            "en": "Scenery, landscape"
+          },
+          "answerPattern": "山のきれいな景色（けしき）",
+          "usageExample": "この山の上から見る海の景色は最高です。",
+          "recallPrompt": {
+            "vi": "Từ chỉ phong cảnh thiên nhiên (Cảnh Sắc) đọc là gì?",
+            "en": "What is the reading and meaning of 「景色」?"
+          },
+          "takeaway": {
+            "vi": "Đọc けしき (cảnh vật xung quanh có thể ngắm nhìn); xuất hiện cả trong bài đọc JLPT 12/2025.",
+            "en": "Reads けしき (scenery/view); also appeared in JLPT 12/2025 Reading M3."
+          },
+          "trap": {
+            "vi": "Âm 「色」 ở đây đọc là しき (không phải いろ).",
+            "en": "Note 「色」 reads しき here, not いろ."
+          }
+        },
+        {
+          "id": "audit-0726-v-21",
+          "number": 21,
+          "mondaiNumber": 4,
+          "format": "paraphrase",
+          "targetJa": "きけん ≒ あぶない",
+          "kana": "きけん / あぶない",
+          "hanviet": "Nguy Hiểm",
+          "meaning": {
+            "vi": "Nguy hiểm (từ Hán-Nhật ≒ từ thuần Nhật)",
+            "en": "Dangerous (kango ≒ wago)"
+          },
+          "answerPattern": "ここはきけんです ≒ ここはあぶないです",
+          "usageExample": "夜は暗いから、一人で歩くのは危険（あぶない）ですよ。",
+          "recallPrompt": {
+            "vi": "Từ thuần Nhật đồng nghĩa với 「危険」（きけん） là tính từ nào?",
+            "en": "What is the native i-adjective synonym for 「危険」 (きけん)?"
+          },
+          "takeaway": {
+            "vi": "Cặp đồng nghĩa kinh điển trong Mondai 4: 危険（な） ≒ あぶない（い）.",
+            "en": "Classic Mondai 4 kango-to-wago paraphrase: 危険 (na-adj) ≒ 危ない (i-adj)."
+          },
+          "trap": {
+            "vi": "Đừng nhầm 「きけん」 với 「けいけん」（経験 - kinh nghiệm）.",
+            "en": "Do not confuse きけん (danger) with けいけん (経験, experience)."
+          }
+        },
+        {
+          "id": "audit-0726-v-22",
+          "number": 22,
+          "mondaiNumber": 4,
+          "format": "paraphrase",
+          "targetJa": "値段 ≒ いくらか",
+          "kana": "ねだん / いくらか",
+          "hanviet": "Trị Đoạn",
+          "meaning": {
+            "vi": "Giá cả / bao nhiêu tiền",
+            "en": "Price / how much"
+          },
+          "answerPattern": "値段を聞く ≒ いくらか聞く",
+          "usageExample": "店員にこのシャツの値段を（＝いくらか）聞きました。",
+          "recallPrompt": {
+            "vi": "「値段」（ねだん） trong câu hỏi về giá có thể viết lại thành cụm từ nghi vấn nào?",
+            "en": "How can 「値段」 (price) be paraphrased using an interrogative phrase?"
+          },
+          "takeaway": {
+            "vi": "「値段を聞く」 ≒ 「いくらか聞く」 (nguồn unojapano và passjapanese ghi いくらか; gogaku tóm tắt là いくら).",
+            "en": "「値段を聞く」 paraphrases as 「いくらか聞く」 (unojapano/passjapanese record いくらか; gogaku summarizes いくら)."
+          },
+          "trap": {
+            "vi": "Phân biệt 「いくつ」（bao nhiêu cái / mấy tuổi） với 「いくら」（bao nhiêu tiền）.",
+            "en": "Distinguish いくら (how much money) from いくつ (how many / how old)."
+          },
+          "grammarIds": [
+            "g_006",
+            "g_251"
+          ]
+        },
+        {
+          "id": "audit-0726-v-23",
+          "number": 23,
+          "mondaiNumber": 4,
+          "format": "paraphrase",
+          "targetJa": "うら ≒ 後ろ",
+          "kana": "うら / うしろ",
+          "hanviet": "Lý / Hậu",
+          "meaning": {
+            "vi": "Mặt sau, phía sau",
+            "en": "Back, reverse side, behind"
+          },
+          "answerPattern": "建物のうら ≒ 建物の後ろ",
+          "usageExample": "駅のうら（＝後ろ）に小さい公園があります。",
+          "recallPrompt": {
+            "vi": "Danh từ chỉ vị trí 「うら」 (裏) đồng nghĩa với phương hướng nào?",
+            "en": "Which position word is equivalent to 「うら」 (裏)?"
+          },
+          "takeaway": {
+            "vi": "「うら」 (mặt sau/phía khuất sau) đối nghĩa với 「表」（おもて - mặt trước） và gần nghĩa với 「後ろ」.",
+            "en": "「うら」 (back/reverse, opposite 表) corresponds to 「後ろ」 (behind) for buildings/objects."
+          },
+          "trap": {
+            "vi": "Tránh nhầm với 「前」（まえ - phía trước） hoặc 「隣」（となり - bên cạnh）.",
+            "en": "Contrast with 前 (front) and 隣 (next to)."
+          }
+        },
+        {
+          "id": "audit-0726-v-24",
+          "number": 24,
+          "mondaiNumber": 4,
+          "format": "paraphrase",
+          "targetJa": "もどって ≒ かえって",
+          "kana": "もどって / かえって",
+          "hanviet": "Lệ / Quy",
+          "meaning": {
+            "vi": "Quay lại, trở về",
+            "en": "To return, to go back"
+          },
+          "answerPattern": "うちにもどって ≒ うちにかえって",
+          "usageExample": "忘れ物をしたので、家にもどって（＝かえって）取りに行きました。",
+          "recallPrompt": {
+            "vi": "Động từ 「戻る」（もどる） có nghĩa gần nhất với động từ quen thuộc nào?",
+            "en": "Which everyday N5/N4 verb is the closest synonym to 「戻る」 (もどる)?"
+          },
+          "takeaway": {
+            "vi": "「戻る」 là quay lại chỗ/trạng thái ban đầu; trong ngữ cảnh về nhà hoặc về nước có thể thay bằng 「帰る」.",
+            "en": "「戻る」 means returning to a prior spot/state; when returning home, it paraphrases as 「帰る」."
+          },
+          "trap": {
+            "vi": "Đừng đọc nhầm nghĩa phó từ 「かえって」（trái lại, ngược lại） thay vì động từ 「帰って」.",
+            "en": "Don't confuse verb 「帰って」 (returning) with adverb 「かえって」 (on the contrary)."
+          }
+        },
+        {
+          "id": "audit-0726-v-25",
+          "number": 25,
+          "mondaiNumber": 5,
+          "format": "usage",
+          "targetJa": "連絡",
+          "kana": "れんらく",
+          "hanviet": "Liên Lạc",
+          "meaning": {
+            "vi": "Liên lạc, báo tin",
+            "en": "Contact, communication"
+          },
+          "answerPattern": "電話で連絡する",
+          "usageExample": "おくれるときは、かならず電話でれんらくしてください。",
+          "recallPrompt": {
+            "vi": "Chọn câu dùng đúng 「れんらく」: dùng trợ từ gì cho phương tiện và người nhận?",
+            "en": "How do you use 「連絡」 naturally in a sentence (particles for method and recipient)?"
+          },
+          "takeaway": {
+            "vi": "「[người]に [phương tiện]で 連絡する」 (ví dụ: 電話で連絡する, メールで連絡する).",
+            "en": "Pattern: 「[person]に [method]で 連絡する」 (e.g., 電話で連絡する)."
+          },
+          "trap": {
+            "vi": "Không dùng 「れんらく」 để chỉ việc hỏi thăm thân mật hay nói chuyện phiếm với người bên cạnh.",
+            "en": "Not used for casual face-to-face chatting; it means notifying or reaching someone."
+          }
+        },
+        {
+          "id": "audit-0726-v-26",
+          "number": 26,
+          "mondaiNumber": 5,
+          "format": "usage",
+          "targetJa": "払う",
+          "kana": "はらう",
+          "hanviet": "Phất",
+          "meaning": {
+            "vi": "Trả tiền, thanh toán",
+            "en": "To pay"
+          },
+          "answerPattern": "お金を払って（はらって）",
+          "usageExample": "レジでお金をはらってから、店を出ました。",
+          "recallPrompt": {
+            "vi": "Tân ngữ đi với 「払う」 (はらう) là tiền/hóa đơn hay đồ vật/giá cả?",
+            "en": "What objects naturally pair with 「払う」 (お金/代金 vs 商品/値段)?"
+          },
+          "takeaway": {
+            "vi": "Dùng 「お金・代金・家賃を払う」 và 「カード・現金で払う」; không nói 「商品を払う」.",
+            "en": "Say 「お金/家賃を払う」 and 「カードで払う」; never use the purchased item as object of 払う."
+          },
+          "trap": {
+            "vi": "Bẫy Mondai 5 kinh điển: đặt đồ vật (như sách, vé) hoặc 値段 làm tân ngữ trực tiếp của 払う.",
+            "en": "Classic Mondai 5 trap: pairing 払う directly with the item bought instead of the money/fee."
+          }
+        },
+        {
+          "id": "audit-0726-v-27",
+          "number": 27,
+          "mondaiNumber": 5,
+          "format": "usage",
+          "targetJa": "将来",
+          "kana": "しょうらい",
+          "hanviet": "Tương Lai",
+          "meaning": {
+            "vi": "Tương lai (dài hạn, nghề nghiệp)",
+            "en": "Future (long-term, career/life)"
+          },
+          "answerPattern": "将来、〜になりたい",
+          "usageExample": "しょうらい、小学校の先生になりたいと思っています。",
+          "recallPrompt": {
+            "vi": "「しょうらい」 dùng cho tương lai xa (ước mơ/nghề nghiệp) hay kế hoạch cuối tuần này?",
+            "en": "Does 「将来」 refer to long-term future goals or plans for later this week?"
+          },
+          "takeaway": {
+            "vi": "「将来」 luôn chỉ tương lai xa mang tính định hướng cuộc đời/nghề nghiệp (như 「将来、〜になりたい」).",
+            "en": "「将来」 refers to long-term life/career future, often paired with 「〜になりたい」."
+          },
+          "trap": {
+            "vi": "Không dùng 「将来」 cho việc sắp xảy ra ngày mai, tuần sau hay cuối tháng này.",
+            "en": "Never use 「将来」 for near-term plans like tomorrow or next week."
+          },
+          "grammarIds": [
+            "g_160"
+          ]
+        },
+        {
+          "id": "audit-0726-v-28",
+          "number": 28,
+          "mondaiNumber": 5,
+          "format": "usage",
+          "targetJa": "包む",
+          "kana": "つつむ",
+          "hanviet": "Bao",
+          "meaning": {
+            "vi": "Gói, bọc",
+            "en": "To wrap, to pack"
+          },
+          "answerPattern": "きれいな紙で包む",
+          "usageExample": "おかしをきれいな紙でつつんで、友だちにプレゼントしました。",
+          "recallPrompt": {
+            "vi": "Cấu trúc chuẩn của động từ 「つつむ」 (包む) khi gói quà bằng giấy là gì?",
+            "en": "What particles does 「包む」 take for the item wrapped and the wrapping material?"
+          },
+          "takeaway": {
+            "vi": "Dùng 「[vật]を [vật liệu]で 包む」 (gói bánh kẹo bằng giấy đẹp để tặng).",
+            "en": "Uses 「[object]を [material]で 包む」 (wrap sweets in pretty paper)."
+          },
+          "trap": {
+            "vi": "Không dùng 「包む」 cho hành động gấp quần áo (たたむ) hay bỏ đồ vào cặp (入れる).",
+            "en": "Not used for folding clothes (たたむ) or putting items into a bag (入れる)."
+          }
+        }
+      ]
+    },
+    {
+      "code": "grammar",
+      "title": {
+        "vi": "Ngữ pháp",
+        "en": "Grammar"
+      },
+      "items": [
+        {
+          "id": "audit-0726-g-01",
+          "number": 1,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "大雨（で）",
+          "hanviet": "Đại Vũ",
+          "meaning": {
+            "vi": "Vì mưa lớn nên (không thể...)",
+            "en": "Because of heavy rain (cannot...)"
+          },
+          "answerPattern": "大雨（で）〜できません。",
+          "usageExample": "きのうは大雨で、電車が止まってしまいました。",
+          "recallPrompt": {
+            "vi": "Trợ từ nào đứng sau danh từ chỉ thiên tai/sự cố (như 大雨, 台風) để nêu nguyên nhân?",
+            "en": "Which particle follows weather/disaster nouns like 大雨 to mark cause?"
+          },
+          "takeaway": {
+            "vi": "「[Danh từ sự cố/thời tiết] + で」 chỉ nguyên nhân dẫn tới kết quả ngoài ý muốn.",
+            "en": "Particle 「で」 after weather/accident nouns marks the cause of a negative/unintended outcome."
+          },
+          "trap": {
+            "vi": "Đừng nhầm với trợ từ 「に」 hay 「から」 (danh từ sự cố không ghép trực tiếp với から).",
+            "en": "Do not use に or bare から directly after a cause noun here."
+          },
+          "grammarIds": [
+            "g_197"
+          ]
+        },
+        {
+          "id": "audit-0726-g-02",
+          "number": 2,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "カレー（に）する",
+          "meaning": {
+            "vi": "Chọn / quyết định lấy (món cà ri)",
+            "en": "To choose / decide on (curry)"
+          },
+          "answerPattern": "父：「何を食べる？」 娘：「カレー（に）する。」",
+          "usageExample": "飲み物は、私は冷たいお茶にします。",
+          "recallPrompt": {
+            "vi": "Khi gọi món hoặc chọn lựa giữa các phương án, dùng 「N + trợ từ gì + する」?",
+            "en": "When choosing or ordering an option, which particle goes between the noun and する?"
+          },
+          "takeaway": {
+            "vi": "Mẫu 「Nにする」 diễn tả lựa chọn chủ quan của người nói (đối lập 「Nになる」).",
+            "en": "「Nにする」 expresses a deliberate personal choice (very frequent in restaurants/scheduling)."
+          },
+          "trap": {
+            "vi": "Người học hay nhầm thành 「カレーをする」 (sai trợ từ を) hoặc 「になる」 (tự nhiên biến thành).",
+            "en": "Avoid をする (wrong particle) or になる (natural/external outcome, not a personal choice)."
+          },
+          "grammarIds": [
+            "g_204"
+          ]
+        },
+        {
+          "id": "audit-0726-g-03",
+          "number": 3,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "十回（も）見た",
+          "hanviet": "Thập Hồi",
+          "meaning": {
+            "vi": "Đã xem những / đến tận 10 lần",
+            "en": "Watched as many as 10 times"
+          },
+          "answerPattern": "映画を十回（も）見た",
+          "usageExample": "この映画が大好きなので、もう十回も見ました。",
+          "recallPrompt": {
+            "vi": "Trợ từ nào gắn sau số lượng từ để nhấn mạnh cảm giác 「nhiều quá / tận...」?",
+            "en": "Which particle attaches to a quantity expression to emphasize 'as many as'?"
+          },
+          "takeaway": {
+            "vi": "「Số lượng từ + も」 nhấn mạnh lượng nhiều hơn mong đợi; trái ngược với 「〜しか〜ない」.",
+            "en": "「Quantity + も」 emphasizes a surprisingly large count (opposite of 「しか〜ない」)."
+          },
+          "trap": {
+            "vi": "Đừng chọn 「しか」 khi động từ ở dạng khẳng định 「見た」.",
+            "en": "Never pick しか when the verb is affirmative (見た)."
+          },
+          "grammarIds": [
+            "g_154"
+          ]
+        },
+        {
+          "id": "audit-0726-g-04",
+          "number": 4,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "歌っている（のが）聞こえる",
+          "hanviet": "Ca / Văn",
+          "meaning": {
+            "vi": "Nghe thấy tiếng ai đó đang hát",
+            "en": "Can hear someone singing"
+          },
+          "answerPattern": "歌っている（のが）聞こえる",
+          "usageExample": "となりの部屋から子どもが歌っているのが聞こえます。",
+          "recallPrompt": {
+            "vi": "Danh từ hóa động từ trước 「聞こえる」 hoặc 「見える」 dùng のを hay のが?",
+            "en": "Before 聞こえる or 見える, do you nominalize with のを or のが?"
+          },
+          "takeaway": {
+            "vi": "「聞こえる」 và 「見える」 là tự động từ tri giác tự nhiên nên luôn dùng trợ từ が → 「Vているのが聞こえる」.",
+            "en": "聞こえる and 見える take が (not を) because perception happens naturally -> 「〜のが聞こえる」."
+          },
+          "trap": {
+            "vi": "Phân biệt: 「Vるのを見る・聞く」 dùng のを, nhưng 「見える・聞こえる」 bắt buộc dùng のが.",
+            "en": "Trap: 見る/聞く take のを, whereas 見える/聞こえる strictly require のが."
+          },
+          "grammarIds": [
+            "g_170",
+            "g_177"
+          ]
+        },
+        {
+          "id": "audit-0726-g-05",
+          "number": 5,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "（すっかり）変わりました",
+          "hanviet": "Biến",
+          "meaning": {
+            "vi": "Đã thay đổi hoàn toàn",
+            "en": "Changed completely"
+          },
+          "answerPattern": "（すっかり）変わりました",
+          "usageExample": "十年ぶりに帰ってきたら、町の景色がすっかり変わっていました。",
+          "recallPrompt": {
+            "vi": "Phó từ nào đi với 「変わる」 hoặc 「忘れる」 để diễn tả sự thay đổi/quên hoàn toàn?",
+            "en": "Which adverb pairs with 変わる or 忘れる to mean 'completely'?"
+          },
+          "takeaway": {
+            "vi": "「すっかり」 nghĩa là hoàn toàn, sạch trơn (dùng được cả với 「すっかり忘れた」 như trong đề VDJ #16).",
+            "en": "「すっかり」 means completely/totally (often tested with 変わる and 忘れる, as in VDJ #16)."
+          },
+          "trap": {
+            "vi": "Dễ nhầm với 「はっきり」（rõ ràng）, 「しっかり」（chắc chắn/nghiêm túc）, 「ゆっくり」（từ từ）.",
+            "en": "Don't confuse with sound-alikes: はっきり (clearly), しっかり (firmly), ゆっくり (slowly)."
+          }
+        },
+        {
+          "id": "audit-0726-g-06",
+          "number": 6,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "（どこかで）少し休みませんか",
+          "hanviet": "Thiểu / Hưu",
+          "meaning": {
+            "vi": "Chúng ta nghỉ ở đâu đó một chút không?",
+            "en": "Shall we take a rest somewhere?"
+          },
+          "answerPattern": "（どこかで）少し休みませんか",
+          "usageExample": "歩きつかれたので、どこかで少し休みませんか。",
+          "recallPrompt": {
+            "vi": "Để nói 「ở một nơi nào đó」 trước động từ hành động 「休みます」, ghép thế nào?",
+            "en": "How do you express 'at some place / somewhere' before an action verb like 休みます?"
+          },
+          "takeaway": {
+            "vi": "Từ nghi vấn + か + trợ từ địa điểm (で/に) tạo nghĩa bất định: どこかで = ở đâu đó.",
+            "en": "Wh-word + か + location particle で forms an indefinite place: どこかで ('somewhere')."
+          },
+          "trap": {
+            "vi": "Nhớ giữ đủ cả か lẫn で; 「どこでも」 là bất cứ đâu, không hợp rủ rê 「休みませんか」.",
+            "en": "Keep both か and で (どこでも means 'anywhere', not 'somewhere' for an invitation)."
+          },
+          "grammarIds": [
+            "g_052",
+            "g_056"
+          ]
+        },
+        {
+          "id": "audit-0726-g-07",
+          "number": 7,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "東京に住んでいる（間）に",
+          "hanviet": "Gian",
+          "meaning": {
+            "vi": "Trong khoảng thời gian đang sống ở Tokyo (tranh thủ làm việc gì)",
+            "en": "While living in Tokyo (at some point during that time)"
+          },
+          "answerPattern": "東京に住んでいる（間）に",
+          "usageExample": "東京に住んでいる間に、一度ふじ山に登ってみたいです。",
+          "recallPrompt": {
+            "vi": "Khác biệt giữa 「〜間」（あいだ） và 「〜間に」（あいだに） là gì?",
+            "en": "What is the exact difference between 「〜間」 and 「〜間に」?"
+          },
+          "takeaway": {
+            "vi": "「〜間に」 dùng khi hành động ở vế sau xảy ra tại một thời điểm trong suốt khoảng thời gian đó.",
+            "en": "「〜間に」 marks a single event or action occurring at some point during the ongoing state."
+          },
+          "trap": {
+            "vi": "Đừng chọn 「間」 (không có に) nếu hành động vế sau không kéo dài liên tục suốt thời gian vế trước.",
+            "en": "Do not omit に unless the second action continues uninterrupted for the entire duration."
+          },
+          "grammarIds": [
+            "g_247",
+            "g_246"
+          ]
+        },
+        {
+          "id": "audit-0726-g-08",
+          "number": 8,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "医者に（なる）ために",
+          "hanviet": "Y Giả",
+          "meaning": {
+            "vi": "Để trở thành bác sĩ",
+            "en": "In order to become a doctor"
+          },
+          "answerPattern": "医者に（なる）ために",
+          "usageExample": "医者になるために、毎日遅くまで勉強しています。",
+          "recallPrompt": {
+            "vi": "Trước 「ために」 chỉ mục đích, động từ chia ở thể nào?",
+            "en": "Which verb form precedes 「ために」 when expressing purpose?"
+          },
+          "takeaway": {
+            "vi": "「Vる（thể từ điển ý chí） + ために」 diễn tả mục đích chủ động; chủ ngữ hai vế phải giống nhau.",
+            "en": "「V-dict + ために」 expresses a deliberate goal with an intentional verb and same subject."
+          },
+          "trap": {
+            "vi": "Không dùng 「Vたために」 cho mục đích tương lai và không nhầm với 「ように」（đi với động từ khả năng/vô ý chí）.",
+            "en": "Do not use V-ta for future purpose, and distinguish ために (volitional) from ように (potential/non-volitional)."
+          },
+          "grammarIds": [
+            "g_264",
+            "g_160"
+          ]
+        },
+        {
+          "id": "audit-0726-g-09",
+          "number": 9,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "帰ってきた（ところ）です",
+          "hanviet": "Quy",
+          "meaning": {
+            "vi": "Vừa mới về đến nơi",
+            "en": "Just came back"
+          },
+          "answerPattern": "今、帰ってきた（ところ）です。",
+          "usageExample": "ただいま。ちょうど今、駅に着いたところです。",
+          "recallPrompt": {
+            "vi": "「Vた + ところです」 diễn tả thời điểm nào của hành động, và khác gì với 「Vる / Vているところ」?",
+            "en": "What moment does 「V-ta + ところです」 mark, and how does it differ from V-dict and V-ている?"
+          },
+          "takeaway": {
+            "vi": "Bộ ba kinh điển: Vるところ (sắp) / Vているところ (đang đúng lúc) / Vたところ (vừa mới xong).",
+            "en": "Core N4 aspect trio: V-dict ところ (about to), V-ている ところ (in the middle), V-ta ところ (just finished)."
+          },
+          "trap": {
+            "vi": "Chú ý từ gợi ý trong câu như 「さっき」「ちょうど今」 để chọn đúng 「たところ」.",
+            "en": "Look for time cues like さっき or 今 to distinguish V-た ところ from V-る ところ (これから)."
+          },
+          "grammarIds": [
+            "g_219",
+            "g_218"
+          ]
+        },
+        {
+          "id": "audit-0726-g-10",
+          "number": 10,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "丁寧に（ていねいに）教えてくれた",
+          "hanviet": "Đinh Ninh",
+          "meaning": {
+            "vi": "Nhân viên nhà ga đã chỉ dẫn cho tôi một cách tận tình",
+            "en": "The station staff politely explained it to me"
+          },
+          "answerPattern": "駅員が丁寧に教えてくれた。",
+          "usageExample": "道に迷ったとき、駅員さんが丁寧に教えてくれました。",
+          "recallPrompt": {
+            "vi": "Tính từ đuôi な 「丁寧だ」 đứng trước động từ 「教えてくれた」 thì biến đổi thế nào?",
+            "en": "How does the na-adjective 「丁寧だ」 modify the verb 「教えてくれた」?"
+          },
+          "takeaway": {
+            "vi": "Tính từ な + に + V (phó từ hóa); đồng thời nhận ơn từ người khác về phía mình dùng 「〜てくれた」.",
+            "en": "Na-adjectives take に before verbs; 「〜てくれた」 marks a helpful action directed toward the speaker."
+          },
+          "trap": {
+            "vi": "Không dùng 「丁寧な教えて」 hay 「丁寧で教えて」 khi bổ nghĩa trực tiếp cho động từ.",
+            "en": "Do not use な or で when directly modifying an action verb with a na-adjective."
+          },
+          "grammarIds": [
+            "g_158",
+            "g_103"
+          ]
+        },
+        {
+          "id": "audit-0726-g-11",
+          "number": 11,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "バナナしか（食べません）",
+          "meaning": {
+            "vi": "Chỉ ăn mỗi chuối thôi (không ăn gì khác)",
+            "en": "Eats nothing but bananas"
+          },
+          "answerPattern": "バナナしか（食べません。）",
+          "usageExample": "朝はいそがしいので、バナナしか食べません。",
+          "recallPrompt": {
+            "vi": "Trợ từ 「しか」 bắt buộc kéo theo động từ phía sau ở dạng khẳng định hay phủ định?",
+            "en": "Does 「しか」 require an affirmative or a negative verb at the end of the clause?"
+          },
+          "takeaway": {
+            "vi": "「N + しか + Vない/ません」 mang nghĩa 'chỉ N thôi' với sắc thái ít ỏi, giới hạn.",
+            "en": "「N + しか + negative verb」 means 'only N' (with a nuance of limitation)."
+          },
+          "trap": {
+            "vi": "Bẫy rất hay ra ở N4: ghép 「しか」 với câu khẳng định (sai — phải dùng 「だけ」 cho khẳng định).",
+            "en": "Classic N4 trap: pairing しか with an affirmative verb (use だけ for affirmative sentences)."
+          },
+          "grammarIds": [
+            "g_107",
+            "g_108"
+          ]
+        },
+        {
+          "id": "audit-0726-g-12",
+          "number": 12,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "（プレゼントしようか）",
+          "meaning": {
+            "vi": "Hay là chúng mình tặng quà nhé / Để tôi tặng nhé?",
+            "en": "Shall I/we give a present?"
+          },
+          "answerPattern": "誕生日に何をプレゼントしようか。",
+          "usageExample": "母の日に、きれいな花をプレゼントしようかと思っています。",
+          "recallPrompt": {
+            "vi": "Thể ý chí 「〜よう」 thêm 「か」 ở cuối câu dùng để làm gì trong hội thoại thân mật?",
+            "en": "What does the volitional form + か (〜ようか) express in casual dialogue?"
+          },
+          "takeaway": {
+            "vi": "「Vようか」 là dạng thân mật của 「Vましょうか」: tự hỏi, rủ rê hoặc đề nghị làm giúp ai điều gì.",
+            "en": "「V-ようか」 is the plain counterpart of 「V-ましょうか」, used to offer help or suggest an action."
+          },
+          "trap": {
+            "vi": "Chú ý cách chia nhóm 3: する → しようか (không phải すようか).",
+            "en": "Watch Group 3 conjugation: する becomes しよう (not すよう)."
+          },
+          "grammarIds": [
+            "g_106",
+            "g_079"
+          ]
+        },
+        {
+          "id": "audit-0726-g-13",
+          "number": 13,
+          "mondaiNumber": 1,
+          "format": "grammar_form",
+          "targetJa": "どうしてパーティーに（来なかったんですか）",
+          "hanviet": "Lai",
+          "meaning": {
+            "vi": "Tại sao bạn đã không đến bữa tiệc vậy?",
+            "en": "Why didn't you come to the party?"
+          },
+          "answerPattern": "どうしてパーティーに（来なかったんですか）。",
+          "usageExample": "きのう、どうしてパーティーに来なかったんですか。— 熱があったんです。",
+          "recallPrompt": {
+            "vi": "Khi hỏi lý do với 「どうして〜」, đuôi câu N4 thường kết thúc bằng cấu trúc nào?",
+            "en": "What sentence ending naturally pairs with 「どうして」 when asking someone for an explanation?"
+          },
+          "takeaway": {
+            "vi": "「どうして〜んですか」 (thể thường + んですか) dùng để hỏi nguyên nhân, bối cảnh sự việc đã biết.",
+            "en": "「どうして〜んですか」 (plain form + んですか) asks for the reason behind a known fact."
+          },
+          "trap": {
+            "vi": "Kiểm tra thì quá khứ phủ định của 来る: こなかったんですか (không phải きなかった).",
+            "en": "Watch the irregular plain past negative of 来る: 来なかった (こなかった), not きなかった."
+          },
+          "grammarIds": [
+            "g_149",
+            "g_151"
+          ]
+        },
+        {
+          "id": "audit-0726-g-14",
+          "number": 14,
+          "mondaiNumber": 2,
+          "format": "star_order",
+          "targetJa": "コンビニでサラダとたまごのサンドイッチを二つずつ買いました。",
+          "hanviet": "Nhị / Mãi",
+          "meaning": {
+            "vi": "Tôi đã mua ở cửa hàng tiện lợi mỗi loại hai phần: salad và sandwich trứng.",
+            "en": "I bought two salads and two egg sandwiches each at the convenience store."
+          },
+          "answerPattern": "サラダと たまごの サンドイッチを 二つずつ 買いました",
+          "usageExample": "コンビニでサラダとたまごのサンドイッチを二つずつ買いました。",
+          "recallPrompt": {
+            "vi": "Sắp xếp đúng thứ tự vị trí số lượng từ + 「ずつ」 và trợ từ 「と」「の」「を」 trong câu ghép.",
+            "en": "Reassemble the sentence placing 「二つずつ」 and particles と・の・を in natural order."
+          },
+          "takeaway": {
+            "vi": "「N1と N2を + Số lượng + ずつ + V」: số lượng từ có 「ずつ」 đứng ngay trước động từ, không chèn thêm を sau ずつ.",
+            "en": "Quantifier + ずつ sits adverbially after を and directly before the verb (never ずつを)."
+          },
+          "trap": {
+            "vi": "Dễ ghép nhầm 「二つずつのサンドイッチ」 (sai vị trí bổ nghĩa khi đã có 「サラダとたまごの」).",
+            "en": "Don't place 二つずつ before を as a noun modifier here; keep the adverbial position after を."
+          },
+          "grammarIds": [
+            "g_042",
+            "g_043_1_2"
+          ]
+        },
+        {
+          "id": "audit-0726-g-15",
+          "number": 15,
+          "mondaiNumber": 2,
+          "format": "star_order",
+          "targetJa": "30分 かかりますが 自転車 なら 10分で 行けます。",
+          "hanviet": "Tự Chuyển Xa",
+          "meaning": {
+            "vi": "Đi bộ/xe buýt mất 30 phút, nhưng nếu bằng xe đạp thì có thể đi trong 10 phút.",
+            "en": "It takes 30 minutes, but by bicycle you can get there in 10 minutes."
+          },
+          "answerPattern": "30分 かかりますが 自転車 なら 10分で 行けます",
+          "usageExample": "歩くと30分かかりますが、自転車なら10分で行けます。",
+          "recallPrompt": {
+            "vi": "Ghép câu đối chiếu điều kiện dùng 「なら」 và động từ khả năng 「行けます」.",
+            "en": "Order the conditional contrast using 「なら」 and potential 「行けます」."
+          },
+          "takeaway": {
+            "vi": "「N + なら」 nêu giả thiết/chủ đề so sánh; kết hợp 「[thời gian] + で + động từ khả năng」 (trong vòng 10 phút).",
+            "en": "「Nなら」 sets a contrasting condition; 「10分で」 marks the timeframe needed to reach the goal."
+          },
+          "trap": {
+            "vi": "Lưu ý 「10分で」 dùng trợ từ で (mất hết 10 phút), không dùng に cho khoảng thời gian hoàn thành.",
+            "en": "Time-span particle is で (10分で), and Nなら takes bare noun without だ."
+          },
+          "grammarIds": [
+            "g_112",
+            "g_063",
+            "g_061_2"
+          ]
+        },
+        {
+          "id": "audit-0726-g-16",
+          "number": 16,
+          "mondaiNumber": 2,
+          "format": "star_order",
+          "targetJa": "今日は一年で夜が最も長い日です。",
+          "hanviet": "Nhất Niên · Dạ",
+          "meaning": {
+            "vi": "Hôm nay là ngày có đêm dài nhất trong một năm.",
+            "en": "Today is the day with the longest night of the year."
+          },
+          "answerPattern": "今日は 一年で 夜が 最も 長い日です",
+          "usageExample": "今日は一年で夜が最も長い日です。",
+          "recallPrompt": {
+            "vi": "Trong mệnh đề định ngữ 「〜最も長い日」, từ chỉ phạm vi 「一年で」 và chủ ngữ 「夜が」 đặt ở đâu?",
+            "en": "In 「今日は一年で夜が最も長い日です」, how do scope で, subject が, and 最も order before 日です?"
+          },
+          "takeaway": {
+            "vi": "Phạm vi so sánh nhất dùng 「〜で」 (一年で); phó từ 「最も」（もっとも = 一番） đứng ngay trước tính từ 「長い」.",
+            "en": "Superlative scope takes 「で」 (一年で), and adverb 「最も」 (= 一番) directly precedes the adjective."
+          },
+          "trap": {
+            "vi": "Dễ đặt nhầm 「最も」 trước 「夜が」 hoặc dùng 「夜のは」 thay vì 「夜が」 bên trong mệnh đề định ngữ.",
+            "en": "Inside the relative clause modifying 日, the subject takes が (夜が), not は."
+          },
+          "grammarIds": [
+            "g_025",
+            "g_166"
+          ]
+        },
+        {
+          "id": "audit-0726-g-17",
+          "number": 17,
+          "mondaiNumber": 2,
+          "format": "star_order",
+          "targetJa": "れいぞうこに いれて おいた ジュースを 弟に 飲まれてしまった。",
+          "hanviet": "Đệ · Ẩm",
+          "meaning": {
+            "vi": "Nước ép tôi đã bỏ sẵn vào tủ lạnh bị em trai uống mất rồi.",
+            "en": "My younger brother drank the juice I had put in the fridge."
+          },
+          "answerPattern": "れいぞうこに いれて おいた ジュースを 弟に 飲まれてしまった",
+          "usageExample": "れいぞうこにいれておいたジュースを弟に飲まれてしまった。",
+          "recallPrompt": {
+            "vi": "Sắp xếp câu bị động chịu phiền phức kết hợp 「〜ておいた」 và 「〜てしまった」.",
+            "en": "Assemble the adversative passive sentence combining 〜ておいた and 〜てしまった."
+          },
+          "takeaway": {
+            "vi": "Kết hợp 3 điểm ngữ pháp cốt lõi N4: mệnh đề bổ nghĩa 「いれておいた ジュースを」 + bị động gián tiếp 「弟に飲まれた」 + tiếc nuối 「〜てしまった」.",
+            "en": "Stacks three N4 pillars: relative clause (いれておいた) + adversative passive (弟に飲まれ) + regret (てしまった)."
+          },
+          "trap": {
+            "vi": "Người làm hành động trong câu bị động phải đi với に (弟に), còn vật bị tác động giữ trợ từ を (ジュースを).",
+            "en": "In indirect passive, the doer takes に (弟に) while the affected item keeps を (ジュースを)."
+          },
+          "grammarIds": [
+            "g_224",
+            "g_165",
+            "g_195",
+            "g_222"
+          ]
+        },
+        {
+          "id": "audit-0726-g-18",
+          "number": 18,
+          "mondaiNumber": 3,
+          "format": "cloze",
+          "targetJa": "電車で（行きました）",
+          "hanviet": "Điện Xa",
+          "meaning": {
+            "vi": "Tôi đã đi bằng tàu điện",
+            "en": "I went by train"
+          },
+          "answerPattern": "先月、山へ電車で（行きました）。",
+          "usageExample": "友だちと二人で、電車で山へ行きました。",
+          "recallPrompt": {
+            "vi": "Trong bài văn kể lại chuyến đi đã qua (Mondai 3), chọn thì động từ nào?",
+            "en": "In a Mondai 3 narrative essay about a past trip, which tense/form fits after 電車で?"
+          },
+          "takeaway": {
+            "vi": "Ô trống đầu bài văn kể chuyện quá khứ luôn chốt thì quá khứ lịch sự 「行きました」 khớp mạch truyện.",
+            "en": "First cloze slot in an essay sets the narrative past tense (行きました) consistent with the context."
+          },
+          "trap": {
+            "vi": "Tránh chọn thì hiện tại 「行きます」 hay phỏng đoán 「行くでしょう」 khi đang kể trải nghiệm đã qua.",
+            "en": "Watch tense consistency: avoid non-past or conjecture forms in a finished travel recount."
+          },
+          "grammarIds": [
+            "g_062",
+            "g_049_2"
+          ]
+        },
+        {
+          "id": "audit-0726-g-19",
+          "number": 19,
+          "mondaiNumber": 3,
+          "format": "cloze",
+          "targetJa": "きれいな鳥（も）見ました",
+          "hanviet": "Điểu",
+          "meaning": {
+            "vi": "Tôi cũng đã nhìn thấy cả những chú chim đẹp nữa",
+            "en": "I also saw pretty birds"
+          },
+          "answerPattern": "きれいな鳥（も）見ました",
+          "usageExample": "山ではいろいろな花を見ました。きれいな鳥も見ました。",
+          "recallPrompt": {
+            "vi": "Khi bổ sung thêm một trải nghiệm cùng loại vào câu trước trong bài viết, thay を bằng trợ từ nào?",
+            "en": "When adding another sight to what you already saw in a passage, which particle replaces を?"
+          },
+          "takeaway": {
+            "vi": "Trợ từ 「も」 thay thế cho を/が để bổ sung ý 'cũng thấy/cũng làm thêm' giúp mạch văn tự nhiên.",
+            "en": "Particle も replaces を to add a parallel item seen or experienced on the trip."
+          },
+          "trap": {
+            "vi": "Không dùng 「をも」; trợ từ 「も」 nuốt luôn 「を」.",
+            "en": "Remember も replaces を directly (never write をも)."
+          },
+          "grammarIds": [
+            "g_003"
+          ]
+        },
+        {
+          "id": "audit-0726-g-20",
+          "number": 20,
+          "mondaiNumber": 3,
+          "format": "cloze",
+          "targetJa": "（それで）少し元気になりました",
+          "hanviet": "Nguyên Khí",
+          "meaning": {
+            "vi": "Vì thế / Nhờ vậy mà tôi thấy khỏe khoắn hơn một chút",
+            "en": "Because of that, I felt a bit better"
+          },
+          "answerPattern": "（それで）少し元気になりました",
+          "usageExample": "きれいな景色を見ました。それで、少し元気になりました。",
+          "recallPrompt": {
+            "vi": "Liên từ đầu câu nào nối kết quả tích cực tự nhiên từ câu trước ('vì vậy, nhờ đó')?",
+            "en": "Which sentence-initial conjunction links a natural result ('so / because of that') from the prior sentence?"
+          },
+          "takeaway": {
+            "vi": "「それで」 (vì vậy/thế nên) là liên từ quen thuộc trong Mondai 3 (cũng xuất hiện ở JLPT 07/2025 Q21).",
+            "en": "「それで」 ('so/therefore') is a staple Mondai 3 connector (also the key in JLPT 07/2025 Q21)."
+          },
+          "trap": {
+            "vi": "Phân biệt 「それで」（vì vậy — kết quả tự nhiên） với 「それでは」（vậy thì — chuyển đoạn/kết thúc） và 「でも」（nhưng）.",
+            "en": "Don't confuse それで (so/as a result) with それでは (well then) or でも (but)."
+          },
+          "grammarIds": [
+            "g_160"
+          ]
+        },
+        {
+          "id": "audit-0726-g-21",
+          "number": 21,
+          "mondaiNumber": 3,
+          "format": "cloze",
+          "targetJa": "別の山にも（のぼってみたいです）",
+          "hanviet": "Biệt · Sơn",
+          "meaning": {
+            "vi": "Tôi cũng muốn thử leo một ngọn núi khác nữa",
+            "en": "I want to try climbing another mountain too"
+          },
+          "answerPattern": "別の山にも（のぼってみたいです）",
+          "usageExample": "とても楽しかったので、こんどは別の山にものぼってみたいです。",
+          "recallPrompt": {
+            "vi": "Câu kết bài văn chia sẻ cảm nghĩ thường ghép mẫu 「thử làm」 + 「muốn」 thế nào?",
+            "en": "How do you combine 'try doing' and 'want to' at the end of a reflective essay?"
+          },
+          "takeaway": {
+            "vi": "Ghép 「Vて + みたい + です」 (muốn thử trải nghiệm); kết hợp 「にも」 mở rộng sang địa điểm mới.",
+            "en": "Combines V-てみる + 〜たいです ('want to try doing') with にも to express a future wish."
+          },
+          "trap": {
+            "vi": "Lưu ý: bài viết của ngôi thứ nhất 「私」 dùng 「〜たいです」, không dùng 「〜たがっています」 (ngôi thứ 3).",
+            "en": "First-person essays use 〜てみたいです, whereas third-person uses 〜たがっています."
+          },
+          "grammarIds": [
+            "g_252",
+            "g_059"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "reading",
+      "title": {
+        "vi": "Đọc hiểu",
+        "en": "Reading Comprehension"
+      },
+      "items": [
+        {
+          "id": "audit-0726-r-22",
+          "number": 22,
+          "mondaiNumber": 1,
+          "format": "reading_short",
+          "targetJa": "東京の祭りについてどんなことを紹介するか",
+          "hanviet": "Tế · Thiệu Giới",
+          "meaning": {
+            "vi": "Sẽ giới thiệu những điều gì về lễ hội ở Tokyo",
+            "en": "What aspects will be introduced regarding the Tokyo festival"
+          },
+          "answerPattern": "テーマ・話題の把握：東京の祭りについてどんなことを紹介するか",
+          "usageExample": "メール・お知らせ文で「これから何を説明・紹介するか」を問う短文問題。",
+          "recallPrompt": {
+            "vi": "Khi đọc email hoặc thông báo ngắn ở Mondai 4 (Đoạn văn ngắn), làm sao chốt nhanh nội dung sẽ giới thiệu?",
+            "en": "In a short reading email/notice, which sentences reveal what the writer plans to introduce?"
+          },
+          "takeaway": {
+            "vi": "Đọc kỹ câu hỏi trước, sau đó quét câu chứa động từ dự định (「〜を紹介します」「〜について書きます」) ở cuối hoặc đầu đoạn.",
+            "en": "Read the question stem first, then locate intent markers like 〜を紹介します or 〜について話します."
+          },
+          "trap": {
+            "vi": "Đáp án nhiễu thường lấy chi tiết tác giả ĐÃ biết từ trước thay vì nội dung SẼ giới thiệu.",
+            "en": "Distractors often pull background details rather than the specific items to be introduced."
+          }
+        },
+        {
+          "id": "audit-0726-r-23",
+          "number": 23,
+          "mondaiNumber": 1,
+          "format": "reading_short",
+          "targetJa": "本当は 伝えられなかったから",
+          "hanviet": "Bản Đương · Truyền",
+          "meaning": {
+            "vi": "Bởi vì thật ra đã không thể truyền đạt / nói ra được",
+            "en": "Because they couldn't convey their true feeling/message"
+          },
+          "answerPattern": "理由問題：本当は 伝えられなかったから",
+          "usageExample": "「どうして〜したのか」→「本当は伝えられなかったから」。",
+          "recallPrompt": {
+            "vi": "Nhận diện dạng bị động/khả năng phủ định quá khứ 「伝えられなかった」 (khác với 「伝えなかった」) thế nào?",
+            "en": "How do you distinguish potential past negative 「伝えられなかった」 ('couldn't convey') from 「伝えなかった」 ('didn't convey')?"
+          },
+          "takeaway": {
+            "vi": "「伝える」(nhóm 2) → khả năng 「伝えられる」 → phủ định quá khứ 「伝えられなかった」 (không thể diễn đạt được).",
+            "en": "伝える (Group 2) -> potential 伝えられる -> 伝えられなかった ('was unable to convey'), explaining regret."
+          },
+          "trap": {
+            "vi": "Đáp án nhiễu dễ biến 「không thể truyền đạt」 thành 「cố tình không nói」 (言わなかった) hoặc 「đã quên」.",
+            "en": "Distractors swap inability ('couldn't') with deliberate choice ('refused to say') or forgetting."
+          },
+          "grammarIds": [
+            "g_061_2",
+            "g_075"
+          ]
+        },
+        {
+          "id": "audit-0726-r-24",
+          "number": 24,
+          "mondaiNumber": 1,
+          "format": "reading_short",
+          "targetJa": "中村さんにお金をもらいます",
+          "hanviet": "Kim",
+          "meaning": {
+            "vi": "Nhận tiền từ anh/chị Nakamura",
+            "en": "Receive money from Nakamura-san"
+          },
+          "answerPattern": "行動・授受の確認：中村さんにお金をもらいます",
+          "usageExample": "メモを見て「誰が誰にお金を払う／もらうか」を正確に確認する。",
+          "recallPrompt": {
+            "vi": "Trong một mảnh ghi chú công việc (メモ), làm sao tránh nhầm chiều 「中村さんにあげる」 với 「中村さんにもらう」?",
+            "en": "In a workplace memo, how do you verify who gives vs receives in 「中村さんにお金をもらいます」?"
+          },
+          "takeaway": {
+            "vi": "Kiểm tra chủ ngữ ẩn (người nhận memo) và trợ từ に: 「[Người nhận]は 中村さんに/から もらう」 = Nakamura là người đưa tiền.",
+            "en": "Track the recipient of the memo: 「Xは 中村さんに もらう」 means Nakamura is the giver, not receiver."
+          },
+          "trap": {
+            "vi": "Bẫy đảo chiều cho-nhận kinh điển của N4: đáp án nhiễu sẽ đảo thành 「中村さんにお金を払います/渡します」.",
+            "en": "Classic N4 directionality trap: wrong choices flip giver and receiver (あげる/渡す vs もらう)."
+          },
+          "grammarIds": [
+            "g_186"
+          ]
+        },
+        {
+          "id": "audit-0726-r-25",
+          "number": 25,
+          "mondaiNumber": 2,
+          "format": "reading_medium",
+          "targetJa": "日本でいつも店で買って食べているとお金がかかること",
+          "hanviet": "Điếm · Mãi Thực",
+          "meaning": {
+            "vi": "Việc ở Nhật nếu lúc nào cũng mua ở tiệm để ăn thì sẽ rất tốn tiền",
+            "en": "That always buying food at shops in Japan costs a lot of money"
+          },
+          "answerPattern": "原因・背景の把握：いつも店で買って食べているとお金がかかること",
+          "usageExample": "節約のために、自分でお弁当を作るようになった背景。",
+          "recallPrompt": {
+            "vi": "Cấu trúc 「Vていると + お金がかかる」 trong đoạn văn trung bình diễn tả mối quan hệ gì?",
+            "en": "What cause-and-effect does 「Vていると + お金がかかる」 express in the medium passage?"
+          },
+          "takeaway": {
+            "vi": "「Vていると〜」 diễn tả hệ quả tất yếu nếu cứ duy trì thói quen mua ăn ngoài -> dẫn đến quyết định tự nấu bento.",
+            "en": "「Vていると〜」 states an inevitable consequence of a habit ('if you keep buying out, it costs a lot')."
+          },
+          "trap": {
+            "vi": "Tránh chọn lý do phụ như 'món ăn ở quán không ngon' nếu bài văn chỉ nhấn mạnh tốn kém 「お金がかかる」.",
+            "en": "Avoid unsupported reasons like 'store food tastes bad' when the text specifically states cost (お金がかかる)."
+          },
+          "grammarIds": [
+            "g_259",
+            "g_063"
+          ]
+        },
+        {
+          "id": "audit-0726-r-26",
+          "number": 26,
+          "mondaiNumber": 2,
+          "format": "reading_medium",
+          "targetJa": "山村さんと話しながら、自分で作った弁当を食べています。",
+          "hanviet": "Tự Phân · Biện Đương",
+          "meaning": {
+            "vi": "Vừa nói chuyện với Yamamura-san vừa ăn cơm hộp tự làm.",
+            "en": "Eating a homemade bento while talking with Yamamura-san."
+          },
+          "answerPattern": "状況の一致：山村さんと話しながら、自分で作った弁当を食べています",
+          "usageExample": "昼休みに山村さんと話しながら、自分で作った弁当を食べています。",
+          "recallPrompt": {
+            "vi": "Trong 「話しながら、自分で作った弁当を食べています」, hành động chính là gì và ai làm cơm hộp?",
+            "en": "In 「話しながら、自分で作った弁当を食べています」, which is the main action and who made the bento?"
+          },
+          "takeaway": {
+            "vi": "「V1ながら V2」 nhấn mạnh V2 (đang ăn cơm hộp tự làm), đồng thời diễn ra song song với V1 (nói chuyện cùng Yamamura).",
+            "en": "「V1ながら V2」 marks simultaneous actions with V2 (eating self-made bento) as the main activity."
+          },
+          "trap": {
+            "vi": "Cẩn thận bị lừa thành 'ăn cơm do Yamamura làm' hoặc 'ăn ở ngoài cùng Yamamura'.",
+            "en": "Watch out for swapped modifiers claiming Yamamura made the bento or they bought lunch out."
+          },
+          "grammarIds": [
+            "g_200",
+            "g_165"
+          ]
+        },
+        {
+          "id": "audit-0726-r-27",
+          "number": 27,
+          "mondaiNumber": 2,
+          "format": "reading_medium",
+          "targetJa": "ほかにもいいことがあった → 日本人の友達ができたこと",
+          "hanviet": "Hữu Đạt",
+          "meaning": {
+            "vi": "Ngoài ra còn có điều tốt khác: kết bạn được với người Nhật",
+            "en": "Another good thing that happened: making a Japanese friend"
+          },
+          "answerPattern": "指示語・言い換え：ほかにもいいことがあった → 日本人の友達ができたこと",
+          "usageExample": "節約できただけでなく、ほかにもいいことがあった（＝日本人の友達ができた）。",
+          "recallPrompt": {
+            "vi": "Khi bài đọc viết 「ほかにもいいことがあった」, câu giải thích thường nằm ngay trước hay ngay sau cụm đó?",
+            "en": "When a passage says 「ほかにもいいことがあった」, where do you find what that 'other good thing' is?"
+          },
+          "takeaway": {
+            "vi": "「ほかにも〜あった」 là câu chuyển ý mở đầu đoạn sau; nội dung cụ thể (kết bạn người Nhật) luôn giải thích ngay kế tiếp.",
+            "en": "「ほかにも〜あった」 acts as a paragraph transition; its concrete referent always follows immediately."
+          },
+          "trap": {
+            "vi": "Đừng chọn lợi ích đầu tiên (tiết kiệm tiền) khi câu hỏi hỏi về 「ほかにもいいこと」 (điều tốt THÊM NỮA).",
+            "en": "Don't pick the first benefit (saving money) when the question specifically asks for the ADDITIONAL good thing."
+          }
+        },
+        {
+          "id": "audit-0726-r-28",
+          "number": 28,
+          "mondaiNumber": 3,
+          "format": "info_retrieval",
+          "targetJa": "金曜日に一人で、インターネットからシングルルームを予約すると、料金は10,000円です。",
+          "hanviet": "Dự Ước · Liệu Kim",
+          "meaning": {
+            "vi": "Đặt phòng đơn 1 người vào thứ Sáu qua Internet thì giá là 10.000 yên.",
+            "en": "Booking a single room for one person online on Friday costs 10,000 yen."
+          },
+          "answerPattern": "条件照合：金曜日 + 1人 + インターネット + シングル = 10,000円",
+          "usageExample": "曜日・人数・部屋タイプ・予約方法（ネット割引など）の4条件を順に確認する。",
+          "recallPrompt": {
+            "vi": "Với bảng giá khách sạn (Mondai 6), cần đối chiếu những trục điều kiện nào để không tính sai giá?",
+            "en": "In a hotel pricing chart (Mondai 6), which axes and discounts must you check before choosing the total?"
+          },
+          "takeaway": {
+            "vi": "Gạch chân đủ 4 biến: thứ mấy (ngày thường hay cuối tuần/thứ Sáu), loại phòng (シングル), số người, và ưu đãi đặt online.",
+            "en": "Checklist all 4 filters: day of week (Fri rate), room type (Single), headcount (1), and online booking rule."
+          },
+          "trap": {
+            "vi": "Bảng thông tin JLPT luôn gài thêm phí phụ cuối tuần hoặc giảm giá đặt qua web ở phần chú thích ※ bên dưới.",
+            "en": "JLPT charts almost always hide weekend surcharges or web discounts in the ※ footnotes below the table."
+          },
+          "grammarIds": [
+            "g_259"
+          ]
+        },
+        {
+          "id": "audit-0726-r-29",
+          "number": 29,
+          "mondaiNumber": 3,
+          "format": "info_retrieval",
+          "targetJa": "ホテルの宿泊者が無料でできるのはホテルのプールで泳ぐこと",
+          "hanviet": "Túc Bạc Giả · Vô Liệu",
+          "meaning": {
+            "vi": "Điều khách lưu trú tại khách sạn có thể làm miễn phí là bơi ở hồ bơi của khách sạn",
+            "en": "What hotel guests can do for free is swim in the hotel pool"
+          },
+          "answerPattern": "無料特典の確認：宿泊者が無料でできるのはホテルのプールで泳ぐこと",
+          "usageExample": "※宿泊のお客様は、ホテルのプールを無料でご利用いただけます。",
+          "recallPrompt": {
+            "vi": "Cụm từ 「宿泊者」(しゅくはくしゃ) và 「無料」(むりょう) nghĩa là gì khi tra tờ rơi khách sạn?",
+            "en": "What do 「宿泊者」 and 「無料」 mean in a hotel notice, and what traps surround them?"
+          },
+          "takeaway": {
+            "vi": "「宿泊者」 = khách ở lại qua đêm; 「無料」（むりょう） = 0 yên / miễn phí (đối lập 「有料」 ゆうりょう - có phí).",
+            "en": "宿泊者 = staying guests; 無料 = free of charge (vs 有料 = paid / 別料金 = extra fee)."
+          },
+          "trap": {
+            "vi": "Cẩn thận các dịch vụ có chữ 「別料金」（tính phí riêng） hoặc 「半額」（giảm nửa giá, không phải miễn phí）.",
+            "en": "Watch for distractors marked 別料金 (extra fee) or 半額 (half-price, not free)."
+          },
+          "grammarIds": [
+            "g_174"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "listening",
+      "title": {
+        "vi": "Nghe hiểu",
+        "en": "Listening Comprehension"
+      },
+      "items": [
+        {
+          "id": "audit-0726-l-m1-01",
+          "number": 1,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "40枚",
+          "kana": "よんじゅうまい",
+          "hanviet": "Mai",
+          "meaning": {
+            "vi": "40 tờ (tài liệu, giấy mỏng)",
+            "en": "40 sheets (flat items)"
+          },
+          "answerPattern": "必要枚数：40枚（よんじゅうまい）",
+          "usageExample": "会議の資料を40枚コピーしておいてください。",
+          "recallPrompt": {
+            "vi": "Loại từ đếm 「枚」（まい） dùng cho vật gì, và khi nghe số lượng cần phân biệt cặp âm nào?",
+            "en": "What does counter 「枚」 count, and which number pairs must you distinguish in audio?"
+          },
+          "takeaway": {
+            "vi": "「枚」（まい） đếm vật mỏng (giấy, vé, áo); luôn ghi nhanh số ban đầu rồi nghe xem có câu điều chỉnh/cộng thêm không.",
+            "en": "「枚」 counts flat items (sheets/tickets/shirts); jot down initial counts and listen for additions or subtractions."
+          },
+          "trap": {
+            "vi": "Dễ nghe nhầm 「14枚」（じゅうよんまい） với 「40枚」（よんじゅうまい）, hoặc chọn số cũ trước khi người nói đính chính.",
+            "en": "Watch 14 (じゅうよん) vs 40 (よんじゅう) and mid-dialogue corrections."
+          },
+          "grammarIds": [
+            "g_043_1_2"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m1-02",
+          "number": 2,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "車を予約する",
+          "kana": "くるまをよやくする",
+          "hanviet": "Dự Ước",
+          "meaning": {
+            "vi": "Đặt xe trước",
+            "en": "To reserve a car"
+          },
+          "answerPattern": "次の行動：車を予約する",
+          "usageExample": "ホテルはもう予約したから、あとは車を予約しておいて。",
+          "recallPrompt": {
+            "vi": "Trong Mondai 1 nghe hiểu, làm sao phân biệt việc NGƯỜI ĐƯỢC HỎI sẽ làm với việc người kia nhận làm?",
+            "en": "In Listening Mondai 1, how do you avoid picking the task the other speaker handles instead?"
+          },
+          "takeaway": {
+            "vi": "Lắng nghe phần phân công cuối hội thoại: 「それは私がやるから、〜をお願い / 〜てくれる？」.",
+            "en": "Listen closely for role-assignment cues near the end: 「僕がやるから、そっちをお願い」."
+          },
+          "trap": {
+            "vi": "Các lựa chọn còn lại (như đặt khách sạn/nhà hàng) thường đã được làm xong hoặc do người còn lại đảm nhận.",
+            "en": "Other options in the printed choices are usually already completed or assigned to the other speaker."
+          }
+        },
+        {
+          "id": "audit-0726-l-m1-03",
+          "number": 3,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "8時30分に会社へ行く。（9時30分から会議が始まるので、その前に相談する）",
+          "hanviet": "Hội Nghị · Tương Đàm",
+          "meaning": {
+            "vi": "Đến công ty lúc 8:30 (vì 9:30 họp nên cần bàn bạc trước đó)",
+            "en": "Go to the company at 8:30 (to consult before the 9:30 meeting)"
+          },
+          "answerPattern": "集合・出社時刻：8時30分（9時30分の会議の前に相談）",
+          "usageExample": "9時30分から会議が始まるので、その1時間前の8時30分に会社へ来てください。",
+          "recallPrompt": {
+            "vi": "Khi nghe nhắc nhiều mốc giờ (8:30 và 9:30), xác định giờ nhân vật phải có mặt thế nào?",
+            "en": "When two times are mentioned (8:30 vs 9:30), how do you pick the arrival time?"
+          },
+          "takeaway": {
+            "vi": "Gắn nhãn từng mốc giờ khi nghe: 9:30 = giờ bắt đầu họp (会議), 8:30 = giờ đến để trao đổi trước (相談).",
+            "en": "Label each timestamp as you listen: 9:30 = meeting starts, 8:30 = arrival for pre-meeting discussion."
+          },
+          "trap": {
+            "vi": "Bẫy giờ kinh điển: thí sinh nghe được 「9時30分」 rõ hơn nên khoanh nhầm giờ họp thay vì giờ phải đến.",
+            "en": "Classic time trap: picking the meeting start time (9:30) instead of the requested arrival time (8:30)."
+          },
+          "grammarIds": [
+            "g_253",
+            "g_080_1"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m1-04",
+          "number": 4,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "タオル（手をよくあらうので、タオルをもっていく）",
+          "hanviet": "Thủ",
+          "meaning": {
+            "vi": "Khăn tay (vì rửa tay nhiều nên mang theo khăn)",
+            "en": "A towel (bringing one because they wash hands often)"
+          },
+          "answerPattern": "持っていく物：タオル（手をよくあらうので）",
+          "usageExample": "作業中は手をよくあらうので、タオルを持っていってください。",
+          "recallPrompt": {
+            "vi": "Mối liên hệ nguyên nhân-kết quả nào giúp chọn đúng vật dụng mang theo là 「タオル」?",
+            "en": "Which reason phrase points directly to bringing a towel (タオル)?"
+          },
+          "takeaway": {
+            "vi": "Chú ý câu lý do 「〜ので、〜を持っていく」: rửa tay nhiều (手をよくあらう) → cần mang khăn (タオル).",
+            "en": "Track causal cues (〜ので): washing hands often (手をよくあらう) -> bring a towel."
+          },
+          "trap": {
+            "vi": "Các đồ vật khác trong hội thoại có thể được thông báo là 'ở đó có sẵn rồi' (用意してあります).",
+            "en": "Other listed items are often ruled out with 'provided on-site' or 'not needed today'."
+          },
+          "grammarIds": [
+            "g_253"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m1-05",
+          "number": 5,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "図形パターンの変化（図表問題・音声未検証）",
+          "hanviet": "Đồ Hình",
+          "meaning": {
+            "vi": "Câu hỏi hình minh họa về thay đổi họa tiết (chưa có bản chép thoại công khai)",
+            "en": "Visual diagram item on pattern change (audio prompt unverified in public logs)"
+          },
+          "answerPattern": "未検証・図表選択問題（gogaku: hình vuông chuyển thành vòng tròn chấm, còn các chấm ở dưới）",
+          "usageExample": "Visual diagram item in 07/2026 Listening M1 Q5 (passjapanese: Updating; unojapano: expired image).",
+          "recallPrompt": {
+            "vi": "Khi gặp câu chọn hình vẽ họa tiết/sắp xếp đồ vật trong Mondai 1 (không có chữ để đọc trước), cần tập trung nghe từ khóa gì?",
+            "en": "For pure diagram questions in Listening M1 (no text options), which spatial/shape cues must you track?"
+          },
+          "takeaway": {
+            "vi": "Lưu ý: thoại gốc của câu này chưa được xác minh trong dữ liệu cộng đồng (gogaku ghi chú họa tiết vuông biến đổi thành vòng chấm tròn; passjapanese đánh dấu đang cập nhật).",
+            "en": "Note: Exact audio transcript for M1 Q5 was unverified in public logs (gogaku noted squares changing into a circle of dots; passjapanese marked Updating)."
+          },
+          "trap": {
+            "vi": "Với câu hình ảnh, hãy khoanh/đánh dấu trực tiếp các chi tiết bị loại (上/下, 四角/丸, 線/点) ngay khi nghe.",
+            "en": "When facing visual-only items, trace shape and position keywords (丸・四角・上・下) directly on the booklet."
+          }
+        },
+        {
+          "id": "audit-0726-l-m1-06",
+          "number": 6,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "いきすぎ／左側",
+          "hanviet": "Tả Trắc",
+          "meaning": {
+            "vi": "Đi quá một chút / phía bên trái (bản đồ hiệu sách và tiệm bánh)",
+            "en": "Went past / on the left side (map with bookstore and bakery)"
+          },
+          "answerPattern": "道案内図：いきすぎ（行き過ぎ）／左側（ひだりがわ）",
+          "usageExample": "本屋をすぎて、次の角を左に曲がると、左側にパン屋があります。",
+          "recallPrompt": {
+            "vi": "Khi nghe chỉ đường trên bản đồ ở Mondai 1, cụm 「行き過ぎ」 và 「左側」 báo hiệu vị trí nào?",
+            "en": "In map-direction listening tasks, what do 「行き過ぎ」 (went too far) and 「左側」 (left side) tell you?"
+          },
+          "takeaway": {
+            "vi": "Nắm chắc từ chỉ hướng & khoảng cách: まっすぐ (thẳng), 曲がる (rẽ), 過ぎる (đi qua), 左側 (bên trái), 向かい (đối diện).",
+            "en": "Master map anchors: 過ぎる/行き過ぎ (past/too far), 曲がる (turn), 左側/右側 (left/right side)."
+          },
+          "trap": {
+            "vi": "Luôn xác định điểm mốc 「どこから」(xuất phát từ đâu) và kiểm tra chiều mũi tên trên bản đồ trước khi nghe.",
+            "en": "Always anchor the starting point and orientation on the map during the 5-second pause before audio begins."
+          }
+        },
+        {
+          "id": "audit-0726-l-m1-07",
+          "number": 7,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "電車の中でラジオを聞く",
+          "kana": "でんしゃのなかでラジオをきく",
+          "hanviet": "Điện Xa",
+          "meaning": {
+            "vi": "Nghe đài radio ở trên tàu điện",
+            "en": "Listen to the radio on the train"
+          },
+          "answerPattern": "行動選択：電車の中でラジオを聞く",
+          "usageExample": "通学の電車の中で、毎日日本語のラジオを聞いています。",
+          "recallPrompt": {
+            "vi": "Phân biệt 「電車の中で聞く」 với các hoạt động khác được nhắc trong bài như thế nào?",
+            "en": "How do you isolate 「listening to the radio on the train」 from other activities mentioned?"
+          },
+          "takeaway": {
+            "vi": "Bắt cặp 「địa điểm/phương tiện + hành động」 (電車の中で + ラジオを聞く) và để ý lý do loại trừ (như sách nặng/mỏi mắt).",
+            "en": "Pair location + action (電車の中で + ラジオを聞く) while catching why alternatives (reading, etc.) are rejected."
+          },
+          "trap": {
+            "vi": "Người nói hay kể thói quen CŨ hoặc dự định ở nhà để làm nhiễu câu hỏi về việc làm TRÊN TÀU.",
+            "en": "Speakers often mention past habits or home activities as distractors against what they do on the train."
+          }
+        },
+        {
+          "id": "audit-0726-l-m1-08",
+          "number": 8,
+          "mondaiNumber": 1,
+          "format": "task_comprehension",
+          "targetJa": "テーブルをかたづける",
+          "kana": "テーブルをかたづける",
+          "meaning": {
+            "vi": "Dọn dẹp bàn",
+            "en": "Tidy up the table"
+          },
+          "answerPattern": "残りの作業：テーブルをかたづける",
+          "usageExample": "お皿は私が洗うから、あなたはテーブルをかたづけてください。",
+          "recallPrompt": {
+            "vi": "Động từ 「かたづける」 (片付ける) nghĩa là gì và thường đi với bối cảnh nào trong JLPT?",
+            "en": "What does 「かたづける」 mean, and how is it contrasted with other chores in Listening M1?"
+          },
+          "takeaway": {
+            "vi": "「片付ける」(かたづける) = thu dọn gọn gàng; xuất hiện thường xuyên trong Mondai 1 (cũng có mặt trong JLPT 07/2025 M1 Q3).",
+            "en": "「かたづける」 (tidy/clear away) is a high-frequency Listening M1 chore verb (also in JLPT 07/2025 M1 Q3)."
+          },
+          "trap": {
+            "vi": "Chú ý các việc đã hoàn thành dùng 「〜てある / 〜ておいた」 để loại trừ khỏi việc CẦN LÀM TIẾP.",
+            "en": "Eliminate tasks described with 〜てある or 〜ておいた (already done) when the question asks what to do next."
+          }
+        },
+        {
+          "id": "audit-0726-l-m2-01",
+          "number": 1,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "ソースの材料は（さけ・しょうゆ・ケチャップ）です。",
+          "hanviet": "Tài Liệu · Tửu",
+          "meaning": {
+            "vi": "Nguyên liệu của nước sốt là rượu nấu ăn (酒 · さけ), nước tương và tương cà.",
+            "en": "The sauce ingredients are cooking sake (酒 · さけ), soy sauce, and ketchup."
+          },
+          "answerPattern": "材料：酒（さけ）・しょうゆ・ケチャップ",
+          "usageExample": "このソースは、酒としょうゆとケチャップを混ぜて作ります。",
+          "recallPrompt": {
+            "vi": "Trong công thức pha nước sốt nghe được từ 「さけ・しょうゆ・ケチャップ」, 「さけ」 là nguyên liệu gì?",
+            "en": "In a sauce recipe listing 「さけ・しょうゆ・ケチャップ」, what ingredient is 「さけ」?"
+          },
+          "takeaway": {
+            "vi": "「さけ」 ở đây là 酒 (Tửu — rượu nấu ăn / cooking sake) sánh vai với しょうゆ và ケチャップ, tuyệt đối KHÔNG phải cá hồi (鮭・さけ).",
+            "en": "「さけ」 here is cooking sake (酒, Tửu) alongside soy sauce and ketchup — NOT salmon (鮭)!"
+          },
+          "trap": {
+            "vi": "ĐÍNH CHÍNH QUAN TRỌNG: nguồn gogakueducation.com dịch nhầm 「さけ」 thành 'salmon' (cá hồi); trong gia vị nước sốt phải là 酒 (rượu nấu ăn).",
+            "en": "CRITICAL CORRECTION: gogakueducation.com mistranslated 「さけ」 as 'salmon'; in a seasoning list with soy sauce & ketchup, さけ is cooking sake (酒)."
+          }
+        },
+        {
+          "id": "audit-0726-l-m2-02",
+          "number": 2,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "日曜日の夕方のクラスです。",
+          "kana": "にちようびのゆうがたのクラスです。",
+          "hanviet": "Tịch Phương",
+          "meaning": {
+            "vi": "Là lớp học vào chiều tối Chủ nhật.",
+            "en": "It is the Sunday evening class."
+          },
+          "answerPattern": "クラス選択：日曜日の夕方（ゆうがた）",
+          "usageExample": "平日は仕事があるので、日曜日の夕方のクラスにしました。",
+          "recallPrompt": {
+            "vi": "「夕方」（ゆうがた） chỉ khoảng thời gian nào trong ngày, và làm sao loại các lớp bị trùng lịch?",
+            "en": "What time of day is 「夕方」 (ゆうがた), and how do you filter out unavailable class slots?"
+          },
+          "takeaway": {
+            "vi": "Nắm rõ từ chỉ buổi: 朝 (sáng), 昼 (trưa), 夕方 (chiều tối ~16:00-18:00), 夜 (tối).",
+            "en": "Keep day-part words sharp: 朝 (morning), 昼 (noon), 夕方 (late afternoon/evening), 夜 (night)."
+          },
+          "trap": {
+            "vi": "Thí sinh hay nhầm ngày/buổi đầu tiên người nói muốn đăng ký (nhưng đã hết chỗ hoặc bận) với lớp chốt cuối cùng.",
+            "en": "Speakers often mention a preferred slot first only to rule it out as full or conflicting."
+          }
+        },
+        {
+          "id": "audit-0726-l-m2-03",
+          "number": 3,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "れいぞうこだけ",
+          "kana": "れいぞうこだけ",
+          "hanviet": "Lãnh Tàng Khố",
+          "meaning": {
+            "vi": "Chỉ có tủ lạnh thôi",
+            "en": "Only the refrigerator"
+          },
+          "answerPattern": "対象範囲：冷蔵庫（れいぞうこ）だけ",
+          "usageExample": "洗濯機は買わなくていいので、れいぞうこだけ買うことにしました。",
+          "recallPrompt": {
+            "vi": "Khi nghe câu liệt kê nhiều đồ gia dụng (tủ lạnh, máy giặt, tivi...), từ khóa nào thu hẹp đáp án về 「れいぞうこだけ」?",
+            "en": "When multiple appliances are listed, which cues narrow the final choice to 「れいぞうこだけ」?"
+          },
+          "takeaway": {
+            "vi": "Chú ý từ khóa thu hẹp 「だけ」 và mẫu phủ định 「〜はいらない / 〜はもうあるから」 để gạch các món còn lại.",
+            "en": "Listen for narrowing cues like だけ, もらえるから, or いらない to cross out the other appliances."
+          },
+          "trap": {
+            "vi": "Không chọn đáp án có 2 món nếu một món đã có người cho hoặc chưa cần mua.",
+            "en": "Avoid multi-item choices when one appliance is already owned or being gifted by a friend."
+          },
+          "grammarIds": [
+            "g_108"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m2-04",
+          "number": 4,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "男の人はこどものころ、警察官になりたかったです。",
+          "hanviet": "Cảnh Sát Quan",
+          "meaning": {
+            "vi": "Hồi còn nhỏ, người đàn ông đã muốn trở thành cảnh sát.",
+            "en": "When he was a child, the man wanted to become a police officer."
+          },
+          "answerPattern": "過去の夢：子どものころ、警察官になりたかった",
+          "usageExample": "小さいころは警察官になりたかったんですが、今は会社員です。",
+          "recallPrompt": {
+            "vi": "Phân biệt 「nghề hồi nhỏ muốn làm」 (子どものころ) với 「nghề hiện tại」 hoặc 「ước mơ của người kia」 như thế nào?",
+            "en": "How do you separate 'childhood dream' (子どものころ) from current job or the other speaker's dream?"
+          },
+          "takeaway": {
+            "vi": "Bắt đúng mốc thì 「子どものころ + Vたかった」; đừng nhầm sang nghề hiện nay hay nghề của bố/bạn.",
+            "en": "Anchor the time marker (子どものころ) and past desiderative (なりたかった) vs current occupation."
+          },
+          "trap": {
+            "vi": "Đáp án nhiễu thường đưa nghề hiện tại của nhân vật hoặc ước mơ hồi nhỏ của người đối thoại.",
+            "en": "Distractors typically feature the speaker's present job or the other person's childhood dream."
+          },
+          "grammarIds": [
+            "g_160",
+            "g_078"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m2-05",
+          "number": 5,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "部屋をそうじする",
+          "kana": "へやをそうじする",
+          "hanviet": "Tảo Trừ",
+          "meaning": {
+            "vi": "Dọn dẹp phòng",
+            "en": "Clean the room"
+          },
+          "answerPattern": "予定・行動：部屋をそうじする",
+          "usageExample": "友だちが遊びに来るので、その前に部屋をそうじします。",
+          "recallPrompt": {
+            "vi": "Các từ đồng nghĩa/liên quan thường gây nhiễu với 「そうじする」 (dọn dẹp) trong bài nghe là gì?",
+            "en": "Which household chores are often used as distractors around 「部屋をそうじする」?"
+          },
+          "takeaway": {
+            "vi": "Phân biệt rõ 「掃除する」(そうじする - quét dọn), 「洗濯する」(せんたくする - giặt giũ), 「片付ける」(かたづける - thu dọn).",
+            "en": "Distinguish 掃除 (cleaning/vacuuming), 洗濯 (laundry), and 片付け (tidying up)."
+          },
+          "trap": {
+            "vi": "Nghe kỹ việc nào làm TRƯỚC khi khách đến và việc nào làm SAU hoặc người khác làm.",
+            "en": "Verify timing (before vs after) and who actually performs the chore."
+          }
+        },
+        {
+          "id": "audit-0726-l-m2-06",
+          "number": 6,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "写真をとりにいきます",
+          "kana": "しゃしんをとりにいきます",
+          "hanviet": "Tả Chân",
+          "meaning": {
+            "vi": "Đi chụp ảnh",
+            "en": "Go to take photos"
+          },
+          "answerPattern": "移動の目的：写真をとりにいく（Vます＋に行く）",
+          "usageExample": "休みの日に、公園へさくらを見に行って、写真をとりにいきます。",
+          "recallPrompt": {
+            "vi": "Cấu trúc 「Vます + に + 行く」 diễn tả ý nghĩa gì trong câu 「写真をとりにいきます」?",
+            "en": "What grammatical relationship does 「V-masu + に + 行く」 express in 「写真をとりにいきます」?"
+          },
+          "takeaway": {
+            "vi": "「Vます（bỏ ます） + に + 行く/来る」 chỉ mục đích di chuyển (cụm 「写真をとる」 đọc là とる).",
+            "en": "「V-stem + に + 行く/来る」 states the purpose of going somewhere (写真をとる = take photos)."
+          },
+          "trap": {
+            "vi": "Đừng nhầm với việc 「chụp ảnh ở nhà」 hay 「mang ảnh đi rửa/gửi」 (写真を出す/送る).",
+            "en": "Don't confuse 'go to take photos' with 'go to pick up photos' or 'send photos'."
+          },
+          "grammarIds": [
+            "g_058"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m2-07",
+          "number": 7,
+          "mondaiNumber": 2,
+          "format": "point_comprehension",
+          "targetJa": "男の人はサラダの具を「トマト」から「ニンジン」に変更したいので電話しました。",
+          "hanviet": "Cụ · Điện Thoại",
+          "meaning": {
+            "vi": "Người đàn ông gọi điện vì muốn đổi thành phần salad từ cà chua sang cà rốt.",
+            "en": "The man called because he wants to change the salad ingredient from tomato to carrot."
+          },
+          "answerPattern": "電話の理由：トマトからニンジンに変更（へんこう）したいので",
+          "usageExample": "注文したサラダの具を、トマトからニンジンに変えたいんですが。",
+          "recallPrompt": {
+            "vi": "Khi nghe câu hỏi 「どうして電話しましたか」, cặp từ 「Aから Bに変更/変える」 cho biết điều gì?",
+            "en": "In a 'why did they call' question, what does 「Aから Bに変更したい」 specify?"
+          },
+          "takeaway": {
+            "vi": "Chú ý chiều thay đổi 「[cũ]から [mới]に変える/変更する」: トマト (bỏ) → ニンジン (lấy).",
+            "en": "Track the replacement direction 「oldから newに変更」: out with tomato, in with carrot."
+          },
+          "trap": {
+            "vi": "Đáp án nhiễu thường đảo ngược chiều (từ cà rốt sang cà chua) hoặc nói nhầm là hủy toàn bộ món salad.",
+            "en": "Watch reversed-direction choices (carrot to tomato) or cancelling the entire order."
+          },
+          "grammarIds": [
+            "g_253"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m3-01",
+          "number": 1,
+          "mondaiNumber": 3,
+          "format": "utterance_expression",
+          "targetJa": "北山駅にとまりますか？",
+          "kana": "きたやまえきにとまりますか？",
+          "hanviet": "Chỉ",
+          "meaning": {
+            "vi": "Tàu/xe buýt này có dừng ở ga Kitayama không ạ?",
+            "en": "Does this stop at Kitayama Station?"
+          },
+          "answerPattern": "電車・バスでの質問：〜駅に止まりますか。",
+          "usageExample": "すみません、この電車は北山駅にとまりますか。",
+          "recallPrompt": {
+            "vi": "Khi muốn hỏi nhân viên tàu/xe xem chuyến này có dừng tại một ga cụ thể không, dùng trợ từ nào trước 止まる?",
+            "en": "When asking if a train or bus stops at a station, which particle goes before 止まりますか?"
+          },
+          "takeaway": {
+            "vi": "Dùng 「[Ga/Trạm] + に + 止まりますか」 (tự động từ 止まる đi với に chỉ điểm dừng).",
+            "en": "Intransitive 止まる takes に for the stopping point: 「北山駅にとまりますか」."
+          },
+          "trap": {
+            "vi": "Không dùng 「止めますか」 (ngoại động từ, nghĩa là 'bác làm ơn dừng xe') để hỏi lịch trình tuyến.",
+            "en": "Don't confuse intransitive 止まりますか (does it stop?) with transitive 止めますか (will you stop it?)."
+          },
+          "grammarIds": [
+            "g_162"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m3-02",
+          "number": 2,
+          "mondaiNumber": 3,
+          "format": "utterance_expression",
+          "targetJa": "おじゃまします",
+          "kana": "おじゃまします",
+          "meaning": {
+            "vi": "Xin phép làm phiền (lời chào khi bước vào nhà/phòng người khác)",
+            "en": "Excuse me for intruding (fixed greeting when entering someone's home/room)"
+          },
+          "answerPattern": "訪問時のあいさつ：おじゃまします",
+          "usageExample": "友だちの家に入ったとき、「おじゃまします」と言います。",
+          "recallPrompt": {
+            "vi": "Cặp câu cố định khi ĐẾN bước vào nhà người khác và khi RA VỀ là gì?",
+            "en": "What are the fixed Japanese greetings when entering and when leaving someone's home?"
+          },
+          "takeaway": {
+            "vi": "Lúc bước vào nói 「おじゃまします」; lúc ra về nói 「おじゃましました」.",
+            "en": "Say 「おじゃまします」 upon entering and 「おじゃましました」 when leaving."
+          },
+          "trap": {
+            "vi": "Không dùng 「しつれいします」 lúc bước vào nhà bạn bè (thường dùng khi vào phòng họp/phòng giáo viên), hoặc 「おかえりなさい」.",
+            "en": "Contrast with 失礼します (entering an office/classroom) and いらっしゃいませ (welcoming a customer)."
+          }
+        },
+        {
+          "id": "audit-0726-l-m3-03",
+          "number": 3,
+          "mondaiNumber": 3,
+          "format": "utterance_expression",
+          "targetJa": "切手は売っていますか",
+          "kana": "きってはうっていますか",
+          "hanviet": "Thiết Thủ",
+          "meaning": {
+            "vi": "Ở đây có bán tem thư không ạ?",
+            "en": "Do you sell stamps here?"
+          },
+          "answerPattern": "お店での確認：〜は売っていますか。",
+          "usageExample": "すみません、この店で切手は売っていますか。",
+          "recallPrompt": {
+            "vi": "Khi hỏi cửa hàng có bán mặt hàng nào không, dùng 「売りますか」 hay 「売っていますか」?",
+            "en": "To ask a shop if they carry/sell stamps, do you say 「売りますか」 or 「売っていますか」?"
+          },
+          "takeaway": {
+            "vi": "Dùng thể trạng thái 「〜は売っていますか」 để hỏi cửa hàng có đang kinh doanh mặt hàng đó không.",
+            "en": "Use stative 「売っていますか」 to ask whether a store carries/sells an item regularly."
+          },
+          "trap": {
+            "vi": "Không hỏi 「切手を売りますか」 (nghe như hỏi 'bạn có định bán tem không?') hay 「買っていますか」.",
+            "en": "Avoid 買っていますか (do you buy?) or plain 売りますか (future intention)."
+          },
+          "grammarIds": [
+            "g_094_4"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m3-04",
+          "number": 4,
+          "mondaiNumber": 3,
+          "format": "utterance_expression",
+          "targetJa": "後ろ気を付けて",
+          "kana": "うしろ、きをつけて",
+          "hanviet": "Hậu",
+          "meaning": {
+            "vi": "Phía sau cẩn thận nhé! / Coi chừng phía sau!",
+            "en": "Watch out behind you!"
+          },
+          "answerPattern": "注意喚起：後ろ、気をつけて！",
+          "usageExample": "自転車が後ろから来ているので、「後ろ、気をつけて」と言います。",
+          "recallPrompt": {
+            "vi": "Khi thấy nguy hiểm/xe cộ tiến tới từ phía sau bạn mình, hô ngắn gọn thế nào bằng tiếng Nhật?",
+            "en": "How do you warn a friend briefly about something coming from behind them?"
+          },
+          "takeaway": {
+            "vi": "「[Phương hướng/Mối nguy] + (に)気をつけて」 = hãy coi chừng/cẩn thận ~ (bỏ ください trong tình huống khẩn cấp).",
+            "en": "「(に)気をつけて」 is a fast, natural warning phrase; drop ください when warning urgently."
+          },
+          "trap": {
+            "vi": "Đừng chọn câu kể tường thuật như 「後ろが危ないと思います」 quá dài dòng trong tình huống khẩn cấp.",
+            "en": "Avoid overly wordy descriptive sentences in Mondai 3 when an immediate alert is needed."
+          },
+          "grammarIds": [
+            "g_099"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m3-05",
+          "number": 5,
+          "mondaiNumber": 3,
+          "format": "utterance_expression",
+          "targetJa": "もう少し大きくしてもいい？",
+          "kana": "もうすこしおおきくしてもいい？",
+          "hanviet": "Đại",
+          "meaning": {
+            "vi": "Tôi chỉnh to hơn một chút nữa được không?",
+            "en": "May I make it a little bigger/louder?"
+          },
+          "answerPattern": "許可を求める：もう少し Aく／Aなに してもいい？",
+          "usageExample": "テレビの音が小さいので、もう少し大きくしてもいいですか。",
+          "recallPrompt": {
+            "vi": "Ghép mẫu xin phép 「〜てもいい」 với 「làm cho to/rõ hơn」 (大きい + する) như thế nào?",
+            "en": "How do you combine asking permission (〜てもいい) with 'make it bigger/louder' (大きい + する)?"
+          },
+          "takeaway": {
+            "vi": "Kết hợp 「Aい → Aく + する」 (làm cho trở nên...) + 「〜てもいい？」 (xin phép).",
+            "en": "Combines adverbial change 「大きくする」 (make bigger/louder) + permission 「〜てもいい?」."
+          },
+          "trap": {
+            "vi": "Nhớ phân biệt 「大きくしてもいい」(tôi chỉnh to nhé?) với 「大きくなってもいい」(bị động/tự nó to lên — sai chủ thể).",
+            "en": "Use 大きくする (transitive deliberate action) rather than 大きくなる when asking to adjust something."
+          },
+          "grammarIds": [
+            "g_159",
+            "g_097"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m4-01",
+          "number": 1,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "もうすぐできます",
+          "kana": "もうすぐできます",
+          "meaning": {
+            "vi": "Sắp xong ngay bây giờ rồi ạ.",
+            "en": "It will be ready soon."
+          },
+          "answerPattern": "完了見込みの返答：もうすぐできます。",
+          "usageExample": "「すみません、料理はまだですか。」—「はい、もうすぐできます。」",
+          "recallPrompt": {
+            "vi": "Khi được hỏi 「〜はまだですか / もう終わりますか」, câu đáp ngắn báo sắp hoàn thành là gì?",
+            "en": "How do you briefly reply that an order or task is nearly finished?"
+          },
+          "takeaway": {
+            "vi": "「もうすぐできます」 (sắp xong/sắp có) rất hay gặp ở quán ăn, hiệu ảnh, tiệm sửa đồ.",
+            "en": "「もうすぐできます」 ('almost ready') is a staple quick response in shops and restaurants."
+          },
+          "trap": {
+            "vi": "Phân biệt 「もうすぐ」(sắp sửa + hiện tại) với 「もう」(đã xong rồi + quá khứ できました).",
+            "en": "Contrast もうすぐ + non-past (soon) with もう + past (already finished)."
+          }
+        },
+        {
+          "id": "audit-0726-l-m4-02",
+          "number": 2,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "そうですね。お腹もすきましたね。",
+          "hanviet": "Phục",
+          "meaning": {
+            "vi": "Đúng vậy nhỉ. Cũng thấy đói bụng rồi đấy.",
+            "en": "I agree. I'm getting hungry too."
+          },
+          "answerPattern": "提案への同意：そうですね。お腹もすきましたね。",
+          "usageExample": "「そろそろお昼ご飯を食べませんか。」—「そうですね。お腹もすきましたね。」",
+          "recallPrompt": {
+            "vi": "Khi đối phương rủ ăn uống hoặc nghỉ ăn trưa, cụm đáp đồng tình tự nhiên có chứa 「お腹」 là gì?",
+            "en": "When someone suggests taking a meal break, what natural agreement mentions 「お腹」?"
+          },
+          "takeaway": {
+            "vi": "「お腹がすく」(おなかがすく = đói bụng) dùng dạng quá khứ 「すきました」 để nói 'lúc này đã đói rồi'.",
+            "en": "「お腹がすく」 uses past tense 「すきました」 to mean 'I am hungry now'; pairing with も adds agreement."
+          },
+          "trap": {
+            "vi": "Chú ý trạng từ 「そうですね」(đồng tình) khác với 「そうですか」(tiếp nhận thông tin mới).",
+            "en": "Watch そうですね (agreement with a suggestion) vs そうですか (acknowledging new info)."
+          },
+          "grammarIds": [
+            "g_008_1",
+            "g_003"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m4-03",
+          "number": 3,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "大学近くの本屋",
+          "kana": "だいがくちかくのほんや",
+          "hanviet": "Đại Học · Bản Ốc",
+          "meaning": {
+            "vi": "Hiệu sách ở gần trường đại học",
+            "en": "The bookstore near the university"
+          },
+          "answerPattern": "場所の回答：大学近くの本屋",
+          "usageExample": "「この辞書はどこで買ったんですか。」—「大学近くの本屋（です）。」",
+          "recallPrompt": {
+            "vi": "Trong Mondai 4, khi câu hỏi chứa từ để hỏi 「どこで / どちらで」, câu trả lời thường ngắn gọn thế nào?",
+            "en": "In Quick Response, how do answers to 「どこで」 questions typically omit the verb?"
+          },
+          "takeaway": {
+            "vi": "Mondai 4 thường lược động từ ở câu đáp, chỉ nêu cụm danh từ chỉ nơi chốn khớp trực tiếp với 「どこ」.",
+            "en": "Quick Response answers frequently omit the verb and supply only the matching noun phrase."
+          },
+          "trap": {
+            "vi": "Đừng chọn câu có cụm thời gian (いつ) hoặc lý do (から) khi câu hỏi hỏi địa điểm (どこ).",
+            "en": "Match the exact wh-word: don't pick a time or reason reply when the prompt asked どこ."
+          }
+        },
+        {
+          "id": "audit-0726-l-m4-04",
+          "number": 4,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "うん、相談するね",
+          "kana": "うん、そうだんするね",
+          "hanviet": "Tương Đàm",
+          "meaning": {
+            "vi": "Ừ, tớ sẽ hỏi ý kiến / trao đổi nhé.",
+            "en": "Yeah, I'll talk it over with them."
+          },
+          "answerPattern": "助言への返答：うん、相談するね",
+          "usageExample": "「困ったら先生に相談したほうがいいよ。」—「うん、相談するね。」",
+          "recallPrompt": {
+            "vi": "Khi bạn khuyên 「〜に相談したほうがいいよ」, câu đáp thân mật đồng ý làm theo là gì?",
+            "en": "How do you casually agree when a friend advises 「〜に相談したほうがいいよ」?"
+          },
+          "takeaway": {
+            "vi": "「うん、〜するね」 dùng trợ từ kết câu 「ね」 để hứa hẹn nhẹ nhàng, thân mật với bạn bè.",
+            "en": "Ending with 「〜するね」 expresses friendly agreement to follow someone's advice."
+          },
+          "trap": {
+            "vi": "Phân biệt 「相談する」(bàn bạc, hỏi ý kiến ai đó) với 「招待する」(mời) hay 「説明する」(giải thích).",
+            "en": "Don't confuse 相談 (consult) with 招待 (invite) or 説明 (explain)."
+          },
+          "grammarIds": [
+            "g_008_1",
+            "g_214"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m4-05",
+          "number": 5,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "すみません、消すのを忘れていました。",
+          "hanviet": "Tiêu · Vong",
+          "meaning": {
+            "vi": "Xin lỗi, tôi đã quên tắt mất rồi.",
+            "en": "Sorry, I forgot to turn it off."
+          },
+          "answerPattern": "謝罪の返答：すみません、消すのを忘れていました。",
+          "usageExample": "「会議室の電気がついたままですよ。」—「すみません、消すのを忘れていました。」",
+          "recallPrompt": {
+            "vi": "Mẫu 「quên làm việc gì đó」 dùng 「Vるのを忘れる」 — động từ 「消す」(tắt) chia thế nào?",
+            "en": "How do you say 'I forgot to turn it off' using 「V-dict + のを忘れる」?"
+          },
+          "takeaway": {
+            "vi": "「Vる（thể từ điển） + のを忘れる」 = quên thực hiện hành động; đi với 「忘れていました」 diễn tả tình trạng đã quên từ trước đến giờ.",
+            "en": "「V-dict + のを忘れる」 means forgetting to do something; 忘れていました highlights the ongoing oversight."
+          },
+          "trap": {
+            "vi": "Tránh nhầm với 「Vたのを忘れる」(đã làm rồi nhưng quên mất mình từng làm) hoặc động từ bật 「つける」.",
+            "en": "Contrast V-dict のを忘れる (forgot to do) with V-ta のを忘れる (forgot having done it)."
+          },
+          "grammarIds": [
+            "g_178",
+            "g_094_4"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m4-06",
+          "number": 6,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "スキーはどう？",
+          "kana": "スキーはどう？",
+          "meaning": {
+            "vi": "Đi trượt tuyết thì thế nào?",
+            "en": "How about skiing?"
+          },
+          "answerPattern": "提案：Nはどう？",
+          "usageExample": "「冬の休みにどこかへ行きたいね。」—「スキーはどう？」",
+          "recallPrompt": {
+            "vi": "Khi bạn hỏi gợi ý cho chuyến đi chơi mùa đông, mẫu câu ngắn gọn đề xuất hoạt động là gì?",
+            "en": "What concise N5/N4 pattern proposes an activity like skiing in casual speech?"
+          },
+          "takeaway": {
+            "vi": "「[Danh từ/Vるの] + はどう？」 = 'Còn ... thì sao?' dùng để gợi ý phương án mới trong hội thoại.",
+            "en": "「Nはどう?」 ('How about N?') is a classic casual suggestion in Mondai 4."
+          },
+          "trap": {
+            "vi": "Phân biệt 「スキーはどう？」 (rủ/gợi ý: trượt tuyết thì sao?) với 「スキーはどうでしたか？」 (hỏi cảm nhận chuyện đã đi).",
+            "en": "Watch tense: どう？ proposes a future idea, while どうでしたか？ asks about a past experience."
+          },
+          "grammarIds": [
+            "g_020"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m4-07",
+          "number": 7,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "長く降りましたね",
+          "kana": "ながくふりましたね",
+          "hanviet": "Giáng",
+          "meaning": {
+            "vi": "Mưa/tuyết rơi lâu thật đấy nhỉ.",
+            "en": "It sure rained/snowed for a long time, didn't it?"
+          },
+          "answerPattern": "天気のあいさつへの相づち：長く降りましたね",
+          "usageExample": "「やっと雨がやみましたね。」—「ええ、長く降りましたね。」",
+          "recallPrompt": {
+            "vi": "Khi đối phương nói về việc mưa/tuyết vừa tạnh (「やっとやみましたね」), câu đáp đồng cảm tự nhiên là gì?",
+            "en": "When someone remarks that the rain/snow finally stopped, what natural backchannel agrees?"
+          },
+          "takeaway": {
+            "vi": "Cặp động từ thời tiết: 「雨が降る」(rơi) ↔ 「雨がやむ」(tạnh); dùng quá khứ 「降りましたね」 khi mưa đã tạnh.",
+            "en": "Pair 降る (fall) with やむ (stop); use past 「降りましたね」 once the rain/snow has ended."
+          },
+          "trap": {
+            "vi": "Đừng chọn câu hỏi thì tương lai như 「降りそうですね」 khi sự việc đã kết thúc.",
+            "en": "Avoid future-guess replies like 降りそうですね when the prompt says the rain already stopped."
+          },
+          "grammarIds": [
+            "g_008_1",
+            "g_158"
+          ]
+        },
+        {
+          "id": "audit-0726-l-m4-08",
+          "number": 8,
+          "mondaiNumber": 4,
+          "format": "quick_response",
+          "targetJa": "今日は休むんですか？",
+          "kana": "きょうはやすむんですか？",
+          "hanviet": "Hưu",
+          "meaning": {
+            "vi": "Hôm nay bạn nghỉ à?",
+            "en": "Are you taking today off?"
+          },
+          "answerPattern": "状況確認：〜んですか？",
+          "usageExample": "「熱があるから、先に帰りますね。」—「えっ、今日は休むんですか？」",
+          "recallPrompt": {
+            "vi": "Khi nhìn thấy hoặc nghe đối phương nói điều bất ngờ, dùng đuôi câu gì để hỏi xác nhận lại?",
+            "en": "When reacting to a surprising cue or statement, which question ending confirms the situation?"
+          },
+          "takeaway": {
+            "vi": "「〜んですか」 (thể thường + んですか) dùng để xác nhận suy đoán dựa trên tình huống vừa thấy/nghe.",
+            "en": "「〜んですか」 seeks confirmation of an inference drawn from what you just saw or heard."
+          },
+          "trap": {
+            "vi": "Chú ý ngôi chủ thể: bạn hỏi người kia nên là 「休むんですか」, đừng chọn câu tự nhận mình nghỉ.",
+            "en": "Check perspective: confirm the other person's action rather than answering about yourself."
+          },
+          "grammarIds": [
+            "g_153"
+          ]
+        }
+      ]
+    }
+  ]
+}

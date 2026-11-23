@@ -1,6 +1,7 @@
 import { useSettingsStore } from "@/store/settings-store"
 import { loadVocab } from "@/data/vocab"
 import { loadGrammar } from "@/data/grammar"
+import { loadExamManifest, loadStudyPlan } from "@/data/exams"
 
 // One place that knows how to fetch each route's page chunk and the level
 // data it renders. App.tsx lazy-loads through these, and the sidebar / idle
@@ -11,6 +12,7 @@ export const routeLoaders = {
   "/vocab": () => import("@/pages/VocabBrowser"),
   "/review": () => import("@/pages/Review"),
   "/reading": () => import("@/pages/Reading"),
+  "/exams": () => import("@/pages/Exams"),
   "/grammar": () => import("@/pages/Grammar"),
   "/verb-forms": () => import("@/pages/VerbForms"),
   "/transitivity": () => import("@/pages/Transitivity"),
@@ -32,6 +34,10 @@ export function loadRouteData(path: string): void {
   const level = useSettingsStore.getState().level
   if (path === "/vocab" || path === "/review" || path === "/homophones") loadVocab(level).catch(() => {})
   else if (path === "/grammar") loadGrammar(level).catch(() => {})
+  else if (path === "/exams") {
+    loadExamManifest().catch(() => {})
+    loadStudyPlan().catch(() => {})
+  }
 }
 
 /** Warms a route (page chunk + its data). Safe to call repeatedly. */

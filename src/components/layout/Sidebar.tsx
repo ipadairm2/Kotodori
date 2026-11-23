@@ -11,9 +11,9 @@ import { useTranslation } from "@/lib/useTranslation"
 import { useVocab } from "@/data/vocab"
 import { prefetchRoute } from "@/lib/routes"
 
-interface NavItem { to: string; label: string; kana: string; key: string }
+interface NavItem { to: string; label: string; kana: string; key: string; badge?: string }
 
-// Grouped so the 14 destinations read as four areas instead of one long list.
+// Grouped so the destinations read as distinct areas instead of one long list.
 // Home stands alone above the groups.
 const HOME: NavItem = { to: "/", label: "ホーム", kana: "ホーム", key: "home" }
 const navGroups: { id: string; items: NavItem[] }[] = [
@@ -21,6 +21,9 @@ const navGroups: { id: string; items: NavItem[] }[] = [
     { to: "/vocab",        label: "単語",     kana: "たんご",       key: "vocabulary" },
     { to: "/review",       label: "復習",     kana: "ふくしゅう",    key: "review" },
     { to: "/reading",      label: "読解",     kana: "どっかい",      key: "reading" },
+  ] },
+  { id: "exam", items: [
+    { to: "/exams",        label: "試験",     kana: "しけん",       key: "exams", badge: "12/06" },
   ] },
   { id: "grammar", items: [
     { to: "/grammar",      label: "文法",     kana: "ぶんぽう",      key: "grammar" },
@@ -166,7 +169,7 @@ export function Sidebar({ open, onClose }: SidebarProps) {
                 {t(`nav.groups.${group.id}`)}
               </div>
             )}
-            {group.items.map(({ to, label, kana, key }) => (
+            {group.items.map(({ to, label, kana, key, badge }) => (
               <NavLink
                 key={to}
                 to={to}
@@ -179,14 +182,29 @@ export function Sidebar({ open, onClose }: SidebarProps) {
                     "nav-item flex items-baseline gap-2.5 px-3 py-[7px] rounded-[9px] active:scale-[0.98]",
                     isActive
                       ? "bg-accent text-accent-fg"
-                      : "hover:bg-[var(--tori-hairline)]",
+                      : group.id === "exam"
+                        ? "border border-accent/35 bg-accent/10 hover:bg-accent/15"
+                        : "hover:bg-[var(--tori-hairline)]",
                   ].join(" ")
                 }
               >
-                <span className="font-semibold text-sm leading-tight shrink-0">
-                  <Furigana kanji={label} kana={kana} />
-                </span>
-                <span className="text-[13px] opacity-65 truncate">{t(`nav.${key}`)}</span>
+                {({ isActive }) => (
+                  <>
+                    <span className="font-semibold text-sm leading-tight shrink-0">
+                      <Furigana kanji={label} kana={kana} />
+                    </span>
+                    <span className="text-[13px] opacity-65 truncate flex-1">{t(`nav.${key}`)}</span>
+                    {badge && (
+                      <span
+                        className={`font-mono text-[10px] font-semibold px-1.5 py-0.5 rounded-md shrink-0 ${
+                          isActive ? "bg-white/20 text-accent-fg" : "bg-accent/15 text-accent"
+                        }`}
+                      >
+                        {badge}
+                      </span>
+                    )}
+                  </>
+                )}
               </NavLink>
             ))}
           </div>

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "jlpt-2025-12",
+    "kind": "official_past",
+    "yearMonth": "2025-12",
+    "title": {
+      "vi": "Đề thi thật JLPT N4 · 12/2025",
+      "en": "JLPT N4 Official Past Exam · 12/2025"
+    },
+    "subtitle": {
+      "vi": "Kỳ thi 07/12/2025 · Đủ 4 kỹ năng (Từ vựng, Ngữ pháp, Đọc hiểu, Nghe hiểu)",
+      "en": "Dec 7, 2025 sitting · Full 4 sections (Vocabulary, Grammar, Reading, Listening)"
+    },
+    "sections": ["vocab", "grammar", "reading", "listening"],
+    "totalQuestions": 85,
+    "recommendedMinutes": 115,
+    "referenceVideoUrl": "https://www.youtube.com/watch?v=ZkwgRtuwENY"
+  },
+  {
+    "id": "jlpt-2025-07",
+    "kind": "official_past",
+    "yearMonth": "2025-07",
+    "title": {
+      "vi": "Đề thi thật JLPT N4 · 07/2025",
+      "en": "JLPT N4 Official Past Exam · 07/2025"
+    },
+    "subtitle": {
+      "vi": "Kỳ thi 06/07/2025 · Đủ 4 kỹ năng (Từ vựng, Ngữ pháp, Đọc hiểu, Nghe hiểu)",
+      "en": "Jul 6, 2025 sitting · Full 4 sections (Vocabulary, Grammar, Reading, Listening)"
+    },
+    "sections": ["vocab", "grammar", "reading", "listening"],
+    "totalQuestions": 85,
+    "recommendedMinutes": 115
+  },
+  {
+    "id": "vdj-2026-18",
+    "kind": "vdj_mock",
+    "yearMonth": "2026-12",
+    "title": {
+      "vi": "VDJ 12/2026 · Đề minh họa #18",
+      "en": "VDJ 12/2026 · Mock Test #18"
+    },
+    "subtitle": {
+      "vi": "Bộ cày đề JLPT N4 12/2026 (Vô Diện JP) · Từ vựng & Ngữ pháp",
+      "en": "Vo Dien JP 12/2026 Mock Series · Vocabulary & Grammar"
+    },
+    "sections": ["vocab", "grammar"],
+    "totalQuestions": 59,
+    "recommendedMinutes": 55,
+    "referenceVideoUrl": "https://www.youtube.com/watch?v=MZ6PtOCyTQI"
+  },
+  {
+    "id": "vdj-2026-16",
+    "kind": "vdj_mock",
+    "yearMonth": "2026-12",
+    "title": {
+      "vi": "VDJ 12/2026 · Đề minh họa #16",
+      "en": "VDJ 12/2026 · Mock Test #16"
+    },
+    "subtitle": {
+      "vi": "Bộ cày đề JLPT N4 12/2026 (Vô Diện JP) · Từ vựng & Ngữ pháp",
+      "en": "Vo Dien JP 12/2026 Mock Series · Vocabulary & Grammar"
+    },
+    "sections": ["vocab", "grammar"],
+    "totalQuestions": 59,
+    "recommendedMinutes": 55
+  }
+]

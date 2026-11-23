@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "react"
+import { createPortal } from "react-dom"
 import { Link } from "react-router-dom"
 import radicalNamesJson from "@/data/radical-names.json"
 import kanjiReadingsJson from "@/data/kanji-readings.json"
@@ -354,8 +355,8 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
         color: COMPONENT_COLORS[gi % COMPONENT_COLORS.length],
       }))
 
-  return (
-    <>
+  const content = (
+    <div className="fixed inset-0 z-50 overflow-hidden pointer-events-none">
       <div
         onClick={onClose}
         aria-hidden="true"
@@ -373,7 +374,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
         aria-modal="true"
         aria-label={displayChar ? t('kanjiDrawer.ariaLabel', { char: displayChar }) : undefined}
         className={`fixed top-0 right-0 z-50 h-dvh w-full sm:w-[420px] border-l-3 shadow-[var(--shadow-sheet)] transition-transform duration-300 ease-out overflow-y-auto ${
-          open ? "translate-x-0" : "translate-x-full"
+          open ? "translate-x-0 pointer-events-auto" : "translate-x-full pointer-events-none"
         } ${
           // Fully hidden once closed and emptied: no layer, no shadow raster.
           !open && displayChar === null ? "invisible" : ""
@@ -555,6 +556,7 @@ export function KanjiDrawer({ char, onClose }: KanjiDrawerProps) {
           </div>
         )}
       </div>
-    </>
+    </div>
   )
+  return typeof document !== "undefined" ? createPortal(content, document.body) : content
 }

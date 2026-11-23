@@ -40,6 +40,7 @@
     "vocabulary": "Từ vựng",
     "review": "Ôn tập",
     "reading": "Đọc hiểu",
+    "exams": "Luyện đề N4",
     "grammar": "Ngữ pháp",
     "verbForms": "Chia động từ",
     "transitivity": "Tha/Tự động từ",
@@ -51,6 +52,7 @@
     "settings": "Cài đặt",
     "groups": {
       "learn": "Học",
+      "exam": "Luyện thi JLPT",
       "grammar": "Ngữ pháp",
       "kanji": "Kanji",
       "more": "Khác"

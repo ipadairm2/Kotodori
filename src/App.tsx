@@ -23,6 +23,7 @@ const Landing = page("/", "Landing")
 const VocabBrowser = page("/vocab", "VocabBrowser")
 const Review = page("/review", "Review")
 const Reading = page("/reading", "Reading")
+const Exams = page("/exams", "Exams")
 const Grammar = page("/grammar", "Grammar")
 const VerbForms = page("/verb-forms", "VerbForms")
 const Transitivity = page("/transitivity", "Transitivity")
@@ -63,6 +64,7 @@ export default function App() {
           <Route path="vocab" element={<Suspense fallback={<RouteFallback />}><VocabBrowser /></Suspense>} />
           <Route path="review" element={<Suspense fallback={<RouteFallback />}><Review /></Suspense>} />
           <Route path="reading" element={<Suspense fallback={<RouteFallback />}><Reading /></Suspense>} />
+          <Route path="exams" element={<Suspense fallback={<RouteFallback />}><Exams /></Suspense>} />
           <Route path="grammar" element={<Suspense fallback={<RouteFallback />}><Grammar /></Suspense>} />
           <Route path="verb-forms" element={<Suspense fallback={<RouteFallback />}><VerbForms /></Suspense>} />
           <Route path="transitivity" element={<Suspense fallback={<RouteFallback />}><Transitivity /></Suspense>} />

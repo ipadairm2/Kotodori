@@ -99,8 +99,10 @@ export function subscribeSpeech(listener: Listener): () => void {
 // without this check it would clear the *new* utterance's active/pulsing
 // state instead of its own.
 let currentUtterance: SpeechSynthesisUtterance | null = null
+let activeSequenceId = 0
 
 export function cancelSpeech() {
+  activeSequenceId++
   currentUtterance = null
   setActiveId(null)
   if (isSpeechSupported()) window.speechSynthesis.cancel()
@@ -119,6 +121,7 @@ export function speak(text: string, { id, rate = 0.85 }: SpeakOptions): boolean 
   const trimmed = text.trim()
   if (!trimmed || !isSpeechSupported()) return false
   const synth = window.speechSynthesis
+  activeSequenceId++
   synth.cancel()
 
   const voice = pickJapaneseVoice()
@@ -140,5 +143,66 @@ export function speak(text: string, { id, rate = 0.85 }: SpeakOptions): boolean 
   utterance.onerror = finish
 
   synth.speak(utterance)
+  return true
+}
+
+/** Plays a sequence of Japanese utterances turn by turn (for Listening dialogues). */
+export function speakSequence(
+  turns: Array<{ text: string }>,
+  {
+    id,
+    rate = 0.9,
+    startIndex = 0,
+    onTurn,
+    onDone,
+  }: {
+    id: string
+    rate?: number
+    startIndex?: number
+    onTurn?: (index: number) => void
+    onDone?: () => void
+  }
+): boolean {
+  if (!isSpeechSupported() || turns.length === 0 || startIndex >= turns.length) return false
+  const synth = window.speechSynthesis
+  const seqId = ++activeSequenceId
+  synth.cancel()
+
+  const voice = pickJapaneseVoice()
+  setActiveId(id)
+
+  const playAt = (idx: number) => {
+    if (seqId !== activeSequenceId) return
+    if (idx >= turns.length) {
+      currentUtterance = null
+      setActiveId(null)
+      onDone?.()
+      return
+    }
+    const text = turns[idx].text.trim()
+    if (!text) {
+      playAt(idx + 1)
+      return
+    }
+    onTurn?.(idx)
+    const utterance = new SpeechSynthesisUtterance(text)
+    utterance.lang = voice?.lang ?? "ja-JP"
+    if (voice) utterance.voice = voice
+    utterance.rate = rate
+    currentUtterance = utterance
+    utterance.onend = () => {
+      if (seqId === activeSequenceId) playAt(idx + 1)
+    }
+    utterance.onerror = () => {
+      if (seqId === activeSequenceId) {
+        currentUtterance = null
+        setActiveId(null)
+        onDone?.()
+      }
+    }
+    synth.speak(utterance)
+  }
+
+  playAt(startIndex)
   return true
 }
